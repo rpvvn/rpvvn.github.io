@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rpvvn.top</id>
-    <title>RPWN&#39;Blog</title>
+    <title>rpvvn&#39;Blog</title>
     <subtitle>It is difficult to free fools from the chains they revere_______Voltaire</subtitle>
     <icon>https://rpvvn.top/images/favicon.ico</icon>
     <link href="https://rpvvn.top" />
     <author>
       <name>𝙍𝙥𝙒𝙣</name>
     </author>
-    <updated>2023-07-08T11:01:24.000Z</updated>
-    <category term="RPWN" />
+    <updated>2023-11-14T15:02:22.000Z</updated>
+    <category term="rpvvn" />
     <category term="RPVVN" />
-    <category term="RPWN个人博客" />
-    <category term="RPWN技术博客" />
-    <category term="RPWN&#39;Blog" />
-    <category term="RPWN" />
+    <category term="rpvvn个人博客" />
+    <category term="rpvvn技术博客" />
+    <category term="rpvvn&#39;Blog" />
+    <category term="rpvvn" />
     <category term="网络安全" />
     <category term="教程" />
     <category term="技术文章" />
@@ -35,6 +35,20 @@
     <category term="心得体会" />
     <category term="玩机" />
     <category term="DIY" />
+    <entry>
+        <id>https://rpvvn.top/55073.html</id>
+        <title>实习好无聊</title>
+        <link rel="alternate" href="https://rpvvn.top/55073.html"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;如题所示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;绝对不是，水一篇文章&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
+        <category term="站点" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E7%AB%99%E7%82%B9/" />
+        <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
+        <updated>2023-11-14T15:02:22.000Z</updated>
+    </entry>
     <entry>
         <id>https://rpvvn.top/64031.html</id>
         <title>组建直连式二层无线局域网</title>
@@ -1135,27 +1149,5 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
         <category term="Hexo博客SEO优化" scheme="https://rpvvn.top/tags/Hexo%E5%8D%9A%E5%AE%A2SEO%E4%BC%98%E5%8C%96/" />
         <category term="SEO优化" scheme="https://rpvvn.top/tags/SEO%E4%BC%98%E5%8C%96/" />
         <updated>2023-04-21T18:13:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://rpvvn.top/10330.html</id>
-        <title>RPWN赞助站点</title>
-        <link rel="alternate" href="https://rpvvn.top/10330.html"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;赞赏页面不得分，吃饱没事干，就自己搭建了一个。&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;新站点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新站点&#34;&gt;#&lt;/a&gt; 新站点&lt;/h2&gt;
-&lt;p&gt;隆重推出 &lt;span class=&#34;rainbow&#34;&gt;赞助系统&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;RPWN&#34; style=&#34;--block-color:#FA8072;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zcG9uc29yLnJwdnZuLnRvcC8=&#34; data-background-image=&#34;https://pic1.imgdb.cn/item/64429eeb0d2dde5777e6a908.png&#34;&gt;&lt;/span&gt;
-          &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zcG9uc29yLnJwdnZuLnRvcC8=&#34;&gt;RPWN赞助&lt;/span&gt;
-          &lt;p class=&#34;desc&#34;&gt;SHARED BY RPWN&lt;/p&gt;
-          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/c157b1d6d48f0c171ba05.png&#34; alt=&#34;&#34; title=&#34;RPWN赞助页面&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-        <category term="站点" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E7%AB%99%E7%82%B9/" />
-        <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
-        <category term="赞助/打赏" scheme="https://rpvvn.top/tags/%E8%B5%9E%E5%8A%A9-%E6%89%93%E8%B5%8F/" />
-        <updated>2023-04-21T14:29:48.000Z</updated>
     </entry>
 </feed>

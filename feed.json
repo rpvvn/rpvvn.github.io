@@ -1,11 +1,23 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "RPWN'Blog",
+    "title": "rpvvn'Blog",
     "subtitle": "It is difficult to free fools from the chains they revere_______Voltaire",
     "icon": "https://rpvvn.top/images/favicon.ico",
-    "description": "欢迎来到RPWN的个人博客，这里记录我的个人生活的点点滴滴",
+    "description": "欢迎来到rpvvn的个人博客，这里记录我的个人生活的点点滴滴",
     "home_page_url": "https://rpvvn.top",
     "items": [
+        {
+            "id": "https://rpvvn.top/55073.html",
+            "url": "https://rpvvn.top/55073.html",
+            "title": "实习好无聊",
+            "date_published": "2023-11-14T15:02:22.000Z",
+            "content_html": "<blockquote>\n<p>如题所示</p>\n</blockquote>\n<p><span class=\"spoiler\" title=\"你知道得太多了\">绝对不是，水一篇文章</span></p>\n",
+            "tags": [
+                "生活",
+                "站点",
+                "生活记录"
+            ]
+        },
         {
             "id": "https://rpvvn.top/64031.html",
             "url": "https://rpvvn.top/64031.html",
@@ -252,19 +264,6 @@
                 "个人心得",
                 "Hexo博客SEO优化",
                 "SEO优化"
-            ]
-        },
-        {
-            "id": "https://rpvvn.top/10330.html",
-            "url": "https://rpvvn.top/10330.html",
-            "title": "RPWN赞助站点",
-            "date_published": "2023-04-21T14:29:48.000Z",
-            "content_html": "<div class=\"note info\">\n<p>赞赏页面不得分，吃饱没事干，就自己搭建了一个。</p>\n</div>\n<h2 id=\"新站点\"><a class=\"anchor\" href=\"#新站点\">#</a> 新站点</h2>\n<p>隆重推出 <span class=\"rainbow\">赞助系统</span></p>\n<p><div class=\"links\"><div class=\"item\" title=\"RPWN\" style=\"--block-color:#FA8072;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly9zcG9uc29yLnJwdnZuLnRvcC8=\" data-background-image=\"https://pic1.imgdb.cn/item/64429eeb0d2dde5777e6a908.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly9zcG9uc29yLnJwdnZuLnRvcC8=\">RPWN赞助</span>\n          <p class=\"desc\">SHARED BY RPWN</p>\n          </div></div></div></p>\n<p><img data-src=\"https://img.rpvvn.top/file/c157b1d6d48f0c171ba05.png\" alt=\"\" title=\"RPWN赞助页面\" /></p>\n",
-            "tags": [
-                "生活",
-                "站点",
-                "生活记录",
-                "赞助/打赏"
             ]
         }
     ]
