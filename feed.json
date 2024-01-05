@@ -7,6 +7,17 @@
     "home_page_url": "https://rpvvn.top",
     "items": [
         {
+            "id": "https://rpvvn.top/61411.html",
+            "url": "https://rpvvn.top/61411.html",
+            "title": "2024第一篇文章",
+            "date_published": "2024-01-05T18:31:50.000Z",
+            "content_html": "<p>生活很美好，别被工作所烦恼</p>\n<p><img data-src=\"https://img.name/v1/7/19384d60dafcd098.jpg\" alt=\"\" /></p>\n<p><img data-src=\"https://img.name/v1/7/effbf55684993ed7.jpg\" alt=\"\" /></p>\n",
+            "tags": [
+                "生活",
+                "生活记录"
+            ]
+        },
+        {
             "id": "https://rpvvn.top/55073.html",
             "url": "https://rpvvn.top/55073.html",
             "title": "实习好无聊",
@@ -251,19 +262,6 @@
                 "Blog",
                 "MD转义",
                 "hexo博客文章编写"
-            ]
-        },
-        {
-            "id": "https://rpvvn.top/5522.html",
-            "url": "https://rpvvn.top/5522.html",
-            "title": "Hexo博客各主题SEO优化",
-            "date_published": "2023-04-21T18:13:00.000Z",
-            "content_html": "<div class=\"note info\">\n<p>优化 HEXO 主题页面描述 description 和 keywords 网站页面关键词问题，一些主题页面没有 keywords 和 description</p>\n</div>\n<h2 id=\"seo描述与关键词\"><a class=\"anchor\" href=\"#seo描述与关键词\">#</a> SEO 描述与关键词</h2>\n<h3 id=\"description描述\"><a class=\"anchor\" href=\"#description描述\">#</a> description 描述</h3>\n<p>全名： <code>&lt;meta name=&quot;description&quot; content=&quot;我是网站描述&quot;&gt;</code></p>\n<h3 id=\"keywords关键词\"><a class=\"anchor\" href=\"#keywords关键词\">#</a> keywords 关键词</h3>\n<p>全名： <code>&lt;meta name=&quot;keywords&quot; content=&quot;我是网站关键词&quot;&gt;</code></p>\n<p>网站为了更好收录增加权重，所以需要用到以上两个： <code>描述与关键词。</code> 如果网站搭建好，F12 没有看见自己的博客页面有以上两个，那么就需要修复一下或增加代码。</p>\n<h2 id=\"解决方案\"><a class=\"anchor\" href=\"#解决方案\">#</a> 解决方案</h2>\n<p>直接在 <code>head.njk</code>  添加即可，这样你的每一个页面都会引用它</p>\n<p><img data-src=\"https://img.rpvvn.top/file/628b4bf9812d2e7b8388d.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<p><img data-src=\"https://img.rpvvn.top/file/4eb0c6add1ef95b79e8c8.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<p>以防万一 <code>head_unique.njk</code>  也加一点点判断</p>\n<blockquote>\n<p>你也可以自己根据自己情况更改，只是参考</p>\n</blockquote>\n<figure class=\"highlight text\"><figcaption data-lang=\"text\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>博客\\themes\\你的主题\\layout\\_partials\\head\\head_unique.njk</pre></td></tr></table></figure><p><img data-src=\"https://img.rpvvn.top/file/a6594a950a4c603a81b61.png\" alt=\"\" title=\"参考代码位置\" /></p>\n<p><code>md转义渲染问题，这个代码无法发在这里</code></p>\n<p>当然推荐你直接下载：<span class=\"exturl\" data-url=\"aHR0cHM6Ly90dHJyLmxhbnpvdW0uY29tL2k5Tnl4MHRucGhmYQ==\">点击下载参考代码</span></p>\n<details class=\"success\"><summary>不建议</summary><div>\n<div class=\"note warning\">\n<p>{ %- if page.keywords %  需要把 <code>-</code>  删除 ，因为 md 转义问题</p>\n</div>\n<pre><code>&#123;%- if page.keywords %&#125;\n&lt;meta name=&quot;keywords&quot; content=&quot;&#123;&#123; page.keywords &#125;&#125;&quot; /&gt;\n&#123;%- elif page.tags and page.tags.length %&#125;\n&lt;meta name=&quot;keywords&quot; content=&quot;&#123;% for tag in page.tags.toArray() %&#125;&#123;&#123; tag.name &#125;&#125;&#123;% if not loop.last %&#125;,&#123;% endif %&#125;&#123;% endfor %&#125;&quot; /&gt;\n&#123;%- elif theme.keywords %&#125;\n&lt;meta name=&quot;keywords&quot; content=&quot;&#123;&#123; theme.keywords &#125;&#125;&quot; /&gt;\n&#123;%- endif %&#125;\n</code></pre>\n<p><span class=\"blue\">上面这个是 keywords</span><br />\n<span class=\"red\"> 下面这个是 description</span></p>\n<pre><code>二选一\n代码一号：绝对定位\n&#123;%-  if page.description %&#125;  \n&lt;meta name=&quot;description&quot; content=&quot;&#123;&#123;page.description&#125;&#125;&quot; /&gt;\n&#123;%- elif page.description %&#125;\n&lt;meta name=&quot;description&quot; content=&quot;你的网站描述（这是绝对定位）&quot; /&gt;\n&#123;%- endif %&#125;\n\n代码二号：配置定位\n&#123;%-  if page.description %&#125;\n&lt;meta name=&quot;description&quot; content=&quot;&#123;&#123;page.description&#125;&#125;&quot; /&gt;\n&#123;%- elif page.description %&#125;\n&lt;meta name=&quot;description&quot; content=&quot;&#123;&#123;theme.description&#125;&#125;&quot; /&gt;\n&#123;%- elif page.description %&#125;\n&lt;meta name=&quot;description&quot; content=&quot;&#123;&#123;config.description&#125;&#125;&quot; /&gt;\n&#123;%- endif %&#125;\n\n</code></pre>\n</div></details>\n<h2 id=\"end\"><a class=\"anchor\" href=\"#end\">#</a> END</h2>\n<p><em><span class=\"label danger\">❤️danger</span></em><br />\n<em> 不懂可以留下你的问题，我看到会第一时间帮助你。</em></p>\n",
-            "tags": [
-                "Blog",
-                "个人心得",
-                "Hexo博客SEO优化",
-                "SEO优化"
             ]
         }
     ]

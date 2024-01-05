@@ -10,8 +10,8 @@
         </author>
         <description>欢迎来到rpvvn的个人博客，这里记录我的个人生活的点点滴滴</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 14 Nov 2023 23:02:22 +0800</pubDate>
-        <lastBuildDate>Tue, 14 Nov 2023 23:02:22 +0800</lastBuildDate>
+        <pubDate>Sat, 06 Jan 2024 02:31:50 +0800</pubDate>
+        <lastBuildDate>Sat, 06 Jan 2024 02:31:50 +0800</lastBuildDate>
         <category term="rpvvn" />
         <category term="RPVVN" />
         <category term="rpvvn个人博客" />
@@ -38,6 +38,18 @@
         <category term="心得体会" />
         <category term="玩机" />
         <category term="DIY" />
+        <item>
+            <guid isPermalink="true">https://rpvvn.top/61411.html</guid>
+            <title>2024第一篇文章</title>
+            <link>https://rpvvn.top/61411.html</link>
+            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
+            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
+            <pubDate>Sat, 06 Jan 2024 02:31:50 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;生活很美好，别被工作所烦恼&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img.name/v1/7/19384d60dafcd098.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img.name/v1/7/effbf55684993ed7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://rpvvn.top/55073.html</guid>
             <title>实习好无聊</title>
@@ -1084,73 +1096,6 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s1.ax1x.com/2023/04/22/p9VPi4A.png&#34; alt=&#34;&#34; title=&#34;备用图二&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://rpvvn.top/5522.html</guid>
-            <title>Hexo博客各主题SEO优化</title>
-            <link>https://rpvvn.top/5522.html</link>
-            <category term="Blog" scheme="https://rpvvn.top/categories/Blog/" />
-            <category term="个人心得" scheme="https://rpvvn.top/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E5%BE%97/" />
-            <category term="Hexo博客SEO优化" scheme="https://rpvvn.top/tags/Hexo%E5%8D%9A%E5%AE%A2SEO%E4%BC%98%E5%8C%96/" />
-            <category term="SEO优化" scheme="https://rpvvn.top/tags/SEO%E4%BC%98%E5%8C%96/" />
-            <pubDate>Sat, 22 Apr 2023 02:13:00 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;优化 HEXO 主题页面描述 description 和 keywords 网站页面关键词问题，一些主题页面没有 keywords 和 description&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;seo描述与关键词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo描述与关键词&#34;&gt;#&lt;/a&gt; SEO 描述与关键词&lt;/h2&gt;
-&lt;h3 id=&#34;description描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#description描述&#34;&gt;#&lt;/a&gt; description 描述&lt;/h3&gt;
-&lt;p&gt;全名： &lt;code&gt;&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;我是网站描述&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;keywords关键词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#keywords关键词&#34;&gt;#&lt;/a&gt; keywords 关键词&lt;/h3&gt;
-&lt;p&gt;全名： &lt;code&gt;&amp;lt;meta name=&amp;quot;keywords&amp;quot; content=&amp;quot;我是网站关键词&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;网站为了更好收录增加权重，所以需要用到以上两个： &lt;code&gt;描述与关键词。&lt;/code&gt; 如果网站搭建好，F12 没有看见自己的博客页面有以上两个，那么就需要修复一下或增加代码。&lt;/p&gt;
-&lt;h2 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案&lt;/h2&gt;
-&lt;p&gt;直接在 &lt;code&gt;head.njk&lt;/code&gt;  添加即可，这样你的每一个页面都会引用它&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/628b4bf9812d2e7b8388d.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/4eb0c6add1ef95b79e8c8.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;以防万一 &lt;code&gt;head_unique.njk&lt;/code&gt;  也加一点点判断&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;你也可以自己根据自己情况更改，只是参考&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;博客\themes\你的主题\layout\_partials\head\head_unique.njk&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/a6594a950a4c603a81b61.png&#34; alt=&#34;&#34; title=&#34;参考代码位置&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;md转义渲染问题，这个代码无法发在这里&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;当然推荐你直接下载：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90dHJyLmxhbnpvdW0uY29tL2k5Tnl4MHRucGhmYQ==&#34;&gt;点击下载参考代码&lt;/span&gt;&lt;/p&gt;
-&lt;details class=&#34;success&#34;&gt;&lt;summary&gt;不建议&lt;/summary&gt;&lt;div&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;{ %- if page.keywords %  需要把 &lt;code&gt;-&lt;/code&gt;  删除 ，因为 md 转义问题&lt;/p&gt;
-&lt;/div&gt;
-&lt;pre&gt;&lt;code&gt;&amp;#123;%- if page.keywords %&amp;#125;
-&amp;lt;meta name=&amp;quot;keywords&amp;quot; content=&amp;quot;&amp;#123;&amp;#123; page.keywords &amp;#125;&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- elif page.tags and page.tags.length %&amp;#125;
-&amp;lt;meta name=&amp;quot;keywords&amp;quot; content=&amp;quot;&amp;#123;% for tag in page.tags.toArray() %&amp;#125;&amp;#123;&amp;#123; tag.name &amp;#125;&amp;#125;&amp;#123;% if not loop.last %&amp;#125;,&amp;#123;% endif %&amp;#125;&amp;#123;% endfor %&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- elif theme.keywords %&amp;#125;
-&amp;lt;meta name=&amp;quot;keywords&amp;quot; content=&amp;quot;&amp;#123;&amp;#123; theme.keywords &amp;#125;&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- endif %&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;span class=&#34;blue&#34;&gt;上面这个是 keywords&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;red&#34;&gt; 下面这个是 description&lt;/span&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;二选一
-代码一号：绝对定位
-&amp;#123;%-  if page.description %&amp;#125;  
-&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;&amp;#123;&amp;#123;page.description&amp;#125;&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- elif page.description %&amp;#125;
-&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;你的网站描述（这是绝对定位）&amp;quot; /&amp;gt;
-&amp;#123;%- endif %&amp;#125;
-
-代码二号：配置定位
-&amp;#123;%-  if page.description %&amp;#125;
-&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;&amp;#123;&amp;#123;page.description&amp;#125;&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- elif page.description %&amp;#125;
-&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;&amp;#123;&amp;#123;theme.description&amp;#125;&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- elif page.description %&amp;#125;
-&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;&amp;#123;&amp;#123;config.description&amp;#125;&amp;#125;&amp;quot; /&amp;gt;
-&amp;#123;%- endif %&amp;#125;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;&lt;/details&gt;
-&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; END&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;&lt;span class=&#34;label danger&#34;&gt;❤️danger&lt;/span&gt;&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt; 不懂可以留下你的问题，我看到会第一时间帮助你。&lt;/em&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
