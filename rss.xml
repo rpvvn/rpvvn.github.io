@@ -10,8 +10,8 @@
         </author>
         <description>欢迎来到rpvvn的个人博客，这里记录我的个人生活的点点滴滴</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 06 Jan 2024 02:31:50 +0800</pubDate>
-        <lastBuildDate>Sat, 06 Jan 2024 02:31:50 +0800</lastBuildDate>
+        <pubDate>Wed, 17 Jan 2024 14:40:48 +0800</pubDate>
+        <lastBuildDate>Wed, 17 Jan 2024 14:40:48 +0800</lastBuildDate>
         <category term="rpvvn" />
         <category term="RPVVN" />
         <category term="rpvvn个人博客" />
@@ -39,11 +39,28 @@
         <category term="玩机" />
         <category term="DIY" />
         <item>
+            <guid isPermalink="true">https://rpvvn.top/51201.html</guid>
+            <title>Enlgish笔记</title>
+            <link>https://rpvvn.top/51201.html</link>
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="Language" scheme="https://rpvvn.top/categories/Study/Language/" />
+            <category term="English" scheme="https://rpvvn.top/categories/Study/Language/English/" />
+            <category term="English note" scheme="https://rpvvn.top/tags/English-note/" />
+            <pubDate>Wed, 17 Jan 2024 14:40:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;english&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#english&#34;&gt;#&lt;/a&gt; English&lt;/h1&gt;
+&lt;h2 id=&#34;音标&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#音标&#34;&gt;#&lt;/a&gt; 音标&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img.name/v1/7/c58da8007e8b48c5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;实战发音&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实战发音&#34;&gt;#&lt;/a&gt; 实战发音&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;video src=&amp;quot;https://www.bilibili.com/video/BV1cE411q7wY?p=4&amp;amp;spm_id_from=pageDriver&amp;amp;vd_source=bab6396a2ed3657e63e0a23cf5a25269&amp;quot;&amp;gt;&amp;lt;/video&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://rpvvn.top/61411.html</guid>
             <title>2024第一篇文章</title>
             <link>https://rpvvn.top/61411.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Record" scheme="https://rpvvn.top/tags/Record/" />
             <pubDate>Sat, 06 Jan 2024 02:31:50 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;和生活干杯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#和生活干杯&#34;&gt;#&lt;/a&gt; 和生活干杯&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://img.name/v1/7/662701624202a5ec.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -54,9 +71,8 @@
             <guid isPermalink="true">https://rpvvn.top/55073.html</guid>
             <title>实习好无聊</title>
             <link>https://rpvvn.top/55073.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="站点" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E7%AB%99%E7%82%B9/" />
-            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Record" scheme="https://rpvvn.top/tags/Record/" />
             <pubDate>Tue, 14 Nov 2023 23:02:22 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;如题所示&lt;/p&gt;
@@ -68,10 +84,9 @@
             <guid isPermalink="true">https://rpvvn.top/64031.html</guid>
             <title>组建直连式二层无线局域网</title>
             <link>https://rpvvn.top/64031.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-wlan" scheme="https://rpvvn.top/tags/ensp-wlan/" />
             <pubDate>Sat, 08 Jul 2023 19:01:24 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 eNSP 中的 Wlan 无线局域网实验示例参考&lt;/p&gt;
@@ -420,10 +435,9 @@
             <guid isPermalink="true">https://rpvvn.top/19519.html</guid>
             <title>eNSP-IPSecVPN</title>
             <link>https://rpvvn.top/19519.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-IPSesVPN" scheme="https://rpvvn.top/tags/ensp-IPSesVPN/" />
             <pubDate>Sat, 01 Jul 2023 02:13:18 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 eNSP 中 IPSec VPN 实验参考&lt;/p&gt;
@@ -491,10 +505,9 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
             <guid isPermalink="true">https://rpvvn.top/40757.html</guid>
             <title>eNSP-网络拥塞管理与拥塞避免</title>
             <link>https://rpvvn.top/40757.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-网络拥塞管理与拥塞避免" scheme="https://rpvvn.top/tags/ensp-%E7%BD%91%E7%BB%9C%E6%8B%A5%E5%A1%9E%E7%AE%A1%E7%90%86%E4%B8%8E%E6%8B%A5%E5%A1%9E%E9%81%BF%E5%85%8D/" />
             <pubDate>Tue, 27 Jun 2023 14:49:26 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 eNSP 中的网络拥塞管理与避免实验示例参考&lt;/p&gt;
@@ -540,10 +553,9 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
             <guid isPermalink="true">https://rpvvn.top/63063.html</guid>
             <title>eNSP-VlanMapping</title>
             <link>https://rpvvn.top/63063.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-VlanMapping" scheme="https://rpvvn.top/tags/ensp-VlanMapping/" />
             <pubDate>Tue, 13 Jun 2023 22:32:33 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 VlanMapping 基础实验配置参考。&lt;/p&gt;
@@ -582,10 +594,9 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
             <guid isPermalink="true">https://rpvvn.top/18126.html</guid>
             <title>eNSP-SuperVlan</title>
             <link>https://rpvvn.top/18126.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-SuperVlan" scheme="https://rpvvn.top/tags/ensp-SuperVlan/" />
             <pubDate>Tue, 13 Jun 2023 20:57:55 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 vlan 聚合即：SuperVlan 的小作业实验。&lt;/p&gt;
@@ -621,7 +632,7 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;/配置super vlan&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;system-view&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;supervlan           //定义supervlan&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;quit&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 33&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;port ethernet3/1/3  //定义属于sub vlan的端口&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;quit&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;subvlan 33          //定义super vlan与sub vlan之间的映射关系&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 33&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;arp proxy enable    //开启sub vlan的arp proxy功能&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;注意&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注意&#34;&gt;#&lt;/a&gt; 注意&lt;/h2&gt;
-&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;注意：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;super vlan中不能包含端口&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;当设置vlan为super vlan后，该vlan接口上的ARP代理自动开启，无需配置&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;在super vlan存在时，其对应的vlan接口的arp代理不能关闭。默认的vlan不能被创建成super vlan。可以向每一个sub vlan中添加多个端口(非上行端口)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sub vlan不能配置虚接口。undo subvlan vlan-id命令如果不带vlan-id的话，就解除所有sub vlan和指定super vlan之间的映射关系；如果带有vlan-id的话就解除指定的sub vlan和指定super vlan之间的映射关系。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;super vlan下请不要使能组播vlan 和 igmp-snooping。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;扩展知识&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#扩展知识&#34;&gt;#&lt;/a&gt; 扩展知识&lt;/h2&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;注意：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;super vlan中不能包含端口&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;当设置vlan为super vlan后，该vlan接口上的ARP代理自动开启，无需配置&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;在super vlan存在时，其对应的vlan接口的arp代理不能关闭。默认的vlan不能被创建成super vlan。可以向每一个sub vlan中添加多个端口(非上行端口)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sub vlan不能配置虚接口。undo subvlan vlan-id命令如果不带vlan-id的话，就解除所有sub vlan和指定super vlan之间的映射关系；如果带有vlan-id的话就解除指定的sub vlan和指定super vlan之间的映射关系。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;super vlan下请不要使能组播vlan 和 igmp-snooping。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;xxxxxxxxxx-注意一个接口下接收到的帧携带的vlan-tag的vlan-id和映射后的vlan-tag的vlan-id不能相同-映射后的外层vlan必须存在且接口必须以tagged方式加入映射前后的vlan-vlan-stacking和vlan-mapping功能可以同时生效但是同时配置的多个ce的vlan-id不能重复映射前后的vlan-tag的vlan-id也不能与之重复-pe的vlan-id配置要求也一样-二层以太网接口上只支持基于vlan-id的vlan-mapping功能不支持基于8021p或者vlan-id8021p优先级的vlan-mapping功能-接口下可以配置多条该命令所有接口下一共可以配置最多128条vlan-mapping-text&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xxxxxxxxxx-注意一个接口下接收到的帧携带的vlan-tag的vlan-id和映射后的vlan-tag的vlan-id不能相同-映射后的外层vlan必须存在且接口必须以tagged方式加入映射前后的vlan-vlan-stacking和vlan-mapping功能可以同时生效但是同时配置的多个ce的vlan-id不能重复映射前后的vlan-tag的vlan-id也不能与之重复-pe的vlan-id配置要求也一样-二层以太网接口上只支持基于vlan-id的vlan-mapping功能不支持基于8021p或者vlan-id8021p优先级的vlan-mapping功能-接口下可以配置多条该命令所有接口下一共可以配置最多128条vlan-mapping-text&#34;&gt;#&lt;/a&gt; xxxxxxxxxx 注意：一个接口下接收到的帧携带的 VLAN Tag 的 VLAN ID 和映射后的 VLAN Tag 的 VLAN ID 不能相同。映射后的外层 VLAN 必须存在，且接口必须以 Tagged 方式加入映射前后的 VLAN。VLAN Stacking 和 VLAN Mapping 功能可以同时生效，但是同时配置的多个 CE 的 VLAN ID 不能重复，映射前后的 VLAN Tag 的 VLAN ID 也不能与之重复。PE 的 VLAN ID 配置要求也一样。二层以太网接口上只支持基于 VLAN ID 的 VLAN Mapping 功能，不支持基于 802.1p 或者 VLAN ID+802.1p 优先级的 VLAN Mapping 功能。接口下可以配置多条该命令，所有接口下一共可以配置最多 128 条 VLAN Mapping。text&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;super vlan 配置举例：&lt;br /&gt;
 需要创建 super vlan 10 和 sub vlan：2 3 5。端口 1、2 属于 vlan 2；3、4 属于 VLAN 3；5、6 属于 VLAN 5，由于 VLAN 之间能够满足二层隔离，现要求 sub vlan 两两之间三层互通。&lt;/li&gt;
@@ -632,10 +643,9 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
             <guid isPermalink="true">https://rpvvn.top/37288.html</guid>
             <title>eNSP-MUX-VLAN</title>
             <link>https://rpvvn.top/37288.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-MUX-VLAN" scheme="https://rpvvn.top/tags/ensp-MUX-VLAN/" />
             <pubDate>Tue, 13 Jun 2023 14:57:15 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 MUX-VLAN 的小作业实验。&lt;/p&gt;
@@ -664,10 +674,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/42218.html</guid>
             <title>VMware17pro-激活码</title>
             <link>https://rpvvn.top/42218.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="VMware" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/VMware/" />
-            <category term="VMware17pro" scheme="https://rpvvn.top/tags/VMware17pro/" />
-            <category term="激活码" scheme="https://rpvvn.top/tags/%E6%BF%80%E6%B4%BB%E7%A0%81/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Window" scheme="https://rpvvn.top/categories/Life/Window/" />
+            <category term="VMware" scheme="https://rpvvn.top/categories/Life/Window/VMware/" />
+            <category term="VMware17pro激活码" scheme="https://rpvvn.top/tags/VMware17pro%E6%BF%80%E6%B4%BB%E7%A0%81/" />
             <pubDate>Tue, 13 Jun 2023 00:36:47 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程&#34;&gt;#&lt;/a&gt; 教程&lt;/h2&gt;
 &lt;ol&gt;
@@ -686,10 +696,9 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/33676.html</guid>
             <title>eNSP笔记之OSPF虚链路实验</title>
             <link>https://rpvvn.top/33676.html</link>
-            <category term="网工" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/%E7%BD%91%E5%B7%A5/ensp/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
             <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
-            <category term="ensp-OSPF" scheme="https://rpvvn.top/tags/ensp-OSPF/" />
             <pubDate>Tue, 23 May 2023 22:00:42 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 ospf 虚链路的小作业实验。&lt;/p&gt;
@@ -722,8 +731,8 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/15340.html</guid>
             <title>“2023/05/19日记”</title>
             <link>https://rpvvn.top/15340.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="日记" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="日记" scheme="https://rpvvn.top/categories/Life/%E6%97%A5%E8%AE%B0/" />
             <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
             <pubDate>Fri, 19 May 2023 01:21:58 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;blue&#34;&gt;好想摆烂啊，私立本科真贵.....&lt;/span&gt;&lt;/p&gt;
@@ -733,11 +742,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/14562.html</guid>
             <title>Shoka折腾美化魔改之下拉小箭头</title>
             <link>https://rpvvn.top/14562.html</link>
-            <category term="Blog" scheme="https://rpvvn.top/categories/Blog/" />
-            <category term="Shoka" scheme="https://rpvvn.top/categories/Blog/Shoka/" />
-            <category term="个人心得" scheme="https://rpvvn.top/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E5%BE%97/" />
-            <category term="Shoka主题美化" scheme="https://rpvvn.top/tags/Shoka%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" />
-            <category term="hexo" scheme="https://rpvvn.top/tags/hexo/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="Blog" scheme="https://rpvvn.top/categories/Study/Blog/" />
+            <category term="Shoka" scheme="https://rpvvn.top/categories/Study/Blog/Shoka/" />
+            <category term="Shoka" scheme="https://rpvvn.top/tags/Shoka/" />
             <pubDate>Tue, 16 May 2023 00:16:46 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录本博客对于 Shoka 主题的美化魔改之下拉小箭头&lt;/p&gt;
@@ -793,11 +801,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/21758.html</guid>
             <title>Shoka折腾美化魔改之加载动画</title>
             <link>https://rpvvn.top/21758.html</link>
-            <category term="Blog" scheme="https://rpvvn.top/categories/Blog/" />
-            <category term="Shoka" scheme="https://rpvvn.top/categories/Blog/Shoka/" />
-            <category term="个人心得" scheme="https://rpvvn.top/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E5%BE%97/" />
-            <category term="Shoka主题美化" scheme="https://rpvvn.top/tags/Shoka%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" />
-            <category term="hexo" scheme="https://rpvvn.top/tags/hexo/" />
+            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+            <category term="Blog" scheme="https://rpvvn.top/categories/Study/Blog/" />
+            <category term="Shoka" scheme="https://rpvvn.top/categories/Study/Blog/Shoka/" />
+            <category term="Shoka" scheme="https://rpvvn.top/tags/Shoka/" />
             <pubDate>Sun, 14 May 2023 23:31:55 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录本博客对于 Shoka 主题的美化魔改之加载动画修改&lt;/p&gt;
@@ -836,9 +843,8 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/46267.html</guid>
             <title>ce加速百度云盘</title>
             <link>https://rpvvn.top/46267.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="ce修改器" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/ce%E4%BF%AE%E6%94%B9%E5%99%A8/" />
-            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Window" scheme="https://rpvvn.top/categories/Life/Window/" />
             <category term="百度云盘加速" scheme="https://rpvvn.top/tags/%E7%99%BE%E5%BA%A6%E4%BA%91%E7%9B%98%E5%8A%A0%E9%80%9F/" />
             <pubDate>Fri, 12 May 2023 20:32:49 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
@@ -891,11 +897,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/30306.html</guid>
             <title>picgo+github图床上传报错read-ECONNRESET</title>
             <link>https://rpvvn.top/30306.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="图床" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E5%9B%BE%E5%BA%8A/" />
-            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
-            <category term="github图床" scheme="https://rpvvn.top/tags/github%E5%9B%BE%E5%BA%8A/" />
-            <category term="github图床上传错误" scheme="https://rpvvn.top/tags/github%E5%9B%BE%E5%BA%8A%E4%B8%8A%E4%BC%A0%E9%94%99%E8%AF%AF/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
             <pubDate>Fri, 28 Apr 2023 09:49:09 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录解决 githb 图床使用 picgo 上传报错 read ECONNRESET 或网络设置错误等问题&lt;/p&gt;
@@ -944,10 +949,9 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/50511.html</guid>
             <title>实时监测站</title>
             <link>https://rpvvn.top/50511.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="站点" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E7%AB%99%E7%82%B9/" />
-            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
-            <category term="站点监测" scheme="https://rpvvn.top/tags/%E7%AB%99%E7%82%B9%E7%9B%91%E6%B5%8B/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
+            <category term="Personal Website" scheme="https://rpvvn.top/tags/Personal-Website/" />
             <pubDate>Mon, 24 Apr 2023 04:08:27 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录基于 UptimeRobot API 搭建的监测站点&lt;/p&gt;
@@ -968,10 +972,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/44949.html</guid>
             <title>Telegraph图床</title>
             <link>https://rpvvn.top/44949.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="图床" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E5%9B%BE%E5%BA%8A/" />
-            <category term="学习笔记" scheme="https://rpvvn.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-            <category term="Telegraph图床" scheme="https://rpvvn.top/tags/Telegraph%E5%9B%BE%E5%BA%8A/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
             <pubDate>Mon, 24 Apr 2023 01:00:37 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录 Telegraph 图床搭建&lt;/p&gt;
@@ -997,10 +1001,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/56727.html</guid>
             <title>Picgo图床工具</title>
             <link>https://rpvvn.top/56727.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="图床" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E5%9B%BE%E5%BA%8A/" />
-            <category term="学习笔记" scheme="https://rpvvn.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-            <category term="Picgo图床工具" scheme="https://rpvvn.top/tags/Picgo%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
             <pubDate>Mon, 24 Apr 2023 00:47:53 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录有关开源图床工具 ——PicGo&lt;/p&gt;
@@ -1017,10 +1021,10 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
             <guid isPermalink="true">https://rpvvn.top/49564.html</guid>
             <title>哔哩哔哩图床测试</title>
             <link>https://rpvvn.top/49564.html</link>
-            <category term="生活" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/" />
-            <category term="图床" scheme="https://rpvvn.top/categories/%E7%94%9F%E6%B4%BB/%E5%9B%BE%E5%BA%8A/" />
-            <category term="学习笔记" scheme="https://rpvvn.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-            <category term="b站图床" scheme="https://rpvvn.top/tags/b%E7%AB%99%E5%9B%BE%E5%BA%8A/" />
+            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
+            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
             <pubDate>Sun, 23 Apr 2023 21:53:04 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录有关 B 站图床使用与项目记录&lt;/p&gt;
@@ -1031,71 +1035,6 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYiVFNyVBQiU5OSVFNSU5QiVCRSVFNSVCQSU4QS9kb21samJuZGpiamdwa2hkYm1mZ21pY2xnZ2Rmb2puZD9obD16aC1DTg==&#34;&gt;点击下载网站插件版&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;解决防盗链&lt;/p&gt;
 &lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;referrer&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;no-referrer&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://article.biliimg.com/bfs/article/764ef3cdcff955374de67dc6b14f63559a209763.jpg&#34; alt=&#34;&#34; title=&#34;b站图床测试图&#34; /&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://rpvvn.top/63101.html</guid>
-            <title>MD转义表</title>
-            <link>https://rpvvn.top/63101.html</link>
-            <category term="Blog" scheme="https://rpvvn.top/categories/Blog/" />
-            <category term="MD转义" scheme="https://rpvvn.top/tags/MD%E8%BD%AC%E4%B9%89/" />
-            <category term="hexo博客文章编写" scheme="https://rpvvn.top/tags/hexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99/" />
-            <pubDate>Sat, 22 Apr 2023 03:29:49 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;本章记录 HTML ASCII 表，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbi5iaW5nLmNvbS9zZWFyY2g/cT1IVE1MJTIwQVNDSUk=&#34;&gt;参考搜索&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;主图&lt;/summary&gt;&lt;div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;主表&#34;&gt;
-&lt;pre&gt;&lt;code&gt;| 目标字符 | 描述                 | 转义字符       | 中文描述           |
-| :------- | :------------------- | :------------- | :----------------- |
-| !        | exctamation mark     | &amp;amp;#33;          | 感叹号             |
-| @        | at sign              | &amp;amp;#64;          | at符号             |
-| #        | number sign          | &amp;amp;#35;          | 井号               |
-| $        | dollar sign          | &amp;amp;#36;          | 美元符号           |
-| %        | percent sign         | &amp;amp;#37;          | 百分号             |
-| ^        | caret                | &amp;amp;#94;          | 插入符号           |
-| &amp;amp;        | ampersand            | &amp;amp;#38;          | -                  |
-| *        | asterisk             | &amp;amp;#42;          | 星号               |
-| &#39;        | apostrophe           | &amp;amp;#39;          | 单引号             |
-| `        | grave accent         | &amp;amp;#96;          | -                  |
-| :        | colon                | &amp;amp;#58;          | 冒号               |
-| ;        | semicolon            | &amp;amp;#59;          | 分号               |
-| ?        | question mark        | &amp;amp;#63;          | 问号               |
-| &amp;lt;        | less-than            | &amp;amp;#60;          | 小于号（左尖括号） |
-| =        | equals-to            | &amp;amp;#61;          | 等于号             |
-| &amp;gt;        | greater-then         | &amp;amp;#62;          | 大于号（右尖括号） |
-| (        | left parenthesis     | &amp;amp;#40;          | 左圆括号           |
-| )        | right parenthesis    | &amp;amp;#41;          | 右圆括号           |
-| [        | left square bracket  | &amp;amp;#91;          | 左方括号           |
-| ]        | right square bracket | &amp;amp;#93;          | 右方括号           |
-| &amp;#123;        | left curly brace     | &amp;amp;#123;         | 左大括号           |
-| &amp;#125;        | right curly brace    | &amp;amp;#125;         | 右大括号           |
-| /        | slash                | &amp;amp;#47;          | 左斜杠             |
-| \|       | vertical bar         | &amp;amp;#124;         | 竖线               |
-| \        | backslash            | &amp;amp;#92;          | 右斜杠             |
-| ~        | tilde                | &amp;amp;#126;         | 波浪号             |
-| _        | underscore           | &amp;amp;#95;          | 下划线             |
-| +        | plus sign            | &amp;amp;#43;          | 加号               |
-| -        | hyphen               | &amp;amp;#45;          | 减号（连字符）     |
-| ,        | comma                | &amp;amp;#44;          | 逗号               |
-| .        | period               | &amp;amp;#46;          | 句号               |
-| 0-9      | number               | &amp;amp;#48; - &amp;amp;#57;  | 数字0-9            |
-| a-z      | lowercase            | &amp;amp;#97; - &amp;amp;#122; | 小写字母a-z        |
-| A-Z      | uppercase            | &amp;amp;#65; - &amp;amp;#90;  | 大写字母A-Z        |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;主图&#34;&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://pic1.imgdb.cn/item/6442e54b0d2dde57773d6bfe.png&#34; alt=&#34;&#34; title=&#34;主图&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/details&gt;
-&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;备用图二&lt;/summary&gt;&lt;div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;备用图 一&#34;&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/3d320f724f532198ffe3b.png&#34; alt=&#34;&#34; title=&#34;备用图一&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;备用图 二&#34;&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s1.ax1x.com/2023/04/22/p9VPi4A.png&#34; alt=&#34;&#34; title=&#34;备用图二&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/details&gt;
  ]]></description>
         </item>
     </channel>
