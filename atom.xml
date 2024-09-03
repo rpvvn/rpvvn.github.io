@@ -8,7 +8,7 @@
     <author>
       <name>𝙍𝙥𝙒𝙣</name>
     </author>
-    <updated>2024-01-17T06:40:48.000Z</updated>
+    <updated>2024-09-03T07:00:07.000Z</updated>
     <category term="rpvvn" />
     <category term="RPVVN" />
     <category term="rpvvn个人博客" />
@@ -35,6 +35,29 @@
     <category term="心得体会" />
     <category term="玩机" />
     <category term="DIY" />
+    <entry>
+        <id>https://rpvvn.top/48651.html</id>
+        <title>JAVA学习笔记</title>
+        <link rel="alternate" href="https://rpvvn.top/48651.html"/>
+        <content type="html"></content>
+        <updated>2024-09-03T07:00:07.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://rpvvn.top/48651.html</id>
+        <title>JAVA学习笔记</title>
+        <link rel="alternate" href="https://rpvvn.top/48651.html"/>
+        <content type="html">&lt;h1 id=&#34;一-java环境配置指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-java环境配置指南&#34;&gt;#&lt;/a&gt; 一、java 环境配置指南&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;下载 JDK&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;二-待更新&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-待更新&#34;&gt;#&lt;/a&gt; 二、待更新&lt;/h1&gt;
+</content>
+        <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
+        <category term="Language" scheme="https://rpvvn.top/categories/Study/Language/" />
+        <category term="JAVA" scheme="https://rpvvn.top/categories/Study/Language/JAVA/" />
+        <category term="JAVA note" scheme="https://rpvvn.top/tags/JAVA-note/" />
+        <updated>2024-09-03T07:00:07.000Z</updated>
+    </entry>
     <entry>
         <id>https://rpvvn.top/51201.html</id>
         <title>Enlgish笔记</title>
@@ -1071,45 +1094,5 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
         <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
         <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
         <updated>2023-04-23T17:00:37.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://rpvvn.top/56727.html</id>
-        <title>Picgo图床工具</title>
-        <link rel="alternate" href="https://rpvvn.top/56727.html"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;本章记录有关开源图床工具 ——PicGo&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;ui界面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ui界面&#34;&gt;#&lt;/a&gt; UI 界面&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv&#34;&gt;点击打开 Github 项目地址&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://article.biliimg.com/bfs/article/fb63723755a8bae167b3052ebb14ff39f795c754.png&#34; alt=&#34;&#34; title=&#34;UI界面&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;插件支持&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件支持&#34;&gt;#&lt;/a&gt; 插件支持&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1BpY0dvL0F3ZXNvbWUtUGljR28=&#34;&gt;点击打开插件支持汇总&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://article.biliimg.com/bfs/article/d821458d2e93b0579e34f1bedc2f7f285015474c.png&#34; alt=&#34;&#34; title=&#34;插件支持&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-        <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
-        <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
-        <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
-        <updated>2023-04-23T16:47:53.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://rpvvn.top/49564.html</id>
-        <title>哔哩哔哩图床测试</title>
-        <link rel="alternate" href="https://rpvvn.top/49564.html"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;本章记录有关 B 站图床使用与项目记录&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;也许b站会变味-但永远不会倒闭&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#也许b站会变味-但永远不会倒闭&#34;&gt;#&lt;/a&gt; 也许 b 站会变味 - 但永远不会倒闭&lt;/h2&gt;
-&lt;h2 id=&#34;开源地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开源地址&#34;&gt;#&lt;/a&gt; 开源地址&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3hsenk1MjAvdHlwb3JhLXBsdWdpbi1iaWxpYmlsaQ==&#34;&gt;点击跳转 Github 项目&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYiVFNyVBQiU5OSVFNSU5QiVCRSVFNSVCQSU4QS9kb21samJuZGpiamdwa2hkYm1mZ21pY2xnZ2Rmb2puZD9obD16aC1DTg==&#34;&gt;点击下载网站插件版&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;解决防盗链&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;referrer&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;no-referrer&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://article.biliimg.com/bfs/article/764ef3cdcff955374de67dc6b14f63559a209763.jpg&#34; alt=&#34;&#34; title=&#34;b站图床测试图&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-        <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
-        <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
-        <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
-        <updated>2023-04-23T13:53:04.000Z</updated>
     </entry>
 </feed>

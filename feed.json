@@ -7,6 +7,27 @@
     "home_page_url": "https://rpvvn.top",
     "items": [
         {
+            "id": "https://rpvvn.top/48651.html",
+            "url": "https://rpvvn.top/48651.html",
+            "title": "JAVA学习笔记",
+            "date_published": "2024-09-03T07:00:07.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
+            "id": "https://rpvvn.top/48651.html",
+            "url": "https://rpvvn.top/48651.html",
+            "title": "JAVA学习笔记",
+            "date_published": "2024-09-03T07:00:07.000Z",
+            "content_html": "<h1 id=\"一-java环境配置指南\"><a class=\"anchor\" href=\"#一-java环境配置指南\">#</a> 一、java 环境配置指南</h1>\n<ol>\n<li>下载 JDK</li>\n</ol>\n<h1 id=\"二-待更新\"><a class=\"anchor\" href=\"#二-待更新\">#</a> 二、待更新</h1>\n",
+            "tags": [
+                "Study",
+                "Language",
+                "JAVA",
+                "JAVA note"
+            ]
+        },
+        {
             "id": "https://rpvvn.top/51201.html",
             "url": "https://rpvvn.top/51201.html",
             "title": "Enlgish笔记",
@@ -219,32 +240,6 @@
             "title": "Telegraph图床",
             "date_published": "2023-04-23T17:00:37.000Z",
             "content_html": "<div class=\"note info\">\n<p>本章记录 Telegraph 图床搭建</p>\n</div>\n<h2 id=\"telegraph-image项目地址\"><a class=\"anchor\" href=\"#telegraph-image项目地址\">#</a> Telegraph-image 项目地址</h2>\n<p>点击进入<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2NmLXBhZ2VzL1RlbGVncmFwaC1JbWFnZQ==\"> Telegraph-image 项目</span></p>\n<h2 id=\"ui\"><a class=\"anchor\" href=\"#ui\">#</a> UI</h2>\n<p><img data-src=\"https://img.rpvvn.top/file/a02b3649fa95a662f5940.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<h2 id=\"后台\"><a class=\"anchor\" href=\"#后台\">#</a> 后台</h2>\n<p><img data-src=\"https://img.rpvvn.top/file/9e79b8e432f7d0a45e47a.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<h2 id=\"搭建教程\"><a class=\"anchor\" href=\"#搭建教程\">#</a> 搭建教程</h2>\n<blockquote>\n<p>搭建教程项目已经说很清楚了，这里不搬来搬去了</p>\n</blockquote>\n<div class=\"note danger\">\n<p>下载部署有毛病，需要 fork 源项目部署</p>\n</div>\n<p class=\"wavy\">++ 我尝试找到问题，但是问题总是奇奇怪怪，就像是作者从 C 盘建立 html 项目，js 在 D 盘引用...... 总之一个 js 报错我还没有解决，是一个方法 js。无能为力只能等作者自行修复 ++</p>\n<p><span class=\"spoiler bulr\" title=\"你知道得太多了\">看源码已经看疯了</span></p>\n",
-            "tags": [
-                "Life",
-                "Website",
-                "Image hosting",
-                "Image hosting"
-            ]
-        },
-        {
-            "id": "https://rpvvn.top/56727.html",
-            "url": "https://rpvvn.top/56727.html",
-            "title": "Picgo图床工具",
-            "date_published": "2023-04-23T16:47:53.000Z",
-            "content_html": "<div class=\"note info\">\n<p>本章记录有关开源图床工具 ——PicGo</p>\n</div>\n<h2 id=\"ui界面\"><a class=\"anchor\" href=\"#ui界面\">#</a> UI 界面</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv\">点击打开 Github 项目地址</span></p>\n<p><img data-src=\"https://article.biliimg.com/bfs/article/fb63723755a8bae167b3052ebb14ff39f795c754.png\" alt=\"\" title=\"UI界面\" /></p>\n<h2 id=\"插件支持\"><a class=\"anchor\" href=\"#插件支持\">#</a> 插件支持</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL1BpY0dvL0F3ZXNvbWUtUGljR28=\">点击打开插件支持汇总</span></p>\n<p><img data-src=\"https://article.biliimg.com/bfs/article/d821458d2e93b0579e34f1bedc2f7f285015474c.png\" alt=\"\" title=\"插件支持\" /></p>\n",
-            "tags": [
-                "Life",
-                "Website",
-                "Image hosting",
-                "Image hosting"
-            ]
-        },
-        {
-            "id": "https://rpvvn.top/49564.html",
-            "url": "https://rpvvn.top/49564.html",
-            "title": "哔哩哔哩图床测试",
-            "date_published": "2023-04-23T13:53:04.000Z",
-            "content_html": "<div class=\"note info\">\n<p>本章记录有关 B 站图床使用与项目记录</p>\n</div>\n<h2 id=\"也许b站会变味-但永远不会倒闭\"><a class=\"anchor\" href=\"#也许b站会变味-但永远不会倒闭\">#</a> 也许 b 站会变味 - 但永远不会倒闭</h2>\n<h2 id=\"开源地址\"><a class=\"anchor\" href=\"#开源地址\">#</a> 开源地址</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3hsenk1MjAvdHlwb3JhLXBsdWdpbi1iaWxpYmlsaQ==\">点击跳转 Github 项目</span></p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvYiVFNyVBQiU5OSVFNSU5QiVCRSVFNSVCQSU4QS9kb21samJuZGpiamdwa2hkYm1mZ21pY2xnZ2Rmb2puZD9obD16aC1DTg==\">点击下载网站插件版</span></p>\n<p>解决防盗链</p>\n<figure class=\"highlight html\"><figcaption data-lang=\"HTML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>meta</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>referrer<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">content</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>no-referrer<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span></pre></td></tr></table></figure><p><img data-src=\"https://article.biliimg.com/bfs/article/764ef3cdcff955374de67dc6b14f63559a209763.jpg\" alt=\"\" title=\"b站图床测试图\" /></p>\n",
             "tags": [
                 "Life",
                 "Website",
