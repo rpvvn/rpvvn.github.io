@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>rpvvn&#39;Blog</title>
+        <title>Vullfin&#39;Blog</title>
         <subtitle>It is difficult to free fools from the chains they revere_______Voltaire</subtitle>
-        <icon>https://rpvvn.top/images/favicon.ico</icon>
-        <link>https://rpvvn.top</link>
+        <icon>https://blog.vull.top/images/favicon.ico</icon>
+        <link>https://blog.vull.top</link>
         <author>
-          <name>𝙍𝙥𝙒𝙣</name>
+          <name>𝙑𝙪𝙡𝙡𝙛𝙞𝙣</name>
         </author>
-        <description>欢迎来到rpvvn的个人博客，这里记录我的个人生活的点点滴滴</description>
+        <description>欢迎来到Vullfin的个人博客，这里记录我的个人生活的点点滴滴</description>
         <language>zh-CN</language>
         <pubDate>Tue, 03 Sep 2024 15:00:07 +0800</pubDate>
         <lastBuildDate>Tue, 03 Sep 2024 15:00:07 +0800</lastBuildDate>
-        <category term="rpvvn" />
-        <category term="RPVVN" />
-        <category term="rpvvn个人博客" />
-        <category term="rpvvn技术博客" />
-        <category term="rpvvn&#39;Blog" />
-        <category term="rpvvn" />
+        <category term="Vullfin" />
+        <category term="Vullfin" />
+        <category term="Vullfin个人博客" />
+        <category term="Vullfin技术博客" />
+        <category term="Vullfin&#39;Blog" />
+        <category term="Vullfin" />
         <category term="网络安全" />
         <category term="教程" />
         <category term="技术文章" />
@@ -39,13 +39,13 @@
         <category term="玩机" />
         <category term="DIY" />
         <item>
-            <guid isPermalink="true">https://rpvvn.top/48651.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/48651.html</guid>
             <title>JAVA学习笔记</title>
-            <link>https://rpvvn.top/48651.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="Language" scheme="https://rpvvn.top/categories/Study/Language/" />
-            <category term="JAVA" scheme="https://rpvvn.top/categories/Study/Language/JAVA/" />
-            <category term="JAVA note" scheme="https://rpvvn.top/tags/JAVA-note/" />
+            <link>https://blog.vull.top/48651.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="Language" scheme="https://blog.vull.top/categories/Study/Language/" />
+            <category term="JAVA" scheme="https://blog.vull.top/categories/Study/Language/JAVA/" />
+            <category term="JAVA note" scheme="https://blog.vull.top/tags/JAVA-note/" />
             <pubDate>Tue, 03 Sep 2024 15:00:07 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一-java环境配置指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-java环境配置指南&#34;&gt;#&lt;/a&gt; 一、java 环境配置指南&lt;/h1&gt;
 &lt;ol&gt;
@@ -235,13 +235,13 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/51201.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/51201.html</guid>
             <title>Enlgish笔记</title>
-            <link>https://rpvvn.top/51201.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="Language" scheme="https://rpvvn.top/categories/Study/Language/" />
-            <category term="English" scheme="https://rpvvn.top/categories/Study/Language/English/" />
-            <category term="English note" scheme="https://rpvvn.top/tags/English-note/" />
+            <link>https://blog.vull.top/51201.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="Language" scheme="https://blog.vull.top/categories/Study/Language/" />
+            <category term="English" scheme="https://blog.vull.top/categories/Study/Language/English/" />
+            <category term="English note" scheme="https://blog.vull.top/tags/English-note/" />
             <pubDate>Wed, 17 Jan 2024 14:40:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;english&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#english&#34;&gt;#&lt;/a&gt; English&lt;/h1&gt;
 &lt;p&gt;来源：BV1cE411q7wY&lt;/p&gt;
@@ -330,11 +330,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/61411.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/61411.html</guid>
             <title>2024第一篇文章</title>
-            <link>https://rpvvn.top/61411.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Record" scheme="https://rpvvn.top/tags/Record/" />
+            <link>https://blog.vull.top/61411.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Record" scheme="https://blog.vull.top/tags/Record/" />
             <pubDate>Sat, 06 Jan 2024 02:31:50 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;和生活干杯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#和生活干杯&#34;&gt;#&lt;/a&gt; 和生活干杯&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://img.name/v1/7/662701624202a5ec.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -342,11 +342,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/55073.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/55073.html</guid>
             <title>实习好无聊</title>
-            <link>https://rpvvn.top/55073.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Record" scheme="https://rpvvn.top/tags/Record/" />
+            <link>https://blog.vull.top/55073.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Record" scheme="https://blog.vull.top/tags/Record/" />
             <pubDate>Tue, 14 Nov 2023 23:02:22 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;如题所示&lt;/p&gt;
@@ -355,12 +355,12 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/64031.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/64031.html</guid>
             <title>组建直连式二层无线局域网</title>
-            <link>https://rpvvn.top/64031.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/64031.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Sat, 08 Jul 2023 19:01:24 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 eNSP 中的 Wlan 无线局域网实验示例参考&lt;/p&gt;
@@ -706,12 +706,12 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/19519.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/19519.html</guid>
             <title>eNSP-IPSecVPN</title>
-            <link>https://rpvvn.top/19519.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/19519.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Sat, 01 Jul 2023 02:13:18 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 eNSP 中 IPSec VPN 实验参考&lt;/p&gt;
@@ -776,12 +776,12 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/40757.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/40757.html</guid>
             <title>eNSP-网络拥塞管理与拥塞避免</title>
-            <link>https://rpvvn.top/40757.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/40757.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Tue, 27 Jun 2023 14:49:26 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 eNSP 中的网络拥塞管理与避免实验示例参考&lt;/p&gt;
@@ -824,12 +824,12 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/63063.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/63063.html</guid>
             <title>eNSP-VlanMapping</title>
-            <link>https://rpvvn.top/63063.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/63063.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Tue, 13 Jun 2023 22:32:33 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 VlanMapping 基础实验配置参考。&lt;/p&gt;
@@ -865,12 +865,12 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;注意：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;一个接口下接收到的帧携带的VLAN Tag的VLAN ID和映射后的VLAN Tag的VLAN ID不能相同。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;映射后的外层VLAN必须存在，且接口必须以Tagged方式加入映射前后的VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;VLAN Stacking和VLAN Mapping功能可以同时生效，但是同时配置的多个CE的VLAN ID不能重复，映射前后的VLAN Tag的VLAN ID也不能与之重复。PE的VLAN ID配置要求也一样。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;二层以太网接口上只支持基于VLAN ID的VLAN Mapping功能，不支持基于802.1p或者VLAN ID+802.1p优先级的VLAN Mapping功能。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;接口下可以配置多条该命令，所有接口下一共可以配置最多128条VLAN Mapping。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/18126.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/18126.html</guid>
             <title>eNSP-SuperVlan</title>
-            <link>https://rpvvn.top/18126.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/18126.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Tue, 13 Jun 2023 20:57:55 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 vlan 聚合即：SuperVlan 的小作业实验。&lt;/p&gt;
@@ -914,12 +914,12 @@ ESP (encapsulution security payload) 封装安全载荷。&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;system-view&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 10&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;super vlan&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;port ethernet3/1/1 ethernet3/1/2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;arp proxy enable&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;port ethernet3/1/3 ethernet3/1/4&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;arp proxy enable&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 5&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;port ethernet 3/1/5 ethernet3/1/6&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;arp proxy enable&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vlan 10&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;subvlan 2 3 5&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;interface vlan 10&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ip address 10.110.1.1 255.255.255.0&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/37288.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/37288.html</guid>
             <title>eNSP-MUX-VLAN</title>
-            <link>https://rpvvn.top/37288.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/37288.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Tue, 13 Jun 2023 14:57:15 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 MUX-VLAN 的小作业实验。&lt;/p&gt;
@@ -945,13 +945,13 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;display mux-vlan //查看mux配置是否生效&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;display vlan	//查看vlan中Type类型是否为mux&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;例如：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;VLAN类型：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mux ：MUX VLAN中的主VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mux-sub：MUX VLAN中的从VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;super：VLAN聚合中的Super VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sub：VLAN聚合中的子VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;common：普通VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Common：管理VLAN。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/42218.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/42218.html</guid>
             <title>VMware17pro-激活码</title>
-            <link>https://rpvvn.top/42218.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Window" scheme="https://rpvvn.top/categories/Life/Window/" />
-            <category term="VMware" scheme="https://rpvvn.top/categories/Life/Window/VMware/" />
-            <category term="VMware17pro激活码" scheme="https://rpvvn.top/tags/VMware17pro%E6%BF%80%E6%B4%BB%E7%A0%81/" />
+            <link>https://blog.vull.top/42218.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Window" scheme="https://blog.vull.top/categories/Life/Window/" />
+            <category term="VMware" scheme="https://blog.vull.top/categories/Life/Window/VMware/" />
+            <category term="VMware17pro激活码" scheme="https://blog.vull.top/tags/VMware17pro%E6%BF%80%E6%B4%BB%E7%A0%81/" />
             <pubDate>Tue, 13 Jun 2023 00:36:47 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程&#34;&gt;#&lt;/a&gt; 教程&lt;/h2&gt;
 &lt;ol&gt;
@@ -967,12 +967,12 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/33676.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/33676.html</guid>
             <title>eNSP笔记之OSPF虚链路实验</title>
-            <link>https://rpvvn.top/33676.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="ensp" scheme="https://rpvvn.top/categories/Study/ensp/" />
-            <category term="ensp笔记" scheme="https://rpvvn.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+            <link>https://blog.vull.top/33676.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="ensp" scheme="https://blog.vull.top/categories/Study/ensp/" />
+            <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
             <pubDate>Tue, 23 May 2023 22:00:42 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录一个关于 ospf 虚链路的小作业实验。&lt;/p&gt;
@@ -1002,24 +1002,24 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/15340.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/15340.html</guid>
             <title>“2023/05/19日记”</title>
-            <link>https://rpvvn.top/15340.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="日记" scheme="https://rpvvn.top/categories/Life/%E6%97%A5%E8%AE%B0/" />
-            <category term="生活记录" scheme="https://rpvvn.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
+            <link>https://blog.vull.top/15340.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="日记" scheme="https://blog.vull.top/categories/Life/%E6%97%A5%E8%AE%B0/" />
+            <category term="生活记录" scheme="https://blog.vull.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" />
             <pubDate>Fri, 19 May 2023 01:21:58 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;blue&#34;&gt;好想摆烂啊，私立本科真贵.....&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/14562.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/14562.html</guid>
             <title>Shoka折腾美化魔改之下拉小箭头</title>
-            <link>https://rpvvn.top/14562.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="Blog" scheme="https://rpvvn.top/categories/Study/Blog/" />
-            <category term="Shoka" scheme="https://rpvvn.top/categories/Study/Blog/Shoka/" />
-            <category term="Shoka" scheme="https://rpvvn.top/tags/Shoka/" />
+            <link>https://blog.vull.top/14562.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="Blog" scheme="https://blog.vull.top/categories/Study/Blog/" />
+            <category term="Shoka" scheme="https://blog.vull.top/categories/Study/Blog/Shoka/" />
+            <category term="Shoka" scheme="https://blog.vull.top/tags/Shoka/" />
             <pubDate>Tue, 16 May 2023 00:16:46 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录本博客对于 Shoka 主题的美化魔改之下拉小箭头&lt;/p&gt;
@@ -1072,13 +1072,13 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/21758.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/21758.html</guid>
             <title>Shoka折腾美化魔改之加载动画</title>
-            <link>https://rpvvn.top/21758.html</link>
-            <category term="Study" scheme="https://rpvvn.top/categories/Study/" />
-            <category term="Blog" scheme="https://rpvvn.top/categories/Study/Blog/" />
-            <category term="Shoka" scheme="https://rpvvn.top/categories/Study/Blog/Shoka/" />
-            <category term="Shoka" scheme="https://rpvvn.top/tags/Shoka/" />
+            <link>https://blog.vull.top/21758.html</link>
+            <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+            <category term="Blog" scheme="https://blog.vull.top/categories/Study/Blog/" />
+            <category term="Shoka" scheme="https://blog.vull.top/categories/Study/Blog/Shoka/" />
+            <category term="Shoka" scheme="https://blog.vull.top/tags/Shoka/" />
             <pubDate>Sun, 14 May 2023 23:31:55 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录本博客对于 Shoka 主题的美化魔改之加载动画修改&lt;/p&gt;
@@ -1114,12 +1114,12 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/46267.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/46267.html</guid>
             <title>ce加速百度云盘</title>
-            <link>https://rpvvn.top/46267.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Window" scheme="https://rpvvn.top/categories/Life/Window/" />
-            <category term="百度云盘加速" scheme="https://rpvvn.top/tags/%E7%99%BE%E5%BA%A6%E4%BA%91%E7%9B%98%E5%8A%A0%E9%80%9F/" />
+            <link>https://blog.vull.top/46267.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Window" scheme="https://blog.vull.top/categories/Life/Window/" />
+            <category term="百度云盘加速" scheme="https://blog.vull.top/tags/%E7%99%BE%E5%BA%A6%E4%BA%91%E7%9B%98%E5%8A%A0%E9%80%9F/" />
             <pubDate>Fri, 12 May 2023 20:32:49 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录使用 ce 修改器加速百度云盘记录，仅供学习参考。&lt;/p&gt;
@@ -1168,13 +1168,13 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/30306.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/30306.html</guid>
             <title>picgo+github图床上传报错read-ECONNRESET</title>
-            <link>https://rpvvn.top/30306.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
-            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
-            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
+            <link>https://blog.vull.top/30306.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/tags/Image-hosting/" />
             <pubDate>Fri, 28 Apr 2023 09:49:09 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录解决 githb 图床使用 picgo 上传报错 read ECONNRESET 或网络设置错误等问题&lt;/p&gt;
@@ -1220,12 +1220,12 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/50511.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/50511.html</guid>
             <title>实时监测站</title>
-            <link>https://rpvvn.top/50511.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
-            <category term="Personal Website" scheme="https://rpvvn.top/tags/Personal-Website/" />
+            <link>https://blog.vull.top/50511.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
+            <category term="Personal Website" scheme="https://blog.vull.top/tags/Personal-Website/" />
             <pubDate>Mon, 24 Apr 2023 04:08:27 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录基于 UptimeRobot API 搭建的监测站点&lt;/p&gt;
@@ -1243,13 +1243,13 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/44949.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/44949.html</guid>
             <title>Telegraph图床</title>
-            <link>https://rpvvn.top/44949.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
-            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
-            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
+            <link>https://blog.vull.top/44949.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/tags/Image-hosting/" />
             <pubDate>Mon, 24 Apr 2023 01:00:37 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录 Telegraph 图床搭建&lt;/p&gt;
@@ -1272,13 +1272,13 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://rpvvn.top/56727.html</guid>
+            <guid isPermalink="true">https://blog.vull.top/56727.html</guid>
             <title>Picgo图床工具</title>
-            <link>https://rpvvn.top/56727.html</link>
-            <category term="Life" scheme="https://rpvvn.top/categories/Life/" />
-            <category term="Website" scheme="https://rpvvn.top/categories/Life/Website/" />
-            <category term="Image hosting" scheme="https://rpvvn.top/categories/Life/Website/Image-hosting/" />
-            <category term="Image hosting" scheme="https://rpvvn.top/tags/Image-hosting/" />
+            <link>https://blog.vull.top/56727.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/tags/Image-hosting/" />
             <pubDate>Mon, 24 Apr 2023 00:47:53 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录有关开源图床工具 ——PicGo&lt;/p&gt;
