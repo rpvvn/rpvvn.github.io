@@ -38,13 +38,6 @@
         <category term="玩机" />
         <category term="DIY" />
         <item>
-            <guid isPermalink="true">https://blog.vull.top/51703.html</guid>
-            <title>window11 24h2补丁兼容ensp</title>
-            <link>https://blog.vull.top/51703.html</link>
-            <pubDate>Thu, 10 Apr 2025 18:26:45 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">https://blog.vull.top/51704.html</guid>
             <title>window11 24h2补丁兼容ensp</title>
             <link>https://blog.vull.top/51704.html</link>
@@ -1266,6 +1259,35 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9tb25pdG9yLnJwdnZuLnRvcC8=&#34;&gt;实时监测站&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;SHARED BY RPWN&lt;/p&gt;
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/44949.html</guid>
+            <title>Telegraph图床</title>
+            <link>https://blog.vull.top/44949.html</link>
+            <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
+            <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/categories/Life/Website/Image-hosting/" />
+            <category term="Image hosting" scheme="https://blog.vull.top/tags/Image-hosting/" />
+            <pubDate>Mon, 24 Apr 2023 01:00:37 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录 Telegraph 图床搭建&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;telegraph-image项目地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#telegraph-image项目地址&#34;&gt;#&lt;/a&gt; Telegraph-image 项目地址&lt;/h2&gt;
+&lt;p&gt;点击进入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2NmLXBhZ2VzL1RlbGVncmFwaC1JbWFnZQ==&#34;&gt; Telegraph-image 项目&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ui&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ui&#34;&gt;#&lt;/a&gt; UI&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/a02b3649fa95a662f5940.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;后台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后台&#34;&gt;#&lt;/a&gt; 后台&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/9e79b8e432f7d0a45e47a.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;搭建教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建教程&#34;&gt;#&lt;/a&gt; 搭建教程&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;搭建教程项目已经说很清楚了，这里不搬来搬去了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;下载部署有毛病，需要 fork 源项目部署&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class=&#34;wavy&#34;&gt;++ 我尝试找到问题，但是问题总是奇奇怪怪，就像是作者从 C 盘建立 html 项目，js 在 D 盘引用...... 总之一个 js 报错我还没有解决，是一个方法 js。无能为力只能等作者自行修复 ++&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;看源码已经看疯了&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
