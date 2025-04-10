@@ -8,7 +8,7 @@
     <author>
       <name>Vullfin</name>
     </author>
-    <updated>2024-09-03T07:00:07.000Z</updated>
+    <updated>2025-04-10T10:26:45.000Z</updated>
     <category term="Vullfin" />
     <category term="Vullfin个人博客" />
     <category term="Vullfin技术博客" />
@@ -34,6 +34,33 @@
     <category term="心得体会" />
     <category term="玩机" />
     <category term="DIY" />
+    <entry>
+        <id>https://blog.vull.top/51703.html</id>
+        <title>window11 24h2补丁兼容ensp</title>
+        <link rel="alternate" href="https://blog.vull.top/51703.html"/>
+        <content type="html"></content>
+        <updated>2025-04-10T10:26:45.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/51704.html</id>
+        <title>window11 24h2补丁兼容ensp</title>
+        <link rel="alternate" href="https://blog.vull.top/51704.html"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://i0.hdslb.com/bfs/article/f06db9817b78697fb0c0853ca857ebe0397331738.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;方法一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法一&#34;&gt;#&lt;/a&gt; 方法一&lt;/h2&gt;
+&lt;p&gt;需要下载补丁，点击下方链接下载该补丁。&lt;/p&gt;
+&lt;p&gt;需注意不能超越前置更新，不能跨大版本直接更新本补丁。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jYXRhbG9nLnVwZGF0ZS5taWNyb3NvZnQuY29tL1NlYXJjaC5hc3B4P3E9S0I1MDUzNjU2&#34;&gt;Microsoft Update Catalog&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;方法二&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法二&#34;&gt;#&lt;/a&gt; 方法二&lt;/h2&gt;
+&lt;p&gt;在设置自行更新。&lt;/p&gt;
+&lt;p&gt;需注意没有看见补丁包，是由于前置更新没有更新，更新后即可看见补丁包。安装完成即可完美解决。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i0.hdslb.com/bfs/article/7277efb32bf1844c3fc03ae57841e0b6397331738.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;方法三&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法三&#34;&gt;#&lt;/a&gt; 方法三&lt;/h2&gt;
+&lt;p&gt;自行降级 window 版本&lt;/p&gt;
+</content>
+        <category term="Study" scheme="https://blog.vull.top/categories/Study/" />
+        <category term="ensp笔记" scheme="https://blog.vull.top/tags/ensp%E7%AC%94%E8%AE%B0/" />
+        <updated>2025-04-10T10:26:45.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.vull.top/48651.html</id>
         <title>JAVA学习笔记</title>
@@ -1237,54 +1264,5 @@ PC1-2 互相访问，PC2-3 不能互相访问&lt;br /&gt;
         <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
         <category term="Personal Website" scheme="https://blog.vull.top/tags/Personal-Website/" />
         <updated>2023-04-23T20:08:27.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.vull.top/44949.html</id>
-        <title>Telegraph图床</title>
-        <link rel="alternate" href="https://blog.vull.top/44949.html"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;本章记录 Telegraph 图床搭建&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;telegraph-image项目地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#telegraph-image项目地址&#34;&gt;#&lt;/a&gt; Telegraph-image 项目地址&lt;/h2&gt;
-&lt;p&gt;点击进入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2NmLXBhZ2VzL1RlbGVncmFwaC1JbWFnZQ==&#34;&gt; Telegraph-image 项目&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ui&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ui&#34;&gt;#&lt;/a&gt; UI&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/a02b3649fa95a662f5940.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;后台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后台&#34;&gt;#&lt;/a&gt; 后台&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img.rpvvn.top/file/9e79b8e432f7d0a45e47a.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;搭建教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建教程&#34;&gt;#&lt;/a&gt; 搭建教程&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;搭建教程项目已经说很清楚了，这里不搬来搬去了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;note danger&#34;&gt;
-&lt;p&gt;下载部署有毛病，需要 fork 源项目部署&lt;/p&gt;
-&lt;/div&gt;
-&lt;p class=&#34;wavy&#34;&gt;++ 我尝试找到问题，但是问题总是奇奇怪怪，就像是作者从 C 盘建立 html 项目，js 在 D 盘引用...... 总之一个 js 报错我还没有解决，是一个方法 js。无能为力只能等作者自行修复 ++&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;看源码已经看疯了&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
-        <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
-        <category term="Image hosting" scheme="https://blog.vull.top/categories/Life/Website/Image-hosting/" />
-        <category term="Image hosting" scheme="https://blog.vull.top/tags/Image-hosting/" />
-        <updated>2023-04-23T17:00:37.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.vull.top/56727.html</id>
-        <title>Picgo图床工具</title>
-        <link rel="alternate" href="https://blog.vull.top/56727.html"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;本章记录有关开源图床工具 ——PicGo&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;ui界面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ui界面&#34;&gt;#&lt;/a&gt; UI 界面&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv&#34;&gt;点击打开 Github 项目地址&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://article.biliimg.com/bfs/article/fb63723755a8bae167b3052ebb14ff39f795c754.png&#34; alt=&#34;&#34; title=&#34;UI界面&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;插件支持&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件支持&#34;&gt;#&lt;/a&gt; 插件支持&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1BpY0dvL0F3ZXNvbWUtUGljR28=&#34;&gt;点击打开插件支持汇总&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://article.biliimg.com/bfs/article/d821458d2e93b0579e34f1bedc2f7f285015474c.png&#34; alt=&#34;&#34; title=&#34;插件支持&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="Life" scheme="https://blog.vull.top/categories/Life/" />
-        <category term="Website" scheme="https://blog.vull.top/categories/Life/Website/" />
-        <category term="Image hosting" scheme="https://blog.vull.top/categories/Life/Website/Image-hosting/" />
-        <category term="Image hosting" scheme="https://blog.vull.top/tags/Image-hosting/" />
-        <updated>2023-04-23T16:47:53.000Z</updated>
     </entry>
 </feed>

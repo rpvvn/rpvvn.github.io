@@ -7,6 +7,25 @@
     "home_page_url": "https://blog.vull.top",
     "items": [
         {
+            "id": "https://blog.vull.top/51703.html",
+            "url": "https://blog.vull.top/51703.html",
+            "title": "window11 24h2补丁兼容ensp",
+            "date_published": "2025-04-10T10:26:45.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
+            "id": "https://blog.vull.top/51704.html",
+            "url": "https://blog.vull.top/51704.html",
+            "title": "window11 24h2补丁兼容ensp",
+            "date_published": "2025-04-10T10:26:45.000Z",
+            "content_html": "<p><img data-src=\"https://i0.hdslb.com/bfs/article/f06db9817b78697fb0c0853ca857ebe0397331738.png\" alt=\"\" /></p>\n<h2 id=\"方法一\"><a class=\"anchor\" href=\"#方法一\">#</a> 方法一</h2>\n<p>需要下载补丁，点击下方链接下载该补丁。</p>\n<p>需注意不能超越前置更新，不能跨大版本直接更新本补丁。</p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9jYXRhbG9nLnVwZGF0ZS5taWNyb3NvZnQuY29tL1NlYXJjaC5hc3B4P3E9S0I1MDUzNjU2\">Microsoft Update Catalog</span></p>\n<h2 id=\"方法二\"><a class=\"anchor\" href=\"#方法二\">#</a> 方法二</h2>\n<p>在设置自行更新。</p>\n<p>需注意没有看见补丁包，是由于前置更新没有更新，更新后即可看见补丁包。安装完成即可完美解决。</p>\n<p><img data-src=\"https://i0.hdslb.com/bfs/article/7277efb32bf1844c3fc03ae57841e0b6397331738.png\" alt=\"\" /></p>\n<h2 id=\"方法三\"><a class=\"anchor\" href=\"#方法三\">#</a> 方法三</h2>\n<p>自行降级 window 版本</p>\n",
+            "tags": [
+                "Study",
+                "ensp笔记"
+            ]
+        },
+        {
             "id": "https://blog.vull.top/48651.html",
             "url": "https://blog.vull.top/48651.html",
             "title": "JAVA学习笔记",
@@ -224,32 +243,6 @@
                 "Life",
                 "Website",
                 "Personal Website"
-            ]
-        },
-        {
-            "id": "https://blog.vull.top/44949.html",
-            "url": "https://blog.vull.top/44949.html",
-            "title": "Telegraph图床",
-            "date_published": "2023-04-23T17:00:37.000Z",
-            "content_html": "<div class=\"note info\">\n<p>本章记录 Telegraph 图床搭建</p>\n</div>\n<h2 id=\"telegraph-image项目地址\"><a class=\"anchor\" href=\"#telegraph-image项目地址\">#</a> Telegraph-image 项目地址</h2>\n<p>点击进入<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2NmLXBhZ2VzL1RlbGVncmFwaC1JbWFnZQ==\"> Telegraph-image 项目</span></p>\n<h2 id=\"ui\"><a class=\"anchor\" href=\"#ui\">#</a> UI</h2>\n<p><img data-src=\"https://img.rpvvn.top/file/a02b3649fa95a662f5940.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<h2 id=\"后台\"><a class=\"anchor\" href=\"#后台\">#</a> 后台</h2>\n<p><img data-src=\"https://img.rpvvn.top/file/9e79b8e432f7d0a45e47a.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<h2 id=\"搭建教程\"><a class=\"anchor\" href=\"#搭建教程\">#</a> 搭建教程</h2>\n<blockquote>\n<p>搭建教程项目已经说很清楚了，这里不搬来搬去了</p>\n</blockquote>\n<div class=\"note danger\">\n<p>下载部署有毛病，需要 fork 源项目部署</p>\n</div>\n<p class=\"wavy\">++ 我尝试找到问题，但是问题总是奇奇怪怪，就像是作者从 C 盘建立 html 项目，js 在 D 盘引用...... 总之一个 js 报错我还没有解决，是一个方法 js。无能为力只能等作者自行修复 ++</p>\n<p><span class=\"spoiler bulr\" title=\"你知道得太多了\">看源码已经看疯了</span></p>\n",
-            "tags": [
-                "Life",
-                "Website",
-                "Image hosting",
-                "Image hosting"
-            ]
-        },
-        {
-            "id": "https://blog.vull.top/56727.html",
-            "url": "https://blog.vull.top/56727.html",
-            "title": "Picgo图床工具",
-            "date_published": "2023-04-23T16:47:53.000Z",
-            "content_html": "<div class=\"note info\">\n<p>本章记录有关开源图床工具 ——PicGo</p>\n</div>\n<h2 id=\"ui界面\"><a class=\"anchor\" href=\"#ui界面\">#</a> UI 界面</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv\">点击打开 Github 项目地址</span></p>\n<p><img data-src=\"https://article.biliimg.com/bfs/article/fb63723755a8bae167b3052ebb14ff39f795c754.png\" alt=\"\" title=\"UI界面\" /></p>\n<h2 id=\"插件支持\"><a class=\"anchor\" href=\"#插件支持\">#</a> 插件支持</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL1BpY0dvL0F3ZXNvbWUtUGljR28=\">点击打开插件支持汇总</span></p>\n<p><img data-src=\"https://article.biliimg.com/bfs/article/d821458d2e93b0579e34f1bedc2f7f285015474c.png\" alt=\"\" title=\"插件支持\" /></p>\n",
-            "tags": [
-                "Life",
-                "Website",
-                "Image hosting",
-                "Image hosting"
             ]
         }
     ]
