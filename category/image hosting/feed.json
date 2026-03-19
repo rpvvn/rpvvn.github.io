@@ -1,0 +1,48 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "𝕍𝕍'𝔹𝕝𝕠𝕘 • All posts by \"image hosting\" category",
+    "description": "欢迎来到Vullfin的个人博客",
+    "home_page_url": "https://blog.vull.top",
+    "items": [
+        {
+            "id": "https://blog.vull.top/posts/30306.html",
+            "url": "https://blog.vull.top/posts/30306.html",
+            "title": "picgo+github图床上传报错read-ECONNRESET",
+            "date_published": "2023-04-28T01:49:09.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录解决githb图床使用picgo上传报错read ECONNRESET或网络设置错误等问题</p>\n</div>\n<h2 id=\"github图床\"><a class=\"anchor\" href=\"#github图床\">#</a> github图床</h2>\n<p>关于<code>github图床</code>怎么搭建怎么使用这里不过多赘述</p>\n<h2 id=\"报错\"><a class=\"anchor\" href=\"#报错\">#</a> 报错</h2>\n<p>一般就两个报错</p>\n<ul>\n<li><code>read ECONNRESET</code></li>\n<li><code>网络设置错误</code></li>\n</ul>\n<h3 id=\"解决办法\"><a class=\"anchor\" href=\"#解决办法\">#</a> 解决办法</h3>\n<ol>\n<li>重启Picgo</li>\n</ol>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/2a293fcf074f7126706045e0e6d69dad0fd2a76f.png@1e_1c.webp\" alt=\"\" /></p>\n<ol start=\"2\">\n<li>\n<p>检查仓库名，格式：用户名/仓库名</p>\n<p>例如我用户名叫opop，建立一个仓库当图床，仓库名字叫pppp</p>\n<p>那么应该写成：opop/pppp</p>\n</li>\n<li>\n<p>如果你没有手动建立文件夹，那么两个未标<code>*</code>的输入框留空</p>\n</li>\n</ol>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/ec401c5c44835aee125245ad2c23a76418ceb385.png@1e_1c.webp\" alt=\"\" /></p>\n<ol start=\"4\">\n<li>修改设置处，设置里面的server没啥事不要改，使用代理需要修改设置代理和镜像地址</li>\n</ol>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/1a2b5bceb92589946e149cc52148d7d77fe65cf8.png@1e_1c.webp\" alt=\"\" /></p>\n<ol start=\"5\">\n<li><code>win+i </code>打开设置点击代理或者直接代理，修改与picgo一致还要加上http头</li>\n</ol>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/918ba0547a54d66617acab47676741042ae53a46.png@1e_1c.webp\" alt=\"\" /></p>\n<ol start=\"6\">\n<li>测试成功上传，搞定收工</li>\n</ol>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/b7ad24c47b77bd79584518c26fba9c907f9c0f71.png@1e_1c.webp\" alt=\"\" /></p>\n<p><span class=\"spoiler\" title=\"你知道得太多了\">其实我也折腾了很久，才发现代理端口不一致导致的，特地水了一篇博客</span></p>\n<p><span class=\"spoiler bulr\" title=\"你知道得太多了\">不会不给水吧？？？</span></p>\n",
+            "tags": [
+                "Image hosting"
+            ]
+        },
+        {
+            "id": "https://blog.vull.top/posts/44949.html",
+            "url": "https://blog.vull.top/posts/44949.html",
+            "title": "Telegraph图床",
+            "date_published": "2023-04-23T17:00:37.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录Telegraph图床搭建</p>\n</div>\n<h2 id=\"telegraph-image项目地址\"><a class=\"anchor\" href=\"#telegraph-image项目地址\">#</a> Telegraph-image项目地址</h2>\n<p>点击进入<a href=\"https://github.com/cf-pages/Telegraph-Image\">Telegraph-image项目</a></p>\n<h2 id=\"ui\"><a class=\"anchor\" href=\"#ui\">#</a> UI</h2>\n<p><img loading=\"lazy\" src=\"https://img.vull.top/file/a02b3649fa95a662f5940.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<h2 id=\"后台\"><a class=\"anchor\" href=\"#后台\">#</a> 后台</h2>\n<p><img loading=\"lazy\" src=\"https://img.vull.top/file/9e79b8e432f7d0a45e47a.png\" alt=\"\" title=\"TG图床图片，需加速访问\" /></p>\n<h2 id=\"搭建教程\"><a class=\"anchor\" href=\"#搭建教程\">#</a> 搭建教程</h2>\n<blockquote>\n<p>搭建教程项目已经说很清楚了，这里不搬来搬去了</p>\n</blockquote>\n<div class=\"note danger\">\n<p>下载部署有毛病，需要fork源项目部署</p>\n</div>\n<p class=\"wavy\">++ 我尝试找到问题，但是问题总是奇奇怪怪，就像是作者从C盘建立html项目，js在D盘引用......总之一个js报错我还没有解决，是一个方法js。无能为力只能等作者自行修复 ++</p>\n<p><span class=\"spoiler bulr\" title=\"你知道得太多了\">看源码已经看疯了</span></p>\n",
+            "tags": [
+                "Image hosting"
+            ]
+        },
+        {
+            "id": "https://blog.vull.top/posts/56727.html",
+            "url": "https://blog.vull.top/posts/56727.html",
+            "title": "Picgo图床工具",
+            "date_published": "2023-04-23T16:47:53.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录有关开源图床工具——PicGo</p>\n</div>\n<h2 id=\"ui界面\"><a class=\"anchor\" href=\"#ui界面\">#</a> UI界面</h2>\n<p><a href=\"https://github.com/Molunerfinn/PicGo\">点击打开Github项目地址</a></p>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/fb63723755a8bae167b3052ebb14ff39f795c754.png\" alt=\"\" title=\"UI界面\" /></p>\n<h2 id=\"插件支持\"><a class=\"anchor\" href=\"#插件支持\">#</a> 插件支持</h2>\n<p><a href=\"https://github.com/PicGo/Awesome-PicGo\">点击打开插件支持汇总</a></p>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/d821458d2e93b0579e34f1bedc2f7f285015474c.png\" alt=\"\" title=\"插件支持\" /></p>\n",
+            "tags": [
+                "Image hosting"
+            ]
+        },
+        {
+            "id": "https://blog.vull.top/posts/49564.html",
+            "url": "https://blog.vull.top/posts/49564.html",
+            "title": "哔哩哔哩图床测试",
+            "date_published": "2023-04-23T13:53:04.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录有关B站图床使用与项目记录</p>\n</div>\n<h2 id=\"也许b站会变味-但永远不会倒闭\"><a class=\"anchor\" href=\"#也许b站会变味-但永远不会倒闭\">#</a> 也许b站会变味-但永远不会倒闭</h2>\n<h2 id=\"开源地址\"><a class=\"anchor\" href=\"#开源地址\">#</a> 开源地址</h2>\n<p><a href=\"https://github.com/xlzy520/typora-plugin-bilibili\">点击跳转Github项目</a></p>\n<p><a href=\"https://chrome.google.com/webstore/detail/b%E7%AB%99%E5%9B%BE%E5%BA%8A/domljbndjbjgpkhdbmfgmiclggdfojnd?hl=zh-CN\">点击下载网站插件版</a></p>\n<p>解决防盗链</p>\n<pre class=\"shiki shiki-themes vitesse-light vitesse-dark\" style=\"background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee\" tabindex=\"0\"><code class=\"language-html\"><span class=\"line\"><span style=\"color:#999999;--shiki-dark:#666666\">&#x3C;</span><span style=\"color:#1E754F;--shiki-dark:#4D9375\">meta</span><span style=\"color:#B07D48;--shiki-dark:#BD976A\"> name</span><span style=\"color:#999999;--shiki-dark:#666666\">=</span><span style=\"color:#B5695977;--shiki-dark:#C98A7D77\">\"</span><span style=\"color:#B56959;--shiki-dark:#C98A7D\">referrer</span><span style=\"color:#B5695977;--shiki-dark:#C98A7D77\">\"</span><span style=\"color:#B07D48;--shiki-dark:#BD976A\"> content</span><span style=\"color:#999999;--shiki-dark:#666666\">=</span><span style=\"color:#B5695977;--shiki-dark:#C98A7D77\">\"</span><span style=\"color:#B56959;--shiki-dark:#C98A7D\">no-referrer</span><span style=\"color:#B5695977;--shiki-dark:#C98A7D77\">\"</span><span style=\"color:#999999;--shiki-dark:#666666\">></span></span></code></pre>\n<p><img loading=\"lazy\" src=\"https://article.biliimg.com/bfs/article/764ef3cdcff955374de67dc6b14f63559a209763.jpg\" alt=\"\" title=\"b站图床测试图\" /></p>\n",
+            "tags": [
+                "Image hosting"
+            ]
+        }
+    ]
+}

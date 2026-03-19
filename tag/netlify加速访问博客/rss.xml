@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;netlify加速访问博客&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Mon, 13 Mar 2023 20:18:10 +0800</pubDate>
+        <lastBuildDate>Mon, 13 Mar 2023 20:18:10 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/42719.html</guid>
+            <title>hexo+page博客netlify加速访问</title>
+            <link>https://blog.vull.top/posts/42719.html</link>
+            <category>netlify加速访问博客</category>
+            <pubDate>Mon, 13 Mar 2023 20:18:10 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录解决Github page 访问hexo博客太慢问题，特地使用访问速度更快的Netlify来进行双向托管同步部署&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;第一步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一步&#34;&gt;#&lt;/a&gt; 第一步&lt;/h1&gt;
+&lt;h2 id=&#34;找到netlify&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#找到netlify&#34;&gt;#&lt;/a&gt; 找到Netlify&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/10003e2faa12b1523b24d.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label success&#34;&gt;✔️要找对&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;注册账号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册账号&#34;&gt;#&lt;/a&gt; 注册账号&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/94c7a6ff812620cf7ba49.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;aqua&#34;&gt;log in =登录&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;aqua&#34;&gt;Sign up =注册&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;选择注册方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#选择注册方式&#34;&gt;#&lt;/a&gt; 选择注册方式&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/b96f10569e3756787e75e.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用github登录&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/78f4b147d63f09d8c5126.png&#34; alt=&#34;&#34; title=&#34;随便你写什么&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;随便你写什么&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/4a78dd441b26e06510ca7.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;添加网站&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/003fac6084d17cc33f644.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;选第一个&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/223e0cfed9160d8018948.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;然后选github并登录&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;第二步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二步&#34;&gt;#&lt;/a&gt; 第二步&lt;/h1&gt;
+&lt;h2 id=&#34;登录后选择自己的博客仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#登录后选择自己的博客仓库&#34;&gt;#&lt;/a&gt; 登录后选择自己的博客仓库&lt;/h2&gt;
+&lt;h2 id=&#34;部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署&#34;&gt;#&lt;/a&gt; 部署&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/c19b540a35b042b3c53a5.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;第三步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三步&#34;&gt;#&lt;/a&gt; 第三步&lt;/h1&gt;
+&lt;h2 id=&#34;设置域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置域名&#34;&gt;#&lt;/a&gt; 设置域名&lt;/h2&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;完成部署后，&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/870d62de05fad282ebaaa.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;点击&lt;code&gt;Edit site name&lt;/code&gt; 自定义编辑你的三级域名，最后访问是XXX.netlify.app&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/94a7b2aff0956fafba199.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;br /&gt;
+&lt;span class=&#34;label success&#34;&gt;✔️xxx.netlify.app，就是你的地址&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;第四步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第四步&#34;&gt;#&lt;/a&gt; 第四步&lt;/h1&gt;
+&lt;h2 id=&#34;到最后基本上就完成了可以使用多地ping检查一下&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#到最后基本上就完成了可以使用多地ping检查一下&#34;&gt;#&lt;/a&gt; 到最后基本上就完成了，可以使用多地ping检查一下&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;%22%E7%A4%BA%E4%BE%8B%22&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/434f6f3722d716649b2ea.png&#34; alt=&#34;&#34; title=&#34;Netlify&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; END&lt;/h2&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;加载很快，本章记录到此结束，有问题可以留言。&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

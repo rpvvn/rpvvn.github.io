@@ -1,0 +1,9 @@
+Bundled license information:
+
+shokax-uikit/dist/pagefind/pagefind.js:
+  /**
+  * @vue/shared v3.5.18
+  * (c) 2018-present Yuxi (Evan) You and Vue contributors
+  * @license MIT
+  **/
+  /*! #__NO_SIDE_EFFECTS__ */

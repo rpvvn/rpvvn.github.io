@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "𝕍𝕍'𝔹𝕝𝕠𝕘 • All posts by \"occupied folder\" tag",
+    "description": "欢迎来到Vullfin的个人博客",
+    "home_page_url": "https://blog.vull.top",
+    "items": [
+        {
+            "id": "https://blog.vull.top/posts/59456.html",
+            "url": "https://blog.vull.top/posts/59456.html",
+            "title": "快速解除文件占用",
+            "date_published": "2023-04-04T15:50:26.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录了如何解除删除文件的时候提示的被占用、正在运行、正在打开等情况</p>\n</div>\n<p><img loading=\"lazy\" src=\"https://img.vull.top/file/161c9d6806107219d68d8.png\" alt=\"\" title=\"示例\" /></p>\n<p>+++</p>\n<details class=\"danger\"><summary>方法一</summary><div>\n<h3 id=\"使用火绒不至于为了点醋包顿饺子\"><a class=\"anchor\" href=\"#使用火绒不至于为了点醋包顿饺子\">#</a> 使用火绒（不至于为了点醋包顿饺子）</h3>\n<p><img loading=\"lazy\" src=\"https://img.vull.top/file/1a0ceb0ac851822d915ab.png\" alt=\"\" title=\"例\" /></p>\n<p><a href=\"https://www.huorong.cn/\">点击下载</a></p>\n</div></details>\n<details class=\"danger\"><summary>方法二（比较推荐）</summary><div>\n<h3 id=\"使用lockhunter\"><a class=\"anchor\" href=\"#使用lockhunter\">#</a> 使用LockHunter</h3>\n<p><img loading=\"lazy\" src=\"https://img.vull.top/file/a52bc57ab9a0f3b6c8876.png\" alt=\"\" /></p>\n<p>官网<a href=\"https://lockhunter.com/startdownload.htm\">点击下载</a><br />\n蓝奏云<a href=\"https://ttrr.lanzoum.com/iVvF50s47org\">点击下载</a> <code>密码:ghrc</code></p>\n</div></details>\n<details class=\"danger\"><summary>方法三（1.2有bug会无响应）</summary><div>\n<h3 id=\"使用-iobit-unlocker13版本\"><a class=\"anchor\" href=\"#使用-iobit-unlocker13版本\">#</a> 使用 IObit Unlocker1.3版本</h3>\n<p>官网<a href=\"https://cdn.iobit.com/dl/unlocker-setup.exe\">点击下载</a><br />\n蓝奏云<a href=\"https://ttrr.lanzoum.com/iLZJS0s48b1i\">点击下载</a><code>密码:2fhn</code></p>\n</div></details>\n",
+            "tags": [
+                "Occupied Folder"
+            ]
+        }
+    ]
+}

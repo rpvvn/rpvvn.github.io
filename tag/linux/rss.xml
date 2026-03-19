@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;linux&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Sat, 07 Jan 2023 22:38:17 +0800</pubDate>
+        <lastBuildDate>Sat, 07 Jan 2023 22:38:17 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/61396.html</guid>
+            <title>Linux——FTP搭建</title>
+            <link>https://blog.vull.top/posts/61396.html</link>
+            <category>Linux</category>
+            <pubDate>Sat, 07 Jan 2023 22:38:17 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;ftp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ftp&#34;&gt;#&lt;/a&gt; FTP&lt;/h2&gt;
+&lt;h4 id=&#34;yum配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yum配置&#34;&gt;#&lt;/a&gt; yum配置&lt;/h4&gt;
+&lt;p&gt;以初始状态的linux来进行此次实验&lt;br /&gt;
+这里我使用redhat9&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;配置yum
+&lt;ul&gt;
+&lt;li&gt;配置参考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;name=9-stream_BaseOS&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;enable=1&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;gpgcheck=0&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;baseurl=https://mirrors.ustc.edu.cn/centos-stream/9-stream/BaseOS/x86_64/os/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[AppStream]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;name=9-stream_AppStream&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;enable=1&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;gpgcheck=0&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;baseurl=https://mirrors.ustc.edu.cn/centos-stream/9-stream/AppStream/x86_64/os/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;切记需要备份&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;redhat9关闭订阅
+&lt;ul&gt;
+&lt;li&gt;由于订阅我感觉下载的时候非常慢，所有我选择关闭它。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# 修改如下两个配置文件, 将enabled的值改为0&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;vi /etc/yum/pluginconf.d/product-id.conf&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;vi /etc/yum/pluginconf.d/subscription-manager.conf&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;清除缓存
+&lt;ul&gt;
+&lt;li&gt;yum clean all&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;建立服务器缓存
+&lt;ul&gt;
+&lt;li&gt;yum makecache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;ftp下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ftp下载&#34;&gt;#&lt;/a&gt; FTP下载&lt;/h4&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;yum install -y ftp&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;yum install vsftpd&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;创建共享的文件夹与用户&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建共享的文件夹与用户&#34;&gt;#&lt;/a&gt; 创建共享的文件夹与用户&lt;/h4&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# 创建共享的文件夹&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;mkdir -p /test/ftp&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;touch /test/ftp/100&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;mkdir -p /test/ftp/B&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;touch /test/ftp/B/200&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# 创建ftp用户与密码&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;useradd fff&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;passwd fff&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# 给与权限&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;chown ftp /test/ftp/B&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;chown 6 /test/ftp/B&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;修改主配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修改主配置&#34;&gt;#&lt;/a&gt; 修改主配置&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;进行备份&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;mv /etc/vsftpd/vsftpd.conf /etc/vsftpd/vsftpd.conf.bak&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;因为配置中有很多&lt;code&gt;#&lt;/code&gt;注释的不需要的东西，我们需要用的&lt;code&gt;grep -v &#39;#&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;grep -v &#39;#&#39; /etc/vsftpd/vsftpd.conf.bak &gt;/etc/vsftpd/vsftpd.conf &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;grep -v 或 --invert-match : 显示不包含匹配文本的所有行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;修改&lt;code&gt;vsftpd.conf&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# vsftpd.conf 在 /etc/vsftpd/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;cd /etc/vsftpd/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;vi vsftpd.conf&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;显示如下&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;anonymous_enable=YES # 允许匿名用户登录&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;local_enable=YES # 允许本地（系统）用户登录：&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;write_enable=YES # 允许上传：&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;local_umask=022 # 默认umask&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;dirmessage_enable=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;xferlog_enable=YES # 把传输记录的日志保存到/var/log/vsftpd.log&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;xferlog_file=/var/log/xferlog&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;connect_from_port_20=YES # 使用20号端口传输数据&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;xferlog_std_format=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;ftpd_banner=Welcome to use my test ftp server. # 欢迎标语&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;listen=NO # # 以standalone模式在ipv4上运行&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;listen_ipv6=YES # 不需要监听就注销掉，并修改listen=YES。如果你需要就保持这两行不变。&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;pam_service_name=vsftpd&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;userlist_enable=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;tcp_wrappers=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;#匿名 需要加的&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;anon_root=/fhy/test/11 # 匿名登录的目录&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;anon_upload_enable=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;anon_mkdir_write_enable=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;#本地 需要加的&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;local_root=/fhy/test&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;chroot_local_user=YES&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;allow_writeable_chroot=YES&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# 这一步可以省略不做，因为我们做的是本地实验。&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;# 添加以下配置参数，开启被动模式，设置本地用户登录后所在目录，以及云服务器建立数据传输可使用的端口范围值。&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;local_root=/var/ftp/test&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;allow_writeable_chroot=YES &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;pasv_enable=YES &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;pasv_address=xxx.xx.xxx.xx #请修改为您的Linux云服务器公网IP pasv_min_port=40000 &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;pasv_max_port=45000&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;添加例外用户&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您若没有设置例外用户的需求，可跳过此步骤&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;执行以下命令，创建并编辑 chroot_list 文件。&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;vim /etc/vsftpd/chroot_list&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;按 i 进入编辑模式，输入用户名，一个用户名占据一行&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;设置完成后按 Esc 并输入 :wq 保存后退出。&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;防火墙放行与安全机制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#防火墙放行与安全机制&#34;&gt;#&lt;/a&gt; 防火墙放行与安全机制&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;放行21、20端口&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;iptables -I INPUT -p tcp --dport 61001:62000 -j ACCEPT&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;iptables -I OUTPUT -p tcp --sport 61001:62000 -j ACCEPT&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;iptables -I INPUT -p tcp --dport 20 -j ACCEPT&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;iptables -I OUTPUT -p tcp --sport 20 -j ACCEPT&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;iptables -I INPUT -p tcp --dport 21 -j ACCEPT&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;iptables -I OUTPUT -p tcp --sport 21 -j ACCEPT&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;或者你直接关闭防火墙&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;setenforce 0 # 关闭linux安全机制&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;重启ftp服务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重启ftp服务&#34;&gt;#&lt;/a&gt; 重启FTP服务&lt;/h4&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;systemctl restart vsftpd&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;dns指向自己&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dns指向自己&#34;&gt;#&lt;/a&gt; dns指向自己&lt;/h4&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;方法一&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;vim /etc/resolv.conf #进入后修改添加以下&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;nameserver 192.168.100.10 #自己的IP&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;方法二&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;vim /etc/sysconfig/network-script/ifcfg-网卡&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;DNS1=IP地址&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;两种方法，任选一种&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;可以有多个DNS服务器，依次按照顺序&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;验证省略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#验证省略&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;&#34;&gt;验证省略&lt;/a&gt;&lt;/h4&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/53541.html</guid>
+            <title>linux快捷键</title>
+            <link>https://blog.vull.top/posts/53541.html</link>
+            <category>Linux</category>
+            <pubDate>Sat, 10 Dec 2022 23:03:28 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; 常用命令&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cd /home   进入 &#39;/home&#39; 目录&lt;br /&gt;
+cd .. 返回上一级目录&lt;br /&gt;
+cd ../.. 返回上两级目录&lt;br /&gt;
+cd - 返回上次所在目录&lt;br /&gt;
+cp file1 file2 将file1复制为file2&lt;br /&gt;
+cp -a dir1 dir2 复制一个目录&lt;br /&gt;
+cp -a /tmp/dir1 . 复制一个目录到当前工作目录（.代表当前目录）&lt;br /&gt;
+ls 查看目录中的文件&lt;br /&gt;
+ls -a 显示隐藏文件&lt;br /&gt;
+ls -l 显示详细信息&lt;br /&gt;
+ls -lrt 按时间显示文件（l表示详细列表，r表示反向排序，t表示按时间排序）&lt;br /&gt;
+pwd 显示工作路径&lt;br /&gt;
+mkdir dir1 创建 &#39;dir1&#39; 目录&lt;br /&gt;
+mkdir dir1 dir2 同时创建两个目录&lt;br /&gt;
+mkdir -p /tmp/dir1/dir2 创建一个目录树&lt;br /&gt;
+mv dir1 dir2 移动/重命名一个目录&lt;br /&gt;
+rm -f file1 删除 &#39;file1&#39;&lt;br /&gt;
+rm -rf dir1 删除 &#39;dir1&#39; 目录及其子目录内容&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;查看文件内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看文件内容&#34;&gt;#&lt;/a&gt; 查看文件内容:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cat file1 从第一个字节开始正向查看文件的内容&lt;br /&gt;
+head -2 file1 查看一个文件的前两行&lt;br /&gt;
+more file1 查看一个长文件的内容&lt;br /&gt;
+tac file1 从最后一行开始反向查看一个文件的内容&lt;br /&gt;
+tail -3 file1 查看一个文件的最后三行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;文本处理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本处理&#34;&gt;#&lt;/a&gt; 文本处理:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;grep str /tmp/test 在文件 &#39;/tmp/test&#39; 中查找 &amp;quot;str&amp;quot;&lt;br /&gt;
+grep ^str /tmp/test 在文件 &#39;/tmp/test&#39; 中查找以 &amp;quot;str&amp;quot; 开始的行&lt;br /&gt;
+grep [0-9] /tmp/test 查找 &#39;/tmp/test&#39; 文件中所有包含数字的行&lt;br /&gt;
+grep str -r /tmp/* 在目录 &#39;/tmp&#39; 及其子目录中查找 &amp;quot;str&amp;quot;&lt;br /&gt;
+diff file1 file2 找出两个文件的不同处&lt;br /&gt;
+sdiff file1 file2 以对比的方式显示两个文件的不同&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;查找&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查找&#34;&gt;#&lt;/a&gt; 查找:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;find / -name file1 从 &#39;/&#39; 开始进入根文件系统查找文件和目录&lt;br /&gt;
+find / -user user1 查找属于用户 &#39;user1&#39; 的文件和目录&lt;br /&gt;
+find /home/user1 -name *.bin 在目录 &#39;/ home/user1&#39; 中查找以 &#39;.bin&#39; 结尾的文件&lt;br /&gt;
+find /usr/bin -type f -atime +100 查找在过去100天内未被使用过的执行文件&lt;br /&gt;
+find /usr/bin -type f -mtime -10 查找在10天内被创建或者修改过的文件&lt;br /&gt;
+locate *.ps 寻找以 &#39;.ps&#39; 结尾的文件，先运行 &#39;updatedb&#39; 命令&lt;br /&gt;
+find -name &#39;*.[ch]&#39; | xargs grep -E &#39;expr&#39; 在当前目录及其子目录所有.c和.h文件中查找 &#39;expr&#39;&lt;br /&gt;
+find -type f -print0 | xargs -r0 grep -F &#39;expr&#39; 在当前目录及其子目录的常规文件中查找 &#39;expr&#39;&lt;br /&gt;
+find -maxdepth 1 -type f | xargs grep -F &#39;expr&#39; 在当前目录中查找 &#39;expr&#39;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;压缩和解压&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#压缩和解压&#34;&gt;#&lt;/a&gt; 压缩和解压:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;bzip2 file1 压缩 file1&lt;br /&gt;
+bunzip2 file1.bz2 解压 file1.bz2&lt;br /&gt;
+gzip file1 压缩 file1&lt;br /&gt;
+gzip -9 file1 最大程度压缩 file1&lt;br /&gt;
+gunzip file1.gz 解压 file1.gz&lt;br /&gt;
+tar -cvf archive.tar file1 把file1打包成 archive.tar&lt;br /&gt;
+（-c: 建立压缩档案；-v: 显示所有过程；-f: 使用档案名字，是必须的，是最后一个参数）&lt;br /&gt;
+tar -cvf archive.tar file1 dir1 把 file1，dir1 打包成 archive.tar&lt;br /&gt;
+tar -tf archive.tar 显示一个包中的内容&lt;br /&gt;
+tar -xvf archive.tar 释放一个包&lt;br /&gt;
+tar -xvf archive.tar -C /tmp 把压缩包释放到 /tmp目录下&lt;br /&gt;
+zip file1.zip file1 创建一个zip格式的压缩包&lt;br /&gt;
+zip -r file1.zip file1 dir1 把文件和目录压缩成一个zip格式的压缩包&lt;br /&gt;
+unzip file1.zip 解压一个zip格式的压缩包到当前目录&lt;br /&gt;
+unzip test.zip -d /tmp/ 解压一个zip格式的压缩包到 /tmp 目录&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;yum工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yum工具&#34;&gt;#&lt;/a&gt; yum工具:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;yum -y install [package] 下载并安装一个rpm包&lt;br /&gt;
+yum localinstall [package.rpm] 安装一个rpm包，使用你自己的软件仓库解决所有依赖关系&lt;br /&gt;
+yum -y update 更新当前系统中安装的所有rpm包&lt;br /&gt;
+yum update [package] 更新一个rpm包&lt;br /&gt;
+yum remove [package] 删除一个rpm包&lt;br /&gt;
+yum list 列出当前系统中安装的所有包&lt;br /&gt;
+yum search [package] 在rpm仓库中搜寻软件包&lt;br /&gt;
+yum clean [package] 清除缓存目录（/var/cache/yum）下的软件包&lt;br /&gt;
+yum clean headers 删除所有头文件&lt;br /&gt;
+yum clean all 删除所有缓存的包和头文件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;网络&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络&#34;&gt;#&lt;/a&gt; 网络:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ifconfig eth0 显示一个以太网卡的配置&lt;br /&gt;
+ifconfig eth0 192.168.1.1 netmask 255.255.255.0 配置网卡的IP地址&lt;br /&gt;
+ifdown eth0 禁用 &#39;eth0&#39; 网络设备&lt;br /&gt;
+ifup eth0 启用 &#39;eth0&#39; 网络设备&lt;br /&gt;
+iwconfig eth1 显示一个无线网卡的配置&lt;br /&gt;
+iwlist scan 显示无线网络&lt;br /&gt;
+ip addr show 显示网卡的IP地址&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;其他&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;su - 切换到root权限（与su有区别）&lt;br /&gt;
+shutdown -h now 关机&lt;br /&gt;
+shutdown -r now 重启&lt;br /&gt;
+top 罗列使用CPU资源最多的linux任务 （输入q退出）&lt;br /&gt;
+pstree 以树状图显示程序&lt;br /&gt;
+man ping 查看参考手册（例如ping 命令）&lt;br /&gt;
+passwd 修改密码&lt;br /&gt;
+df -h 显示磁盘的使用情况&lt;br /&gt;
+cal -3 显示前一个月，当前月以及下一个月的月历&lt;br /&gt;
+cal 10 1988 显示指定月，年的月历&lt;br /&gt;
+date --date &#39;1970-01-01 UTC 1427888888 seconds&#39; 把一相对于1970-01-01 00:00的秒数转换成时间&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;常用快捷键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用快捷键&#34;&gt;#&lt;/a&gt; 常用快捷键:&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CentOS 6.4 中可以通过系统-&amp;gt;首选项-&amp;gt;键盘快捷键来设置快捷键，如图所示。例如可将运行终端的快捷键设为Ctrl+Alt+T。&lt;br /&gt;
+Ctrl + u 删除光标之前到行首的字符&lt;br /&gt;
+Ctrl + k 删除光标之前到行尾的字符&lt;br /&gt;
+Ctrl + c 取消当前行输入的命令，相当于Ctrl + Break&lt;br /&gt;
+Ctrl + a 光标移动到行首（ahead of line），相当于通常的Home键&lt;br /&gt;
+Ctrl + e 光标移动到行尾（end of line）&lt;br /&gt;
+Ctrl + f 光标向前（forward）移动一个字符位置&lt;br /&gt;
+Ctrl + b 光标往回（backward）移动一个字符位置&lt;br /&gt;
+Ctrl + l 清屏，相当于执行clear命令&lt;br /&gt;
+Ctrl + r 显示:号提示，根据用户输入查找相关历史命令（reverse-i-search）&lt;br /&gt;
+Ctrl + w 删除从光标位置前到当前所处单词（word）的开头&lt;br /&gt;
+Ctrl + t 交换光标位置前的两个字符&lt;br /&gt;
+Ctrl + y 粘贴最后一次被删除的单词&lt;br /&gt;
+Ctrl + Alt + d 显示桌面&lt;br /&gt;
+Alt + b 光标往回（backward）移动到前一个单词&lt;br /&gt;
+Alt + d 删除从光标位置到当前所处单词的末尾&lt;br /&gt;
+Alt + F2 运行&lt;br /&gt;
+Alt + F4 关闭当前窗口&lt;br /&gt;
+Alt + F9 最小化当前窗口&lt;br /&gt;
+Alt + F10 最大化当前窗口&lt;br /&gt;
+Alt + Tab 切换窗口&lt;br /&gt;
+Alt +按住左键 移动窗口（或在最下面的任务栏滚动鼠标滑轮）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[鼠标中间键] 粘贴突出显示的文本。使用鼠标左键来选择文本。把光标指向想粘贴文本的地方。点击鼠标中间键来粘贴。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[Tab] 命令行自动补全。使用 shell 提示时可使用这一方式。键入命令或文件名的前几个字符，然后按 [Tab] 键，它会自动补全命令或显示匹配键入字符的所有命令。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在桌面或文件管理器中直接按 / 就可以输入位置，打开文件管理器。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;快速搜索：在 vi 或 Firefox 中直接按 / 即可进入搜索状态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;网站链接和图片可直接拖放到桌面或者目录，可以马上下载。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;直接将文件管理器中的文件拖到终端中就可以在终端中得到完整的路径名。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在滚动条的空白处点击鼠标中键，屏幕即滚动到那个地方。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/24884.html</guid>
+            <title>Linux笔记</title>
+            <link>https://blog.vull.top/posts/24884.html</link>
+            <category>Linux</category>
+            <pubDate>Sat, 10 Dec 2022 19:32:36 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;centos8&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos8&#34;&gt;#&lt;/a&gt; centos8&lt;/h1&gt;
+&lt;h2 id=&#34;yum配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yum配置&#34;&gt;#&lt;/a&gt; yum配置&lt;/h2&gt;
+&lt;p&gt;我只推荐使用网络yum&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网络源：阿里yum&lt;br /&gt;
+&lt;code&gt;centos8&lt;/code&gt;&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;wget&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -O&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; /etc/yum.repos.d/CentOS-Base.repo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; http://mirrors.aliyun.com/repo/Centos-7.repo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;code&gt;centos7&lt;/code&gt;&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;wget&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -O&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; /etc/yum.repo.d/CentOS-Linux-BaseOS.repo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; http://mirrors.aliyun.com/repo/Centos-8.repo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+等等&lt;/li&gt;
+&lt;li&gt;本地yum挂载：速度慢，不建议捏。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;第一步：
+&lt;ul&gt;
+&lt;li&gt;检查dvd光驱是否连接，使用&lt;code&gt;lsblk df&lt;/code&gt;查看都可以&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第二步：
+&lt;ul&gt;
+&lt;li&gt;创建挂载点&lt;code&gt;mkdir /mnt/a&lt;/code&gt;，并用&lt;code&gt;mount /dev/cdrom /mnt/a&lt;/code&gt;进行挂载&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;df -hT /mnt/a&lt;/code&gt;查看挂载记录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第三步：
+&lt;ul&gt;
+&lt;li&gt;使用&lt;code&gt;cd /etc/yum.repo.d/&lt;/code&gt;到yum配置目录&lt;/li&gt;
+&lt;li&gt;mkdir /aa&lt;/li&gt;
+&lt;li&gt;进行备份&lt;code&gt;mv *.repo aa&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;拷贝一份yum.base.repo出来&lt;code&gt;cp -p  .&lt;/code&gt; （这里的点是当前目录意思）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第四步：
+&lt;ul&gt;
+&lt;li&gt;vim /etc/yum.Base.repo&lt;/li&gt;
+&lt;li&gt;改目录为创建的挂载点&lt;/li&gt;
+&lt;li&gt;wq保存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;麻烦捏，直接网络源就好了。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

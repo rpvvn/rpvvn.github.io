@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.vull.top</id>
+    <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;window&#34; category</title>
+    <link href="https://blog.vull.top" />
+    <updated>2023-06-12T16:36:47.000Z</updated>
+    <category term="Record" />
+    <category term="Image hosting" />
+    <category term="Personal Website" />
+    <category term="update" />
+    <category term="生活记录" />
+    <category term="辅助/外挂" />
+    <category term="SEO" />
+    <category term="Shoka" />
+    <category term="MD" />
+    <category term="博客md文章" />
+    <category term="netlify加速访问博客" />
+    <category term="hexo搭建" />
+    <category term="OpenAI反代" />
+    <category term="ShokaX" />
+    <category term="VMware17pro激活码" />
+    <category term="Window Delete/Uninstall" />
+    <category term="百度云盘加速" />
+    <category term="Occupied Folder" />
+    <category term="Window Tip" />
+    <category term="English note" />
+    <category term="Linux" />
+    <category term="原创力" />
+    <category term="ensp笔记" />
+    <category term="RHEL" />
+    <category term="JAVA note" />
+    <entry>
+        <id>https://blog.vull.top/posts/42218.html</id>
+        <title>VMware17pro-激活码</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/42218.html"/>
+        <content type="html">&lt;h2 id=&#34;教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程&#34;&gt;#&lt;/a&gt; 教程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;直接官网&lt;a href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34;&gt;VMware17pro安装&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装后填入直接使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;激活码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#激活码&#34;&gt;#&lt;/a&gt; 激活码&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;MC60H-DWHD5-H80U9-6V85M-8280D&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="VMware17pro激活码" />
+        <updated>2023-06-12T16:36:47.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/posts/46267.html</id>
+        <title>ce加速百度云盘</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/46267.html"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录使用ce修改器加速百度云盘记录，仅供学习参考。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;使用旧版百度云盘，并且禁止它更新。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据百度云盘文件来看，好像并没有后端限速，只是在本地进行限速，但是不排除以后这种方法失效，所以能用且用吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/qKleVv-O90I.html&#34; title=&#34;提取码RPWN&#34;&gt;百度云盘7.23.0.10提取码RPWN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/qKleVv-R90I.html&#34;&gt;CE 7.5版本提取码RPWN&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;正常下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正常下载&#34;&gt;#&lt;/a&gt; 正常下载&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/acb40bbf0d06863c7ee53f323fa584dcfdf04d18.png&#34; alt=&#34;&#34; title=&#34;哔哩哔哩图床支持&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/3df2778eaf664594ac9fd649e03e309a4d6758ea.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;开始ce加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始ce加速&#34;&gt;#&lt;/a&gt; 开始CE加速&lt;/h2&gt;
+&lt;p&gt;保持下载，接着打开CE7.5&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/5e6acea14825e738d0f6579e7441b5f31220d0f3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择一个host（因为有两个嘛 有一个无效的，用来连接后端应该）点击变速精灵开启，根据需要选择倍数，我直接拉曼五百倍，然后点应用。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/d7eaf200e92f01f72e3b6b06378dbfa6af100c26.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;可以看见没有效果，说明选错了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/e564d64ceaf83b42342816bb0f417ed0d1244bd6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;换一个host，看下载速度：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/dbb79ba9787e959c66a41603c397bf2c4af9e04b.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有时候倍数太大反而不好，根据自己需要选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;经过测试是可以满速的，但是我连的热点，速度就是这么多了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/2f5e26cf4b4990adf48c68ae79d7129185d5dcc4.png&#34; alt=&#34;&#34; title=&#34;哔哩哔哩图床支持&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;禁止更新&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁止更新&#34;&gt;#&lt;/a&gt; 禁止更新&lt;/h2&gt;
+&lt;p&gt;自从百度云盘更新后，这个bug就进行了修复。所以我们还想使用的话，就需要不更新。&lt;/p&gt;
+&lt;p&gt;安装7.23.0.10版本百度云盘后，打开安装根目录。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/54f9e39d08d4379b05ea9da88e1869d32f314c9c.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;可以一目了然看见，自动更新文件：&lt;code&gt;Autoupdate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;把里面文件删除，或者整个文件夹删除都可以。&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;如果你发现文件夹自己下载回来，就自己删除后，新建一个名为：aotoupdate的文件夹，然后更改它的权限，不可编辑，让百度云盘无法自己更新回来。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;补充说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#补充说明&#34;&gt;#&lt;/a&gt; 补充说明&lt;/h2&gt;
+&lt;p&gt;当你网速十兆却无法通过这个CE修改器来达到的时候，重新安装7.23.0.10版本的百度云盘再次使用CE修改器即可恢复满速，目前来看，是可以这么操作的。&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;CE修改器需要是7.5版本。7.4版本无效，不知道为什么。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; END&lt;/h2&gt;
+&lt;p&gt;本次教程到此结束，不懂可以留下评论你遇到的问题。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;❤️测试可用时间：2023/05/12&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="百度云盘加速" />
+        <updated>2023-05-12T12:32:49.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/posts/8164.html</id>
+        <title>window删除工具使用体验</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/8164.html"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了window删除(卸载)工具使用体验记录&lt;/p&gt;
+&lt;/div&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Geek&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：有免费版，工具小功能齐全，可以解压立即使用&lt;br /&gt;
+缺点：有时候删除并不干净，看软件顽固情况。免费版阉割但不多，个人使用完全足够&lt;br /&gt;
+总结：要什么自行车&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://geekuninstaller.com/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;System Mechanic&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：功能强大，支持mac、window、Android、ios多系统，很吊的波&lt;br /&gt;
+缺点：免费版阉割严重，专业版贵到死&lt;br /&gt;
+总结：别要大邮轮好么&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.iolo.com/products/system-mechanic/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Glary Utilities&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：多合一功能齐全，提供硬碟分析&lt;br /&gt;
+缺点：卸载不干净，好tm贵，不过免费版可以用&lt;br /&gt;
+总结：要什么大游艇&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.glarysoft.com/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Wise Disk Cleaner&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：小巧如geek等软件，功能单一，许多有用的没有，不过你可以下载试试看&lt;br /&gt;
+缺点：没有太多功能，难用&lt;br /&gt;
+总结：要什么大房子&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.wisecleaner.com/wise-disk-cleaner.html&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;System Ninja&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：可以升级加功能，界面干净，功能还行&lt;br /&gt;
+缺点：安装升级外挂不够简洁，有更多可以替代它的&lt;br /&gt;
+总结：要什么自行车&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://singularlabs.com/software/system-ninja/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Bleachbit&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：与geek一样很小巧，功能齐全，方便携带再各种移动介质&lt;br /&gt;
+缺点：ui好丑（个人觉得），使用时会占用很多cpu性能&lt;br /&gt;
+总结：要什么大轮船&lt;br /&gt;
+软件官网：&lt;a href=&#34;&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Uninstall Tool&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：有免费版提供，该有都有点&lt;br /&gt;
+缺点：阉割（满足个人）&lt;br /&gt;
+总结：要什么自行车&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://crystalidea.com/uninstall-tool&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Revo Uninstaller-pro&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：卸载牛，功能齐全，含有猎人追踪&lt;br /&gt;
+缺点：因为卸载力度大，卸载扫描过程较长&lt;br /&gt;
+总结：自行车有的&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.revouninstaller.com/zh/revo-uninstaller-free-download/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;CCleaner&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：以前很好用的软件，软件强大，功能也有驱动器擦除等功能&lt;br /&gt;
+缺点：囊肿、半个流氓本身了，有安全漏洞隐患&lt;br /&gt;
+总结：不推荐&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.ccleaner.com/zh-cn&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Advanced-systemcare&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：画面好看，功能很多，很强大，有很多优秀同款作品例如：IObitUninstaller-Pro&lt;br /&gt;
+缺点：可惜只能使用免费版，电脑太老运行会卡&lt;br /&gt;
+总结：很ok&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.iobit.com/en/index.php?s&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;IObitUninstaller-Pro&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：很强大&lt;br /&gt;
+缺点：太强大占用资源较多，会卡&lt;br /&gt;
+总结：大轮船(有破解版，可以自己去找)&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.iobit.com/en/advanceduninstaller.php&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;p&gt;推荐&lt;code&gt;IObitUninstaller-Pro&lt;/code&gt; &lt;code&gt;Advanced-systemcare&lt;/code&gt;&lt;/p&gt;
+</content>
+        <category term="Window Delete/Uninstall" />
+        <updated>2023-04-17T15:13:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/posts/13628.html</id>
+        <title>OpenAI国内代理教程</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/13628.html"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了如何使用国内云进行反代OpenAI&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;注册腾讯云账号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册腾讯云账号&#34;&gt;#&lt;/a&gt; 注册腾讯云账号&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.tencent.com&#34;&gt;点击跳转腾讯云&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;进入云函数控制台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进入云函数控制台&#34;&gt;#&lt;/a&gt; 进入云函数控制台&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://console.cloud.tencent.com/scf/list&#34;&gt;点击直达云函数控制台&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;新建云函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建云函数&#34;&gt;#&lt;/a&gt; 新建云函数&lt;/h2&gt;
+&lt;h3 id=&#34;基础配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础配置&#34;&gt;#&lt;/a&gt; 基础配置&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;第一步
+&lt;ul&gt;
+&lt;li&gt;点击&lt;code&gt;新建&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;函数类型选择&lt;code&gt;web函数&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;名称随便写，这里我取名：&lt;code&gt;openAI&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;地域选择&lt;code&gt;香港&lt;/code&gt;或&lt;code&gt;其他国家&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;时区&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/46a5bbff0c5704d80f1b0.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;函数代码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数代码&#34;&gt;#&lt;/a&gt; 函数代码&lt;/h3&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;第二步
+&lt;ul&gt;
+&lt;li&gt;选择&lt;code&gt;本地上传ZIP&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ttrr.lanzoum.com/i6y5e0sa8q3g&#34;&gt;点击下载ZIP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/9947c83a792555acc7f23.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;日记配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#日记配置&#34;&gt;#&lt;/a&gt; 日记配置&lt;/h3&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;第三步
+&lt;ul&gt;
+&lt;li&gt;开启的话或有费用产生，大概几毛？一块左右？看你使用量！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/822abd2f5a626d58c9310.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;高级配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高级配置&#34;&gt;#&lt;/a&gt; 高级配置&lt;/h3&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;第四步
+&lt;ul&gt;
+&lt;li&gt;从环境配置开始&lt;/li&gt;
+&lt;li&gt;内存&lt;code&gt;64MB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;初始化超时时间&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;执行超时时间&lt;code&gt;900秒&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/0834ba2daff51fdb3cf4c.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;第五步&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;下滑至&lt;code&gt;请求多并发&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;启用并选择&lt;code&gt;2并发&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;其余没说的全部&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/0d0b3845955b1390581ed.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;触发器配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#触发器配置&#34;&gt;#&lt;/a&gt; 触发器配置&lt;/h3&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;第六步
+&lt;ul&gt;
+&lt;li&gt;类型&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;别名&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;请求方法选择&lt;code&gt;ANY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;发布环境&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;鉴权方法&lt;code&gt;免鉴权&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/6584dd6571b5228548eb5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;这一步有可能像我一样:相关服务器角色异常,点击授权一下就好了。&lt;br /&gt;
+如果不行，那就重新建一个触发器&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#地址&#34;&gt;#&lt;/a&gt; 地址&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;需要去掉后面的&lt;code&gt;/release&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;得到地址就是你的接口地址&lt;/li&gt;
+&lt;li&gt;直接访问会&lt;code&gt;404&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/759927a84588a858380d3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用接口方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用接口方法&#34;&gt;#&lt;/a&gt; 使用接口方法&lt;/h2&gt;
+&lt;p&gt;在任何支持配置 OpenAI 域名的软件中使用它&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用第三方：&lt;a href=&#34;https://ai.okmiku.com/&#34;&gt;CatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;点击右上角的🔑图标，在接口地址中我们搭建好的地址&lt;/li&gt;
+&lt;li&gt;愉快使用OpenAI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openai-nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#openai-nodejs&#34;&gt;#&lt;/a&gt; OpenAI Node.js&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;官方调用&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;const&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; configuration&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt; new&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt; Configuration&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  apiKey&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; OPENAI_API_KEY&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  basePath&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#39;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;https://service-aaaaa.hk.apigw.tencentcs.com/v1&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;自己托管&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自己托管&#34;&gt;#&lt;/a&gt; 自己托管&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;托管步骤&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;git clone https://github.com/Ice-Hazymoon/openai-scf-proxy&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;cd openai-scf-proxy&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;npm install&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;npm run start&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注意事项&#34;&gt;#&lt;/a&gt; 注意事项&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;OpenAI—key&lt;/code&gt;需要自己注册&lt;br /&gt;
+别人的&lt;code&gt;OpenAI—key&lt;/code&gt;有可能需要付费&lt;/p&gt;
+</content>
+        <category term="OpenAI反代" />
+        <updated>2023-04-06T16:19:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/posts/59456.html</id>
+        <title>快速解除文件占用</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/59456.html"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了如何解除删除文件的时候提示的被占用、正在运行、正在打开等情况&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/161c9d6806107219d68d8.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;方法一&lt;/summary&gt;&lt;div&gt;
+&lt;h3 id=&#34;使用火绒不至于为了点醋包顿饺子&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用火绒不至于为了点醋包顿饺子&#34;&gt;#&lt;/a&gt; 使用火绒（不至于为了点醋包顿饺子）&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/1a0ceb0ac851822d915ab.png&#34; alt=&#34;&#34; title=&#34;例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.huorong.cn/&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;方法二（比较推荐）&lt;/summary&gt;&lt;div&gt;
+&lt;h3 id=&#34;使用lockhunter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用lockhunter&#34;&gt;#&lt;/a&gt; 使用LockHunter&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/a52bc57ab9a0f3b6c8876.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;官网&lt;a href=&#34;https://lockhunter.com/startdownload.htm&#34;&gt;点击下载&lt;/a&gt;&lt;br /&gt;
+蓝奏云&lt;a href=&#34;https://ttrr.lanzoum.com/iVvF50s47org&#34;&gt;点击下载&lt;/a&gt; &lt;code&gt;密码:ghrc&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;方法三（1.2有bug会无响应）&lt;/summary&gt;&lt;div&gt;
+&lt;h3 id=&#34;使用-iobit-unlocker13版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-iobit-unlocker13版本&#34;&gt;#&lt;/a&gt; 使用 IObit Unlocker1.3版本&lt;/h3&gt;
+&lt;p&gt;官网&lt;a href=&#34;https://cdn.iobit.com/dl/unlocker-setup.exe&#34;&gt;点击下载&lt;/a&gt;&lt;br /&gt;
+蓝奏云&lt;a href=&#34;https://ttrr.lanzoum.com/iLZJS0s48b1i&#34;&gt;点击下载&lt;/a&gt;&lt;code&gt;密码:2fhn&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+</content>
+        <category term="Occupied Folder" />
+        <updated>2023-04-04T15:50:26.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/posts/64498.html</id>
+        <title>window默认七个文件夹</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/64498.html"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了删除window 计算机中七个自带的默认入口&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/a3352df204b57ea57272d.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3D Objects（3D 对象）、Desktop（桌面）、Documents（文档）、Downloads（下载）、Music（音乐）、Pictures（图片）、Videos（视频）&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;使用删除法有可能影响电脑系统，但是我自己也用目前没有什么毛病。不过我提供了恢复教程&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;删除法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#删除法&#34;&gt;#&lt;/a&gt; 删除法&lt;/h1&gt;
+&lt;h2 id=&#34;比较推荐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#比较推荐&#34;&gt;#&lt;/a&gt; 比较推荐&lt;/h2&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;功能：一键删除七个文件夹&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;将下列文字保存为&lt;code&gt;reg&lt;/code&gt;格式&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;Windows Registry Editor Version 5.00 &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}] &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;功能：一键恢复七个文件夹&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;将下列文字保存为&lt;code&gt;reg&lt;/code&gt;格式&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;Windows Registry Editor Version 5.00 &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}] &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;注册表修改方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册表修改方法&#34;&gt;#&lt;/a&gt; 注册表修改方法&lt;/h1&gt;
+&lt;h4 id=&#34;注册表位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册表位置&#34;&gt;#&lt;/a&gt; 注册表位置&lt;/h4&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;64位操作系统&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;详细位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#详细位置&#34;&gt;#&lt;/a&gt; 详细位置&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7个文件夹下的\PropertyBag文件夹，将其中ThisPCPolicy值，双击名称由Show改成Hide&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/415f0f89b37ec8fc0dda4.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Desktop（桌面）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Documents（文档）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{f42ee2d3-909f-4907-8871-4c22fc0bf756}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Downloads（下载）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{7d83ee9b-2244-4e70-b1f5-5393042af1e4}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Music（音乐）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{a0c69a99-21c8-4671-8703-7934162fcf1d}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Pictures（图片）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{0ddd015d-b06c-45d5-8c4c-f59713854639}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Videos（视频）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{35286a68-3c57-41a1-bbb1-0eae73d76c95}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+</content>
+        <category term="Window Tip" />
+        <updated>2023-03-16T18:59:52.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.vull.top/posts/35842.html</id>
+        <title>小技巧</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/35842.html"/>
+        <content type="html">&lt;h1 id=&#34;cmd小技巧&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cmd小技巧&#34;&gt;#&lt;/a&gt; cmd小技巧&lt;/h1&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;CMD技巧&#34;&gt;
+&lt;h3 id=&#34;快速打开系统变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快速打开系统变量&#34;&gt;#&lt;/a&gt; 快速打开系统变量&lt;/h3&gt;
+&lt;p&gt;​	 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;R&lt;/span&gt; 输入 &lt;code&gt;sysdm.cql&lt;/code&gt;  可以快捷打开高级系统设置含有环境变量等修改&lt;/p&gt;
+&lt;p&gt;​	&lt;code&gt;Net stop wuauserv&lt;/code&gt; 关闭window更新&lt;/p&gt;
+&lt;p&gt;​	&lt;code&gt;Net start wuauserv&lt;/code&gt;打开window更新&lt;/p&gt;
+&lt;h3 id=&#34;查看唤醒设备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看唤醒设备&#34;&gt;#&lt;/a&gt; 查看唤醒设备&lt;/h3&gt;
+&lt;p&gt;​	&lt;strong&gt;查看能唤醒设备&lt;/strong&gt; &lt;code&gt;powercfg /devicequery wake_armed&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;允许唤醒&lt;/strong&gt; powercfg /deviceenablewake &amp;quot;XXX&amp;quot;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;拒绝唤醒&lt;/strong&gt; powercfg /devicedisablewake &amp;quot;XXX&amp;quot;&lt;/p&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;不会就不要乱搞哦&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;bat脚本&#34;&gt;
+&lt;h1 id=&#34;bat脚本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bat脚本&#34;&gt;#&lt;/a&gt; bat脚本&lt;/h1&gt;
+&lt;h3 id=&#34;简单介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简单介绍&#34;&gt;#&lt;/a&gt; 简单介绍&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add \ABC\HKLM\Software\MyCo&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改远程机器 ABC 上的一个注册表项 HKLM\Software\MyCo&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add HKLM\Software\MyCo /v Data /t REG_BINARY /d fe340ead&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改一个值(名称: Data，类型: REG_BINARY，数据: fe340ead)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add HKLM\Software\MyCo /v MRU /t REG_MULTI_SZ /d fax\0mail&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改一个值(名称: MRU，类型: REG_MUTLI_SZ，数据: fax\0mail\0\0)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add HKLM\Software\MyCo /v Path /t REG_EXPAND_SZ /d %%systemroot%%&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改一个值(名称: Path，类型: REG_EXPAND_SZ，数据: %systemroot%)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意: 在扩充字符串中使用双百分比符号( %% )&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;linux&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux&#34;&gt;#&lt;/a&gt; Linux&lt;/h1&gt;
+&lt;h3 id=&#34;网卡设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网卡设置&#34;&gt;#&lt;/a&gt; 网卡设置&lt;/h3&gt;
+&lt;p&gt;nmcli connection modify ens160 ipv4.method manual +ipv4.addresses 192.168.189.131/24 autoconnect yes&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设置第一个ip与掩码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;nmcli connection modify ens160 ipv4.method manual +ipv4.addresses 192.168.189.132/24 autoconnect yes&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设置第二个ip与掩码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;nmcli connection down ens160 &amp;amp;&amp;amp; nmcli connection up ens160&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;重新启动网卡&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;window&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#window&#34;&gt;#&lt;/a&gt; window&lt;/h1&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;教程&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;启动报错&lt;span class=&#34;blue&#34;&gt;Win32Bridge.Server.exe&lt;/span&gt;函数不正确&lt;br /&gt;
+删除了&lt;span class=&#34;blue&#34;&gt;Cortana&lt;/span&gt;系统的文件导致&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;在自带卸载应用界面，找到&lt;code&gt;Cortana&lt;/code&gt;应用选择高级选项&lt;/li&gt;
+&lt;li&gt;选择充值此应用即可&lt;/li&gt;
+&lt;li&gt;重启&lt;/li&gt;
+&lt;li&gt;修好&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content>
+        <category term="Window Tip" />
+        <updated>2023-02-08T17:37:09.000Z</updated>
+    </entry>
+</feed>

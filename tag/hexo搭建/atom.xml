@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.vull.top</id>
+    <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;hexo搭建&#34; tag</title>
+    <link href="https://blog.vull.top" />
+    <updated>2022-03-18T04:30:48.000Z</updated>
+    <category term="Record" />
+    <category term="Image hosting" />
+    <category term="Personal Website" />
+    <category term="update" />
+    <category term="生活记录" />
+    <category term="辅助/外挂" />
+    <category term="SEO" />
+    <category term="Shoka" />
+    <category term="MD" />
+    <category term="博客md文章" />
+    <category term="netlify加速访问博客" />
+    <category term="hexo搭建" />
+    <category term="OpenAI反代" />
+    <category term="ShokaX" />
+    <category term="VMware17pro激活码" />
+    <category term="Window Delete/Uninstall" />
+    <category term="百度云盘加速" />
+    <category term="Occupied Folder" />
+    <category term="Window Tip" />
+    <category term="English note" />
+    <category term="Linux" />
+    <category term="原创力" />
+    <category term="ensp笔记" />
+    <category term="RHEL" />
+    <category term="JAVA note" />
+    <entry>
+        <id>https://blog.vull.top/posts/36579.html</id>
+        <title>博客创建心得</title>
+        <link rel="alternate" href="https://blog.vull.top/posts/36579.html"/>
+        <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;欢迎来到TTRR个人博客，本篇分享的是我对于hexo搭建并部署到github的个人心得分享。&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;本站图床基于国外，流畅查看图片需要翻墙&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;博客心得&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客心得&#34;&gt;#&lt;/a&gt; 博客心得&lt;/h1&gt;
+&lt;h3 id=&#34;第一步下载nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一步下载nodejs&#34;&gt;#&lt;/a&gt; 第一步下载node.js&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;安装 &lt;a href=&#34;http://nodejs.cn/download/&#34;&gt;node.js&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;1、安装node.js的安装包根据自己搭建环境。（这边展示为windows）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/b519d4ed4f8563e28957c.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;安装目录推荐再C盘。（其实整个node.js占用也不大）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/4e8e418b506233c6854d8.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;这里选择最后一个 &lt;em&gt;&lt;strong&gt;Add to PATH&lt;/strong&gt;&lt;/em&gt; 功能进行安装。&lt;br /&gt;
+（因为接下来我们要用到这个PATH功能，这里不过多描述）&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/68420ba2d77275166c1bb.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接下来安装就直接一路选择 &lt;em&gt;&lt;strong&gt;Next&lt;/strong&gt;&lt;/em&gt; 直到安装结束。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第二步下载git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二步下载git&#34;&gt;#&lt;/a&gt; 第二步下载Git&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;安装蓝奏云版&lt;a href=&#34;https://www.lanzoui.com/i9s7tib&#34;&gt;Git&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;官网直达下载&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;温馨提示：如果点击无法打开请安装一些步骤操作&lt;br /&gt;
+Ⅰ. 将链接的&lt;strong&gt;&lt;a href=&#34;http://lanzoui.xn--comlanzous-yj8tf80a.com&#34;&gt;lanzoui.com改成lanzous.com&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Ⅱ. 删除&lt;strong&gt;www&lt;/strong&gt;&lt;br /&gt;
+你可以将Git安装再任意你喜欢的文件夹中（安装在哪都可以哦~）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1、接着一路点击&lt;strong&gt;Next&lt;/strong&gt;（也没什么要我们配置选择的）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2、安装结束再桌面右击鼠标就可以看见Git&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/3909c8ad1ccee9db98408.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第三步配置环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三步配置环境&#34;&gt;#&lt;/a&gt; 第三步配置环境&lt;/h2&gt;
+&lt;p&gt;安装结束我们在桌面右键鼠标点击&lt;strong&gt;Git Bash Here&lt;/strong&gt;，会出来一个终端，我们执行以下的命令来检查&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;code snippet&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;分别检查我们是否成功安装。（其实一般都不会出错不过以防万一）&lt;br /&gt;
+成功例子展示： &lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/178995222ddc57ba14468.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;开始配置cnpm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始配置cnpm&#34;&gt;#&lt;/a&gt; 开始配置cnpm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;安装cnpm，执行以下命令&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; npm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -g&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; cnpm&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --registry=https://registry.npm.taobao.org&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;这个cnpm其实就是国内镜像为了就是让你访问变得更快&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;检查cnpm安装&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;$ cnpm &lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;v&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;只要出现版本号就代表你安装没有出错（出错再来一次）&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;开始安装hexo并初始化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始安装hexo并初始化&#34;&gt;#&lt;/a&gt; 开始安装hexo并初始化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;还是在&lt;/strong&gt; &lt;strong&gt;&amp;lt;u&amp;gt;git bash&amp;lt;/u&amp;gt;&lt;/strong&gt; &lt;strong&gt;终端输入以下命令&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; cnpm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; hexo-cli&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -g&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;初始化我们的blog&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初始化我们的blog&#34;&gt;#&lt;/a&gt; 初始化我们的blog&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;需要你建立一个文件夹（名字随便取）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;例如建立一个在&lt;strong&gt;F盘&lt;/strong&gt;的&lt;strong&gt;blog&lt;/strong&gt;文件夹，就在当前这个文件夹打开&lt;strong&gt;Git bash&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/e815605953cf614abb493.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;小提示打开之后这里会显示出你当前的文件夹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小提示打开之后这里会显示出你当前的文件夹&#34;&gt;#&lt;/a&gt; 小提示打开之后这里会显示出你当前的文件夹&lt;/h5&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/2471023e72d9c201954cb.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;克隆文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#克隆文件&#34;&gt;#&lt;/a&gt; 克隆文件&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;执行一下代码进行克隆（也可以叫初始化）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;hexo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; init&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为这个克隆是从从外网克隆下来，所以会访问超时或出错，耐心等待即可，实在不行就使用梯子进行加速。（其实我感觉不用梯子其实也挺快，当然了可能是我的网速较好&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;直到终端窗口出现&lt;code&gt;Install dependencies&lt;/code&gt;，如果一直卡住就按&lt;code&gt;Ctrl + c&lt;/code&gt;就可以结束。&lt;/li&gt;
+&lt;li&gt;接着执行以下命令进行部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; cnpm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;等待命令执行结束就完成了我们的博客克隆，我们可以运行以下命令进行暂时预览&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; hexo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; s&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/2466230d4ae50a780a55d.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;注意事项：不可以使用&lt;code&gt;Ctrl + c&lt;/code&gt;进行复制哦，请使用&lt;code&gt;Shift + ins&lt;/code&gt;进行复制&lt;/em&gt;&lt;br /&gt;
+&amp;lt;u&amp;gt;（如果一直无法访问就使用&lt;code&gt;hexo server&lt;/code&gt;命令进行预览）&amp;lt;/u&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;这样子默认的主题就搭建完成啦~~&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这样子默认的主题就搭建完成啦~~&#34;&gt;#&lt;/a&gt; 这样子默认的主题就搭建完成啦~~&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/e3b70a7c4d8e742c160b7.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第四步选择中意的主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第四步选择中意的主题&#34;&gt;#&lt;/a&gt; 第四步选择中意的主题&lt;/h2&gt;
+&lt;h3 id=&#34;hexo-主题下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-主题下载&#34;&gt;#&lt;/a&gt; hexo &lt;a href=&#34;https://hexo.io/themes/&#34;&gt;主题下载&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;你可以在里面找到所有hexo主题，可以选择一个你自己喜欢的主题&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;可以看到的里面网页有很多主题&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;里面包含了以下三个东东&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;预览地址&lt;/li&gt;
+&lt;li&gt;项目地址&lt;/li&gt;
+&lt;li&gt;配置地址&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;点击主题的图片可以打开预览地址，点击主题的标题可以打开项目地址，配置文档在项目地址找&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;小提示：大部分都是英文哦~ 可以使用google chrome 或者 edge 浏览器页面翻译&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首先我们点击主题的项目地址进入&lt;br /&gt;
+（这里拿主题NEXT默认举例）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/9fe2ba0f545c081ac2405.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们可以看到 &lt;code&gt;Clone or download&lt;/code&gt; 下有一个链接，我们先复制下来，等会克隆文件需要。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/39372f2f0465082eedf47.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;开始克隆主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始克隆主题&#34;&gt;#&lt;/a&gt; 开始克隆主题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;首先需要你在你的博客目录下打开我们的 &lt;strong&gt;Git bash&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;git&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; clone&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; 主题项目复制的地址&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; themes/主题名字&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;小提示：themes就是你博客的blog下的文件夹，至于主题名字其实你可以随便取，不过最好是英文，方便记忆&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你一直无法通过&lt;strong&gt;Git bash克隆主题&lt;/strong&gt; 你可以选择&lt;code&gt;Clone or download&lt;/code&gt; 下的&lt;code&gt;Download ZIP&lt;/code&gt;&lt;br /&gt;
+下载完成后解压放到你的博客文件夹下的&lt;strong&gt;themes&lt;/strong&gt;目录下就ok了&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/37a67a579a03fd06dc738.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;小提示：下载需要登录githu账号哦 ~ ~&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;开始配置主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始配置主题&#34;&gt;#&lt;/a&gt; 开始配置主题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在博客目录下有一个名字叫：&lt;code&gt;_config.yml&lt;/code&gt; 的文件，我们将他打开&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/321afec3c2cf66d92a7cc.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;然后滑到下面找到&lt;code&gt;theme&lt;/code&gt;进行修改，修改成&lt;strong&gt;你刚刚下载的到博客目录下的themes下的主题文件夹名字&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/f31f0f62e0b610250f310.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/472b3d636b4196fb6982f.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;改好就可以暂时预览你刚刚下载的主题了，在你的博客目录下打开&lt;code&gt;Git bash&lt;/code&gt; 执行以下命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;hexo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; s&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;执行完你可以看到一个网址，切记不可以使用&lt;code&gt;ctrl + c&lt;/code&gt;进行复制哦~ ~&lt;/li&gt;
+&lt;li&gt;我们可以选择那串链接用鼠标右键选择&lt;code&gt;copy&lt;/code&gt;进行复制，使用&lt;code&gt;ctrl + c&lt;/code&gt;会结束预览的哦&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有些主题你更换后无法预览，但是会提示你说，你需要安装什么什么。你就需要去安装哦，一般来说大部分都是pug和其他的插件。具体需要根据你的主题到底是需要哪个再去下载哦。总的来说，你预览的时候一般都会给你一个下载的链接，告诉你需要去安装这个，安装结束就可以暂时预览你的博客效果了，如果不懂的话可以评论，我看见会帮助你。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;开始修改主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始修改主题&#34;&gt;#&lt;/a&gt; 开始修改主题&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先你会看见在你的博客根目录下有一个&lt;code&gt;_config.yml&lt;/code&gt;，然后你又在你的博客目录下的&lt;strong&gt;themes&lt;/strong&gt;又看见一个一模一样的&lt;code&gt;_config.yml&lt;/code&gt;。他们两个虽然名字是一样的，但是你千万千万别弄混了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;博客根目录下的&lt;code&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;主题themes下的&lt;code&gt;_config.yml&lt;/code&gt;&lt;br /&gt;
+你要学会分清楚。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/d2af74f8029b81cd0e89b.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我们来看一下博客根目录下的&lt;code&gt;_config.yml&lt;/code&gt;里面有啥东东&lt;/li&gt;
+&lt;li&gt;首先映入眼帘的就是以下这个东西，我已经贴心为英语不好的宝打了注释。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/b6d50691a0ffeec3598b0.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;再然后我们来看看主题themes下的&lt;code&gt;_config.yml&lt;/code&gt;里面又有啥东东&lt;/li&gt;
+&lt;li&gt;首先打开第一眼看到的就是以下可能会出现的东西，里面就是主题详细配置以及注释（虽然可能是英文，但是你可以用翻译）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/80625784620cce32a8147.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是不是感觉一下子就能区分这两个&lt;code&gt;_config.yml&lt;/code&gt;（如果没有那就熟能生巧吧！）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;具体的配置主题的话我就简单介绍，大部分都在主题themes下的&lt;code&gt;_config.yml&lt;/code&gt;进行修改&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;以下为简单的hexo命令&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建一个新文章&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;hexo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; new&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;我的第一个博客&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;创建完每次生成的文章都固定在你的博客根目录下面的source/_posts下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/6a1489273fba2cce9f5a3.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小提示：生成的 &lt;code&gt;.md&lt;/code&gt; 文件就是你的博客，你可以在博客根目录下面的source/_posts下找到并打开编辑。&lt;br /&gt;
+你打开之后不会弄咋办？？看完我博客——————有手就行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/29c26072c4032bc99648d.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;部署与发布&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署与发布&#34;&gt;#&lt;/a&gt; 部署与发布&lt;/h2&gt;
+&lt;h3 id=&#34;生成博客文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成博客文章&#34;&gt;#&lt;/a&gt; 生成博客文章&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;我们生成的博客的文章 &lt;code&gt;.md&lt;/code&gt; 文件，稍微百度一下发现这个是 &lt;strong&gt;Markdown&lt;/strong&gt; 那就去&lt;a href=&#34;https://www.runoob.com/markdown/md-tutorial.html&#34;&gt;菜鸟教程&lt;/a&gt;学习一下&lt;strong&gt;Markdown&lt;/strong&gt;&lt;br /&gt;
+稍微学习一下就可以轻松发布博客了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编写工具自行百度就可以轻松找到，我使用的是&lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;使用github部署博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用github部署博客&#34;&gt;#&lt;/a&gt; 使用github部署博客&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这边我比较喜欢git部署，就以这个为例子吧，其他的gitee和glahub等其他部署也会陆续更新&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;登录我们的github账号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（没有就注册一个,因为是外网所以你可能访问有点慢）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;新建一个仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/ef827a474bad9aa58d3df.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仓库名必须是 &lt;code&gt;用户名 + .github.io &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/d7cc765d397e0436a3c93.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;创建git密钥&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建git密钥&#34;&gt;#&lt;/a&gt; 创建git密钥&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;接下来我们需要创建&lt;code&gt;Git&lt;/code&gt;密钥,打开git bash（不要求在哪个目录),执行以下命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;ssh-keygen&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -t&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; rsa&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -C&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;你的邮箱&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;执行上面那条命令不管出现什么都是确定即可，比如会提示你：【Y/N】，你需要输入Y，然后没有的直接回车确认&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;再执行以下命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;cat&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; ~/.ssh/id_rsa.pub&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;会输出你密钥，你需要复制下来。&lt;br /&gt;
+生成的地址在 &lt;code&gt;.shh&lt;/code&gt; 中的 &lt;code&gt;id_rsa.pub&lt;/code&gt; 中：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/db320e3a13fc0c66b41ff.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/f474e92f6e26d4b5aed8a.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;回到我们的github点击我们的头像进入，再点击左边 &lt;code&gt;Settings--SSH&lt;/code&gt; 和右边 &lt;code&gt;New SSH Key&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/318a08558a27f8a9cd774.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt; 随便取都可以，&lt;code&gt;key&lt;/code&gt; 把你的密钥粘贴进去  然后点击&lt;code&gt;Add SSH key&lt;/code&gt; 即可&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你换电脑了 也是需要再重新生成密钥进行绑定哦~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;链接git准备部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接git准备部署&#34;&gt;#&lt;/a&gt; 链接git准备部署&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;接下来我们打开&lt;code&gt;Git bash&lt;/code&gt; 执行以下命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;ssh&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -T&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; git@github.com&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果成功连接就会提示以下内容：&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;Are&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; you&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; sure&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; you&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; want&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; to&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; continue&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; connecting&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;yes/no/&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;fingerprint&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;?&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;你输入 &lt;strong&gt;yes&lt;/strong&gt; 即可&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你一直连接报错 &lt;strong&gt;Error&lt;/strong&gt;与&lt;strong&gt;time out&lt;/strong&gt;，请你使用一下加速器或者梯子&lt;br /&gt;
+当你成功时候会提示：&lt;code&gt;helo TTRR,you are successful*******&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;打开我们的创建好的项目选择&lt;code&gt;ssh&lt;/code&gt; 并复制下来等会会使用到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/e11d6b875a3e3e58d8100.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开我们博客根目录的&lt;code&gt;_config.yml&lt;/code&gt; 滑倒最底下就可以看到以下内容：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;deploy:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  type&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; git&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;  repo:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; 你复制的地址&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;  branch:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; mian&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;接下来我们再我们博客根目录下来执行以下命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;git&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; config&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --global&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; user.name&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;你的github用户名&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;git&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; config&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --global&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; user.email&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;你注册github的邮箱&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后执行以下命令安装上传插件：&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;cnpm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; hexo-deployer-git&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --save&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一般安装上传插件都不会报错&lt;code&gt;Error&lt;/code&gt;,要是你报错了，再次执行即可，如果你反反复复都无法安装 或者一直报错就在加我TG群组，找我帮助你&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;部署博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署博客&#34;&gt;#&lt;/a&gt; 部署博客&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;完成以上所有步骤后进行最后的部署上传，执行以下命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;hexo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; g&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; -d&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;配置github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置github&#34;&gt;#&lt;/a&gt; 配置github&lt;/h2&gt;
+&lt;h3 id=&#34;生成博客链接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成博客链接&#34;&gt;#&lt;/a&gt; 生成博客链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;打开我们的博客项目点击&lt;code&gt;Settings&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;往下滑找到&lt;code&gt;Github pages&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/36cd39d43fff9726ed555.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择分支为&lt;code&gt;main&lt;/code&gt; 然后保存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/597e4513f6ff769564cf9.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;最后我们就能得到我们的博客链接啦&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最后我们就能得到我们的博客链接啦&#34;&gt;#&lt;/a&gt; 最后我们就能得到我们的博客链接啦！！&lt;/h2&gt;
+&lt;p&gt;有什么不懂的可以评论哦~&lt;/p&gt;
+&lt;hr /&gt;
+</content>
+        <category term="hexo搭建" />
+        <updated>2022-03-18T04:30:48.000Z</updated>
+    </entry>
+</feed>

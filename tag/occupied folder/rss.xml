@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;occupied folder&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Tue, 04 Apr 2023 23:50:26 +0800</pubDate>
+        <lastBuildDate>Tue, 04 Apr 2023 23:50:26 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/59456.html</guid>
+            <title>快速解除文件占用</title>
+            <link>https://blog.vull.top/posts/59456.html</link>
+            <category>Occupied Folder</category>
+            <pubDate>Tue, 04 Apr 2023 23:50:26 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了如何解除删除文件的时候提示的被占用、正在运行、正在打开等情况&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/161c9d6806107219d68d8.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;方法一&lt;/summary&gt;&lt;div&gt;
+&lt;h3 id=&#34;使用火绒不至于为了点醋包顿饺子&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用火绒不至于为了点醋包顿饺子&#34;&gt;#&lt;/a&gt; 使用火绒（不至于为了点醋包顿饺子）&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/1a0ceb0ac851822d915ab.png&#34; alt=&#34;&#34; title=&#34;例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.huorong.cn/&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;方法二（比较推荐）&lt;/summary&gt;&lt;div&gt;
+&lt;h3 id=&#34;使用lockhunter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用lockhunter&#34;&gt;#&lt;/a&gt; 使用LockHunter&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/a52bc57ab9a0f3b6c8876.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;官网&lt;a href=&#34;https://lockhunter.com/startdownload.htm&#34;&gt;点击下载&lt;/a&gt;&lt;br /&gt;
+蓝奏云&lt;a href=&#34;https://ttrr.lanzoum.com/iVvF50s47org&#34;&gt;点击下载&lt;/a&gt; &lt;code&gt;密码:ghrc&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;方法三（1.2有bug会无响应）&lt;/summary&gt;&lt;div&gt;
+&lt;h3 id=&#34;使用-iobit-unlocker13版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-iobit-unlocker13版本&#34;&gt;#&lt;/a&gt; 使用 IObit Unlocker1.3版本&lt;/h3&gt;
+&lt;p&gt;官网&lt;a href=&#34;https://cdn.iobit.com/dl/unlocker-setup.exe&#34;&gt;点击下载&lt;/a&gt;&lt;br /&gt;
+蓝奏云&lt;a href=&#34;https://ttrr.lanzoum.com/iLZJS0s48b1i&#34;&gt;点击下载&lt;/a&gt;&lt;code&gt;密码:2fhn&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;百度云盘加速&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Fri, 12 May 2023 20:32:49 +0800</pubDate>
+        <lastBuildDate>Fri, 12 May 2023 20:32:49 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/46267.html</guid>
+            <title>ce加速百度云盘</title>
+            <link>https://blog.vull.top/posts/46267.html</link>
+            <category>百度云盘加速</category>
+            <pubDate>Fri, 12 May 2023 20:32:49 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录使用ce修改器加速百度云盘记录，仅供学习参考。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;使用旧版百度云盘，并且禁止它更新。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根据百度云盘文件来看，好像并没有后端限速，只是在本地进行限速，但是不排除以后这种方法失效，所以能用且用吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/qKleVv-O90I.html&#34; title=&#34;提取码RPWN&#34;&gt;百度云盘7.23.0.10提取码RPWN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/qKleVv-R90I.html&#34;&gt;CE 7.5版本提取码RPWN&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;正常下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正常下载&#34;&gt;#&lt;/a&gt; 正常下载&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/acb40bbf0d06863c7ee53f323fa584dcfdf04d18.png&#34; alt=&#34;&#34; title=&#34;哔哩哔哩图床支持&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/3df2778eaf664594ac9fd649e03e309a4d6758ea.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;开始ce加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始ce加速&#34;&gt;#&lt;/a&gt; 开始CE加速&lt;/h2&gt;
+&lt;p&gt;保持下载，接着打开CE7.5&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/5e6acea14825e738d0f6579e7441b5f31220d0f3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择一个host（因为有两个嘛 有一个无效的，用来连接后端应该）点击变速精灵开启，根据需要选择倍数，我直接拉曼五百倍，然后点应用。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/d7eaf200e92f01f72e3b6b06378dbfa6af100c26.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;可以看见没有效果，说明选错了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/e564d64ceaf83b42342816bb0f417ed0d1244bd6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;换一个host，看下载速度：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/dbb79ba9787e959c66a41603c397bf2c4af9e04b.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有时候倍数太大反而不好，根据自己需要选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;经过测试是可以满速的，但是我连的热点，速度就是这么多了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/2f5e26cf4b4990adf48c68ae79d7129185d5dcc4.png&#34; alt=&#34;&#34; title=&#34;哔哩哔哩图床支持&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;禁止更新&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁止更新&#34;&gt;#&lt;/a&gt; 禁止更新&lt;/h2&gt;
+&lt;p&gt;自从百度云盘更新后，这个bug就进行了修复。所以我们还想使用的话，就需要不更新。&lt;/p&gt;
+&lt;p&gt;安装7.23.0.10版本百度云盘后，打开安装根目录。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://article.biliimg.com/bfs/article/54f9e39d08d4379b05ea9da88e1869d32f314c9c.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;可以一目了然看见，自动更新文件：&lt;code&gt;Autoupdate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;把里面文件删除，或者整个文件夹删除都可以。&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;如果你发现文件夹自己下载回来，就自己删除后，新建一个名为：aotoupdate的文件夹，然后更改它的权限，不可编辑，让百度云盘无法自己更新回来。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;补充说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#补充说明&#34;&gt;#&lt;/a&gt; 补充说明&lt;/h2&gt;
+&lt;p&gt;当你网速十兆却无法通过这个CE修改器来达到的时候，重新安装7.23.0.10版本的百度云盘再次使用CE修改器即可恢复满速，目前来看，是可以这么操作的。&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;CE修改器需要是7.5版本。7.4版本无效，不知道为什么。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; END&lt;/h2&gt;
+&lt;p&gt;本次教程到此结束，不懂可以留下评论你遇到的问题。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;❤️测试可用时间：2023/05/12&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

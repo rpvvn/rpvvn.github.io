@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;seo&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Sat, 22 Apr 2023 02:13:00 +0800</pubDate>
+        <lastBuildDate>Sat, 22 Apr 2023 02:13:00 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/5522.html</guid>
+            <title>Hexo博客各主题SEO优化</title>
+            <link>https://blog.vull.top/posts/5522.html</link>
+            <category>SEO</category>
+            <pubDate>Sat, 22 Apr 2023 02:13:00 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;优化HEXO主题页面描述description和keywords网站页面关键词问题，一些主题页面没有keywords和description&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;seo描述与关键词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo描述与关键词&#34;&gt;#&lt;/a&gt; SEO描述与关键词&lt;/h2&gt;
+&lt;h3 id=&#34;description描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#description描述&#34;&gt;#&lt;/a&gt; description描述&lt;/h3&gt;
+&lt;p&gt;全名：&lt;code&gt;&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;我是网站描述&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;keywords关键词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#keywords关键词&#34;&gt;#&lt;/a&gt; keywords关键词&lt;/h3&gt;
+&lt;p&gt;全名：&lt;code&gt;&amp;lt;meta name=&amp;quot;keywords&amp;quot; content=&amp;quot;我是网站关键词&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;网站为了更好收录增加权重，所以需要用到以上两个：&lt;code&gt;描述与关键词。&lt;/code&gt;如果网站搭建好，F12没有看见自己的博客页面有以上两个，那么就需要修复一下或增加代码。&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案&lt;/h2&gt;
+&lt;p&gt;直接在&lt;code&gt;head.njk&lt;/code&gt;添加即可,这样你的每一个页面都会引用它&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/628b4bf9812d2e7b8388d.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/4eb0c6add1ef95b79e8c8.png&#34; alt=&#34;&#34; title=&#34;TG图床图片，需加速访问&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;以防万一&lt;code&gt;head_unique.njk&lt;/code&gt;也加一点点判断&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你也可以自己根据自己情况更改，只是参考&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;博客\themes\你的主题\layout\_partials\head\head_unique.njk&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/a6594a950a4c603a81b61.png&#34; alt=&#34;&#34; title=&#34;参考代码位置&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;md转义渲染问题，这个代码无法发在这里&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;当然推荐你直接下载：&lt;a href=&#34;https://ttrr.lanzoum.com/i9Nyx0tnphfa&#34;&gt;点击下载参考代码&lt;/a&gt;&lt;/p&gt;
+&lt;details class=&#34;success&#34;&gt;&lt;summary&gt;不建议&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;{ %- if page.keywords %  需要把&lt;code&gt;-&lt;/code&gt;删除 ，因为md转义问题&lt;/p&gt;
+&lt;/div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼0--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;keywords&#34; content=&#34;&amp;#x3C;!--swig￼1--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼2--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;keywords&#34; content=&#34;&amp;#x3C;!--swig￼3--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼4--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;keywords&#34; content=&#34;&amp;#x3C;!--swig￼5--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼6--&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class=&#34;blue&#34;&gt;上面这个是keywords&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;下面这个是description&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;二选一&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;代码一号：绝对定位&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼7--&gt;  &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;description&#34; content=&#34;&amp;#x3C;!--swig￼8--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼9--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;description&#34; content=&#34;你的网站描述（这是绝对定位）&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼10--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;代码二号：配置定位&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼11--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;description&#34; content=&#34;&amp;#x3C;!--swig￼12--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼13--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;description&#34; content=&#34;&amp;#x3C;!--swig￼14--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼15--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;meta name=&#34;description&#34; content=&#34;&amp;#x3C;!--swig￼16--&gt;&#34; /&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&amp;#x3C;!--swig￼17--&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; END&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;span class=&#34;label danger&#34;&gt;❤️danger&lt;/span&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;不懂可以留下你的问题，我看到会第一时间帮助你。&lt;/em&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

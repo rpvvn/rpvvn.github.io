@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;window delete/uninstall&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Mon, 17 Apr 2023 23:13:37 +0800</pubDate>
+        <lastBuildDate>Mon, 17 Apr 2023 23:13:37 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/8164.html</guid>
+            <title>window删除工具使用体验</title>
+            <link>https://blog.vull.top/posts/8164.html</link>
+            <category>Window Delete/Uninstall</category>
+            <pubDate>Mon, 17 Apr 2023 23:13:37 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了window删除(卸载)工具使用体验记录&lt;/p&gt;
+&lt;/div&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Geek&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：有免费版，工具小功能齐全，可以解压立即使用&lt;br /&gt;
+缺点：有时候删除并不干净，看软件顽固情况。免费版阉割但不多，个人使用完全足够&lt;br /&gt;
+总结：要什么自行车&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://geekuninstaller.com/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;System Mechanic&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：功能强大，支持mac、window、Android、ios多系统，很吊的波&lt;br /&gt;
+缺点：免费版阉割严重，专业版贵到死&lt;br /&gt;
+总结：别要大邮轮好么&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.iolo.com/products/system-mechanic/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Glary Utilities&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：多合一功能齐全，提供硬碟分析&lt;br /&gt;
+缺点：卸载不干净，好tm贵，不过免费版可以用&lt;br /&gt;
+总结：要什么大游艇&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.glarysoft.com/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Wise Disk Cleaner&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：小巧如geek等软件，功能单一，许多有用的没有，不过你可以下载试试看&lt;br /&gt;
+缺点：没有太多功能，难用&lt;br /&gt;
+总结：要什么大房子&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.wisecleaner.com/wise-disk-cleaner.html&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;System Ninja&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：可以升级加功能，界面干净，功能还行&lt;br /&gt;
+缺点：安装升级外挂不够简洁，有更多可以替代它的&lt;br /&gt;
+总结：要什么自行车&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://singularlabs.com/software/system-ninja/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Bleachbit&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：与geek一样很小巧，功能齐全，方便携带再各种移动介质&lt;br /&gt;
+缺点：ui好丑（个人觉得），使用时会占用很多cpu性能&lt;br /&gt;
+总结：要什么大轮船&lt;br /&gt;
+软件官网：&lt;a href=&#34;&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Uninstall Tool&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：有免费版提供，该有都有点&lt;br /&gt;
+缺点：阉割（满足个人）&lt;br /&gt;
+总结：要什么自行车&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://crystalidea.com/uninstall-tool&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Revo Uninstaller-pro&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：卸载牛，功能齐全，含有猎人追踪&lt;br /&gt;
+缺点：因为卸载力度大，卸载扫描过程较长&lt;br /&gt;
+总结：自行车有的&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.revouninstaller.com/zh/revo-uninstaller-free-download/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;CCleaner&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：以前很好用的软件，软件强大，功能也有驱动器擦除等功能&lt;br /&gt;
+缺点：囊肿、半个流氓本身了，有安全漏洞隐患&lt;br /&gt;
+总结：不推荐&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.ccleaner.com/zh-cn&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Advanced-systemcare&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：画面好看，功能很多，很强大，有很多优秀同款作品例如：IObitUninstaller-Pro&lt;br /&gt;
+缺点：可惜只能使用免费版，电脑太老运行会卡&lt;br /&gt;
+总结：很ok&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.iobit.com/en/index.php?s&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;IObitUninstaller-Pro&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;优点：很强大&lt;br /&gt;
+缺点：太强大占用资源较多，会卡&lt;br /&gt;
+总结：大轮船(有破解版，可以自己去找)&lt;br /&gt;
+软件官网：&lt;a href=&#34;https://www.iobit.com/en/advanceduninstaller.php&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;p&gt;推荐&lt;code&gt;IObitUninstaller-Pro&lt;/code&gt; &lt;code&gt;Advanced-systemcare&lt;/code&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

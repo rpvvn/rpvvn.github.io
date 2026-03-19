@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;openai反代&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Fri, 07 Apr 2023 00:19:25 +0800</pubDate>
+        <lastBuildDate>Fri, 07 Apr 2023 00:19:25 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/13628.html</guid>
+            <title>OpenAI国内代理教程</title>
+            <link>https://blog.vull.top/posts/13628.html</link>
+            <category>OpenAI反代</category>
+            <pubDate>Fri, 07 Apr 2023 00:19:25 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了如何使用国内云进行反代OpenAI&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;注册腾讯云账号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册腾讯云账号&#34;&gt;#&lt;/a&gt; 注册腾讯云账号&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.tencent.com&#34;&gt;点击跳转腾讯云&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;进入云函数控制台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进入云函数控制台&#34;&gt;#&lt;/a&gt; 进入云函数控制台&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://console.cloud.tencent.com/scf/list&#34;&gt;点击直达云函数控制台&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;新建云函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建云函数&#34;&gt;#&lt;/a&gt; 新建云函数&lt;/h2&gt;
+&lt;h3 id=&#34;基础配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础配置&#34;&gt;#&lt;/a&gt; 基础配置&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;第一步
+&lt;ul&gt;
+&lt;li&gt;点击&lt;code&gt;新建&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;函数类型选择&lt;code&gt;web函数&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;名称随便写，这里我取名：&lt;code&gt;openAI&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;地域选择&lt;code&gt;香港&lt;/code&gt;或&lt;code&gt;其他国家&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;时区&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/46a5bbff0c5704d80f1b0.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;函数代码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数代码&#34;&gt;#&lt;/a&gt; 函数代码&lt;/h3&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;第二步
+&lt;ul&gt;
+&lt;li&gt;选择&lt;code&gt;本地上传ZIP&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ttrr.lanzoum.com/i6y5e0sa8q3g&#34;&gt;点击下载ZIP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/9947c83a792555acc7f23.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;日记配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#日记配置&#34;&gt;#&lt;/a&gt; 日记配置&lt;/h3&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;第三步
+&lt;ul&gt;
+&lt;li&gt;开启的话或有费用产生，大概几毛？一块左右？看你使用量！！！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/822abd2f5a626d58c9310.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;高级配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高级配置&#34;&gt;#&lt;/a&gt; 高级配置&lt;/h3&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;第四步
+&lt;ul&gt;
+&lt;li&gt;从环境配置开始&lt;/li&gt;
+&lt;li&gt;内存&lt;code&gt;64MB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;初始化超时时间&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;执行超时时间&lt;code&gt;900秒&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/0834ba2daff51fdb3cf4c.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;第五步&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;下滑至&lt;code&gt;请求多并发&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;启用并选择&lt;code&gt;2并发&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;其余没说的全部&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/0d0b3845955b1390581ed.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;触发器配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#触发器配置&#34;&gt;#&lt;/a&gt; 触发器配置&lt;/h3&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;第六步
+&lt;ul&gt;
+&lt;li&gt;类型&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;别名&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;请求方法选择&lt;code&gt;ANY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;发布环境&lt;code&gt;默认&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;鉴权方法&lt;code&gt;免鉴权&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/6584dd6571b5228548eb5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;这一步有可能像我一样:相关服务器角色异常,点击授权一下就好了。&lt;br /&gt;
+如果不行，那就重新建一个触发器&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#地址&#34;&gt;#&lt;/a&gt; 地址&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;需要去掉后面的&lt;code&gt;/release&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;得到地址就是你的接口地址&lt;/li&gt;
+&lt;li&gt;直接访问会&lt;code&gt;404&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/759927a84588a858380d3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用接口方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用接口方法&#34;&gt;#&lt;/a&gt; 使用接口方法&lt;/h2&gt;
+&lt;p&gt;在任何支持配置 OpenAI 域名的软件中使用它&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用第三方：&lt;a href=&#34;https://ai.okmiku.com/&#34;&gt;CatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;点击右上角的🔑图标，在接口地址中我们搭建好的地址&lt;/li&gt;
+&lt;li&gt;愉快使用OpenAI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openai-nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#openai-nodejs&#34;&gt;#&lt;/a&gt; OpenAI Node.js&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;官方调用&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt;const&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; configuration&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt; =&lt;/span&gt;&lt;span style=&#34;color:#AB5959;--shiki-dark:#CB7676&#34;&gt; new&lt;/span&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt; Configuration&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  apiKey&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt; OPENAI_API_KEY&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  basePath&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#39;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;https://service-aaaaa.hk.apigw.tencentcs.com/v1&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1e754f;--shiki-dark:#4d9375&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;自己托管&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自己托管&#34;&gt;#&lt;/a&gt; 自己托管&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;托管步骤&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;git clone https://github.com/Ice-Hazymoon/openai-scf-proxy&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;cd openai-scf-proxy&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;npm install&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;npm run start&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注意事项&#34;&gt;#&lt;/a&gt; 注意事项&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;OpenAI—key&lt;/code&gt;需要自己注册&lt;br /&gt;
+别人的&lt;code&gt;OpenAI—key&lt;/code&gt;有可能需要付费&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

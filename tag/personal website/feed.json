@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "𝕍𝕍'𝔹𝕝𝕠𝕘 • All posts by \"personal website\" tag",
+    "description": "欢迎来到Vullfin的个人博客",
+    "home_page_url": "https://blog.vull.top",
+    "items": [
+        {
+            "id": "https://blog.vull.top/posts/50511.html",
+            "url": "https://blog.vull.top/posts/50511.html",
+            "title": "实时监测站",
+            "date_published": "2023-04-23T20:08:27.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录基于UptimeRobot API搭建的监测站点</p>\n</div>\n<h2 id=\"开源地址\"><a class=\"anchor\" href=\"#开源地址\">#</a> 开源地址</h2>\n<p>搭建教程挺简单的，我就不水博客字数了。</p>\n<p><a href=\"https://github.com/yb/uptime-status\">点击直达Github项目</a></p>\n<h2 id=\"新站点\"><a class=\"anchor\" href=\"#新站点\">#</a> 新站点</h2>\n<p>隆重推出 <span class=\"rainbow\">实时监测站</span></p>\n<p><div class=\"links\"><div class=\"item\" title=\"RPWN\" style=\"--block-color:#FA8072;\"><a href=\"https://monitor.rpvvn.top/\" class=\"image\" data-background-image=\"https://img1.imgtp.com/2023/04/24/98e9ZAnu.png\"></a>\n        <div class=\"info\">\n        <a href=\"https://monitor.rpvvn.top/\" class=\"title\">实时监测站</a>\n        <p class=\"desc\">SHARED BY RPWN</p>\n        </div></div></div></p>\n",
+            "tags": [
+                "Personal Website"
+            ]
+        },
+        {
+            "id": "https://blog.vull.top/posts/10330.html",
+            "url": "https://blog.vull.top/posts/10330.html",
+            "title": "RPWN赞助站点",
+            "date_published": "2023-04-21T14:29:48.000Z",
+            "content_html": "<div class=\"note info\">\n<p>赞赏页面不得分，吃饱没事干，就自己搭建了一个。</p>\n</div>\n<h2 id=\"新站点\"><a class=\"anchor\" href=\"#新站点\">#</a> 新站点</h2>\n<p>隆重推出 <span class=\"rainbow\">赞助系统</span></p>\n<p><div class=\"links\"><div class=\"item\" title=\"RPWN\" style=\"--block-color:#FA8072;\"><a href=\"https://sponsor.rpvvn.top/\" class=\"image\" data-background-image=\"https://pic1.imgdb.cn/item/64429eeb0d2dde5777e6a908.png\"></a>\n        <div class=\"info\">\n        <a href=\"https://sponsor.rpvvn.top/\" class=\"title\">RPWN赞助</a>\n        <p class=\"desc\">SHARED BY RPWN</p>\n        </div></div></div></p>\n<p><img loading=\"lazy\" src=\"https://img.vull.top/file/c157b1d6d48f0c171ba05.png\" alt=\"\" title=\"RPWN赞助页面\" /></p>\n",
+            "tags": [
+                "Personal Website"
+            ]
+        },
+        {
+            "id": "https://blog.vull.top/posts/38939.html",
+            "url": "https://blog.vull.top/posts/38939.html",
+            "title": "吃啥选择困难怎么办",
+            "date_published": "2023-04-19T11:19:45.000Z",
+            "content_html": "<div class=\"note info\">\n<p>本章记录了如何快速解决吃什么选择困难！！</p>\n</div>\n<h2 id=\"简介\"><a class=\"anchor\" href=\"#简介\">#</a> 简介</h2>\n<p>​\t在这个快速发展的社会上，小吃层出不穷，美食数不胜数，人们很快就意识到：<code>我该吃什么呢？``今天吃啥好呢？</code></p>\n<h2 id=\"解决办法\"><a class=\"anchor\" href=\"#解决办法\">#</a> 解决办法</h2>\n<p>隆重推出本站出品 <span class=\"rainbow\">吃啥呢？</span></p>\n<p><div class=\"links\"><div class=\"item\" title=\"RPWN\" style=\"--block-color:#FA8072;\"><a href=\"https://eat.rpvvn.top/\" class=\"image\" data-background-image=\"https://i.328888.xyz/2023/04/19/iFRID3.png\"></a>\n        <div class=\"info\">\n        <a href=\"https://eat.rpvvn.top/\" class=\"title\">吃啥好呢？</a>\n        <p class=\"desc\">SHARED BY RPWN</p>\n        </div></div></div></p>\n",
+            "tags": [
+                "Personal Website"
+            ]
+        }
+    ]
+}

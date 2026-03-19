@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;window tip&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Fri, 17 Mar 2023 02:59:52 +0800</pubDate>
+        <lastBuildDate>Fri, 17 Mar 2023 02:59:52 +0800</lastBuildDate>
+        <category>Record</category>
+        <category>Image hosting</category>
+        <category>Personal Website</category>
+        <category>update</category>
+        <category>生活记录</category>
+        <category>辅助/外挂</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>博客md文章</category>
+        <category>netlify加速访问博客</category>
+        <category>hexo搭建</category>
+        <category>OpenAI反代</category>
+        <category>ShokaX</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>Occupied Folder</category>
+        <category>Window Tip</category>
+        <category>English note</category>
+        <category>Linux</category>
+        <category>原创力</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/64498.html</guid>
+            <title>window默认七个文件夹</title>
+            <link>https://blog.vull.top/posts/64498.html</link>
+            <category>Window Tip</category>
+            <pubDate>Fri, 17 Mar 2023 02:59:52 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本章记录了删除window 计算机中七个自带的默认入口&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/a3352df204b57ea57272d.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3D Objects（3D 对象）、Desktop（桌面）、Documents（文档）、Downloads（下载）、Music（音乐）、Pictures（图片）、Videos（视频）&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;使用删除法有可能影响电脑系统，但是我自己也用目前没有什么毛病。不过我提供了恢复教程&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;删除法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#删除法&#34;&gt;#&lt;/a&gt; 删除法&lt;/h1&gt;
+&lt;h2 id=&#34;比较推荐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#比较推荐&#34;&gt;#&lt;/a&gt; 比较推荐&lt;/h2&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;功能：一键删除七个文件夹&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;将下列文字保存为&lt;code&gt;reg&lt;/code&gt;格式&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;Windows Registry Editor Version 5.00 &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}] &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;功能：一键恢复七个文件夹&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;将下列文字保存为&lt;code&gt;reg&lt;/code&gt;格式&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;Windows Registry Editor Version 5.00 &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}] &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}] &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;注册表修改方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册表修改方法&#34;&gt;#&lt;/a&gt; 注册表修改方法&lt;/h1&gt;
+&lt;h4 id=&#34;注册表位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册表位置&#34;&gt;#&lt;/a&gt; 注册表位置&lt;/h4&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;64位操作系统&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;详细位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#详细位置&#34;&gt;#&lt;/a&gt; 详细位置&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7个文件夹下的\PropertyBag文件夹，将其中ThisPCPolicy值，双击名称由Show改成Hide&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.vull.top/file/415f0f89b37ec8fc0dda4.png&#34; alt=&#34;&#34; title=&#34;示例&#34; /&gt;&lt;/p&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Desktop（桌面）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Documents（文档）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{f42ee2d3-909f-4907-8871-4c22fc0bf756}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;Downloads（下载）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{7d83ee9b-2244-4e70-b1f5-5393042af1e4}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Music（音乐）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{a0c69a99-21c8-4671-8703-7934162fcf1d}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Pictures（图片）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{0ddd015d-b06c-45d5-8c4c-f59713854639}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;Videos（视频）&lt;/summary&gt;&lt;div&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;{35286a68-3c57-41a1-bbb1-0eae73d76c95}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/posts/35842.html</guid>
+            <title>小技巧</title>
+            <link>https://blog.vull.top/posts/35842.html</link>
+            <category>Window Tip</category>
+            <pubDate>Thu, 09 Feb 2023 01:37:09 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;cmd小技巧&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cmd小技巧&#34;&gt;#&lt;/a&gt; cmd小技巧&lt;/h1&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;CMD技巧&#34;&gt;
+&lt;h3 id=&#34;快速打开系统变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快速打开系统变量&#34;&gt;#&lt;/a&gt; 快速打开系统变量&lt;/h3&gt;
+&lt;p&gt;​	 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;R&lt;/span&gt; 输入 &lt;code&gt;sysdm.cql&lt;/code&gt;  可以快捷打开高级系统设置含有环境变量等修改&lt;/p&gt;
+&lt;p&gt;​	&lt;code&gt;Net stop wuauserv&lt;/code&gt; 关闭window更新&lt;/p&gt;
+&lt;p&gt;​	&lt;code&gt;Net start wuauserv&lt;/code&gt;打开window更新&lt;/p&gt;
+&lt;h3 id=&#34;查看唤醒设备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看唤醒设备&#34;&gt;#&lt;/a&gt; 查看唤醒设备&lt;/h3&gt;
+&lt;p&gt;​	&lt;strong&gt;查看能唤醒设备&lt;/strong&gt; &lt;code&gt;powercfg /devicequery wake_armed&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;允许唤醒&lt;/strong&gt; powercfg /deviceenablewake &amp;quot;XXX&amp;quot;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;拒绝唤醒&lt;/strong&gt; powercfg /devicedisablewake &amp;quot;XXX&amp;quot;&lt;/p&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;不会就不要乱搞哦&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;bat脚本&#34;&gt;
+&lt;h1 id=&#34;bat脚本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bat脚本&#34;&gt;#&lt;/a&gt; bat脚本&lt;/h1&gt;
+&lt;h3 id=&#34;简单介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简单介绍&#34;&gt;#&lt;/a&gt; 简单介绍&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add \ABC\HKLM\Software\MyCo&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改远程机器 ABC 上的一个注册表项 HKLM\Software\MyCo&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add HKLM\Software\MyCo /v Data /t REG_BINARY /d fe340ead&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改一个值(名称: Data，类型: REG_BINARY，数据: fe340ead)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add HKLM\Software\MyCo /v MRU /t REG_MULTI_SZ /d fax\0mail&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改一个值(名称: MRU，类型: REG_MUTLI_SZ，数据: fax\0mail\0\0)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;reg add HKLM\Software\MyCo /v Path /t REG_EXPAND_SZ /d %%systemroot%%&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加或修改一个值(名称: Path，类型: REG_EXPAND_SZ，数据: %systemroot%)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意: 在扩充字符串中使用双百分比符号( %% )&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;linux&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux&#34;&gt;#&lt;/a&gt; Linux&lt;/h1&gt;
+&lt;h3 id=&#34;网卡设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网卡设置&#34;&gt;#&lt;/a&gt; 网卡设置&lt;/h3&gt;
+&lt;p&gt;nmcli connection modify ens160 ipv4.method manual +ipv4.addresses 192.168.189.131/24 autoconnect yes&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设置第一个ip与掩码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;nmcli connection modify ens160 ipv4.method manual +ipv4.addresses 192.168.189.132/24 autoconnect yes&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设置第二个ip与掩码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;nmcli connection down ens160 &amp;amp;&amp;amp; nmcli connection up ens160&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;重新启动网卡&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;window&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#window&#34;&gt;#&lt;/a&gt; window&lt;/h1&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;教程&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;启动报错&lt;span class=&#34;blue&#34;&gt;Win32Bridge.Server.exe&lt;/span&gt;函数不正确&lt;br /&gt;
+删除了&lt;span class=&#34;blue&#34;&gt;Cortana&lt;/span&gt;系统的文件导致&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;在自带卸载应用界面，找到&lt;code&gt;Cortana&lt;/code&gt;应用选择高级选项&lt;/li&gt;
+&lt;li&gt;选择充值此应用即可&lt;/li&gt;
+&lt;li&gt;重启&lt;/li&gt;
+&lt;li&gt;修好&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
