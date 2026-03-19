@@ -5,34 +5,34 @@
     <link href="https://blog.vull.top" />
     <updated>2023-01-07T14:38:17.000Z</updated>
     <category term="Record" />
-    <category term="Image hosting" />
     <category term="Personal Website" />
+    <category term="Image hosting" />
     <category term="update" />
     <category term="生活记录" />
+    <category term="MD" />
     <category term="辅助/外挂" />
     <category term="SEO" />
     <category term="Shoka" />
-    <category term="MD" />
-    <category term="博客md文章" />
+    <category term="ShokaX" />
     <category term="netlify加速访问博客" />
+    <category term="English note" />
+    <category term="博客md文章" />
     <category term="hexo搭建" />
     <category term="OpenAI反代" />
-    <category term="ShokaX" />
     <category term="VMware17pro激活码" />
+    <category term="Window Tip" />
     <category term="Window Delete/Uninstall" />
     <category term="百度云盘加速" />
     <category term="Occupied Folder" />
-    <category term="Window Tip" />
-    <category term="English note" />
-    <category term="Linux" />
     <category term="原创力" />
-    <category term="ensp笔记" />
+    <category term="Linux" />
     <category term="RHEL" />
+    <category term="ensp笔记" />
     <category term="JAVA note" />
     <entry>
-        <id>https://blog.vull.top/posts/61396.html</id>
+        <id>https://blog.vull.top/61396.html</id>
         <title>Linux——FTP搭建</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/61396.html"/>
+        <link rel="alternate" href="https://blog.vull.top/61396.html"/>
         <content type="html">&lt;h2 id=&#34;ftp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ftp&#34;&gt;#&lt;/a&gt; FTP&lt;/h2&gt;
 &lt;h4 id=&#34;yum配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yum配置&#34;&gt;#&lt;/a&gt; yum配置&lt;/h4&gt;
 &lt;p&gt;以初始状态的linux来进行此次实验&lt;br /&gt;
@@ -209,9 +209,9 @@
         <updated>2023-01-07T14:38:17.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/53458.html</id>
+        <id>https://blog.vull.top/53458.html</id>
         <title>RHEL配置笔记</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/53458.html"/>
+        <link rel="alternate" href="https://blog.vull.top/53458.html"/>
         <content type="html">&lt;h2 id=&#34;rehl配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rehl配置&#34;&gt;#&lt;/a&gt; REHL配置&lt;/h2&gt;
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;xxxxxxxxxx &lt;/span&gt;&lt;span style=&#34;color:#A0ADA0;--shiki-dark:#758575DD&#34;&gt;# !/usr/bin/python# -*- coding: UTF-8 -*-import reimport jsonimport osimport shutilimport sysimport timeimport requestsimport img2pdffrom PIL import Image​from alive_progress import alive_barfrom requests.exceptions import SSLError​png_headers = {    &#39;User-Agent&#39;: &#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36&#39;,    &#39;Referer&#39;: &#39;https://max.book118.com/&#39;,}​​def down_pngs(pageIndex):    print(pngs[pageIndex])    down_url = &#39;https://view-cache.book118.com&#39; + pngs[pageIndex]    print(down_url)    res = requests.get(url=down_url)    try:        png = res.content        with open(os.path.join(temp_dir, str(pageIndex) + &#39;.jpeg&#39;), &#39;wb&#39;) as f:            f.write(png)    except:        return​​logo = &#34;&#34;&#34;                  __  __      _ _        /_@)_@) \          /^^\ /^\ /^^\_     _/oo \____/~&#39;&#39;. . .  &#39;~\       /&#39;\&#39;&#39;  ~ &#39;&#39;~~&#39; -&#39;\_    / &#39;.&#39;. ~.~.~.       .&#39;    ~ |     /&#39;\~~..&#39;&#39;&#39;&#39;.&#39;&#39; &#39;&#39;  ~\_   (&#39;_&#39;_&#39;_&#39;_&#39;_&#39;_&#39;_&#39;_  &#39; :   &#39;     \_/&#39; &#39;.&#39;&#39;  . &#39;.   .&#39;&#39;  &#39;.  ~\_   ~V~V~V~V  \   ~\  &#39;&#39; &#39;~  &#39;   &#39;&#39; ~   `   ~  &#39;&#39;   ~\_     /\~/\~/\~/\~/|/  &#39;   &#39;&#39;  _   &#39; ~ &#39;&#39;  &#39;    ~  &#39;&#39; __  &#39;  ..  \_  &amp;#x3C;-- --- ---.---.--/&#39;   &#39;&#39;   /&#39;  &#39;\_ &#39;&#39; &#39;: ~ ;;&#39;&#39;    &#39; /&#39;&#39;; \ ;&#39;&#39;&#39;&#39;&#39;&#39; &#39;&#39; ~\ _     \~ &#39;. . : .:: ~. :.  /_&#39;&#39;&#39;_&#39;&#39; \_&#39; :&#39;&#39;&#39;_ : _ &#39;&#39;/&#39;&#39;_&#39; &#39;_ \:_ &#39;&#39;&#39;&#39; #&#39;&#39;..\/\/\/~/\~ &#39;&#39;~~~~~O ~~ \-~ `---~~~---- \(_)(_)(_)/ ~ ~~&#39; ~\(_)(_)(_)\_~_~_~_~_~/˜¤¹ ---------------------------------------------------------------------------------------------by:bean0283&#34;&#34;&#34;print(logo)​while True:    url = input(&#39;请输入原创力文库url:&#39;)    url = url.split(&#39;?&#39;)[0]    print(&#39;下载地址：&#39;, url)    temp_dir = url.split(&#39;/&#39;)[-1]​    # 删除老的临时文件夹并新建临时文件夹    if os.path.exists(temp_dir):        shutil.rmtree(temp_dir)    os.mkdir(temp_dir)​    print(&#39;开始下载 HTML...&#39;, end=&#39;&#39;)​    try:        response = requests.get(url=url)    except(SSLError):        print(&#34;\n\033[31m不要使用代理软件-------\033[0m&#34;)        print(&#34;\033[31m请关闭代理软件后重新运行程序\033[0m&#34;)        print(&#34;\033[31m请关闭vpn软件后重新运行程序\033[0m&#34;)        sys.exit(0)​    page = response.text​    print(&#39;成功. \n开始解析 HTML...&#39;, end=&#39;&#39;)​    title = re.search(&#39;title: (.*),&#39;, page).group(1).replace(&#34;&#39;&#34;, &#34;&#34;)    view_token = re.search(&#39;view_token: (.*)\&#39;&#39;, page).group(1).replace(&#34;&#39;&#34;, &#34;&#34;)    filetype = re.search(&#39;format: (.*)\&#39;&#39;, page).group(1).replace(&#34;&#39;&#34;, &#34;&#34;)    senddate = re.search(&#39;senddate: (.*),&#39;, page).group(1).replace(&#34;&#39;&#34;, &#34;&#34;)    aid = re.search(&#39; aid: (.*),&lt;/span&gt;&lt;span style=&#34;color:#A0ADA0;--shiki-dark:#758575DD&#34;&gt; //解密后的id&#39;, page).group(1)    actual_page = int(re.search(&#39;actual_page: (.*),&#39;, page).group(1))  # 真实页数    preview_page = int(re.search(&#39;preview_page: (.*),&#39;, page).group(1))  # 可预览页数​    if actual_page &gt; preview_page:        print(&#34;\n\033[31m该文档为限制文档，无法下载全部内容，请用vip+rmb，该问题无需反馈给开发者，他也不会解决！！\033[0m\n&#34;)​    output = title  # 输出文件（夹）    print(&#39;解析成功. &#39;)    print(&#39;文档标题: &#39;, title)    # 接口每次会返回6个下载page地址    list_pn = list(range(1, preview_page + 1, 6))​    # print(pngs)    if filetype == &#39;pdf&#39;:        pngs = {}        print(&#39;解析到pdf文档, 准备开始解析下载..&#39;, end=&#39;&#39;)        print(&#39;解析成功.\n正在获取pngs下载地址...&#39;)        print(&#39;受接口限制，2s访问一次，请耐心等待所有接口信息返回&#39;)​        with alive_bar(len(list_pn), title=&#39;ing...&#39;) as bar:            for pn in list_pn:                bar()                down_page_url = &#39;https://openapi.book118.com/getPreview.html?project_id=1&amp;#x26;aid={}&amp;#x26;view_token={}&amp;#x26;page={}&amp;#x26;_={}&#39;.format(                    aid, view_token, pn, str(int(time.time())))                jsonpReturn = requests.get(url=down_page_url)                page = re.search(&#39;jsonpReturn\((.*)\)&#39;, jsonpReturn.text).group(1)                data_temp = json.loads(page)[&#39;data&#39;]                # print(data_temp)                pngs.update({x: data_temp[x] for x in data_temp})  # 这里有个bug，若返回值的url为空时，这里不会报错，但会造成下载png时异常，暂时没有考虑处理                if pn != list_pn[-1]:                    time.sleep(2)​        print(&#39;\n开始下载 jpg(s)...&#39;)        pagenums = list(range(1, len(pngs) + 1))​        with alive_bar(len(pagenums), title=&#39;ing...&#39;) as bar:            for i in range(len(pagenums)):                bar()                down_url = &#34;https:&#34; + pngs[str(i + 1)]                request = requests.get(url=down_url, headers=png_headers)                try:                    page = request.content                    with open(os.path.join(temp_dir, str(pagenums[i]) + &#39;.jpeg&#39;), &#39;wb&#39;) as f:                        f.write(page)                except:                    continue​        print(&#39;\n开始合并图片成PDF...&#39;, end=&#39;&#39;)​        file_imgs = [os.path.join(temp_dir, str(i) + &#39;.jpeg&#39;) for i in pagenums]        # 不用以下代码会使img2pdf报错        for img_path in file_imgs:            with open(img_path, &#39;rb&#39;) as data:                img = Image.open(data)                # 将PNG中RGBA属性变为RGB，即可删掉alpha透明度通道                img.convert(&#39;RGB&#39;).save(img_path)​        with open(output + &#39;.pdf&#39;, &#39;wb&#39;) as f:            f.write(img2pdf.convert(file_imgs))​        shutil.rmtree(temp_dir)​        print(&#39;下载成功.&#39;)        print(&#39;保存到 &#39; + output + &#39;.pdf&#39;)    elif filetype in [&#39;docx&#39;, &#39;doc&#39;]:        pngs = {}        print(&#39;解析到{}文档, 准备开始解析下载..&#39;.format(filetype), end=&#39;&#39;)        print(&#39;解析成功.\n正在获取pngs下载地址...&#39;)        print(&#39;受接口限制，2s访问一次，请耐心等待所有接口信息返回&#39;)        x = 0        with alive_bar(len(list_pn), title=&#39;ing...&#39;) as bar:            for pn in list_pn:                down_page_url = &#39;https://openapi.book118.com/getPreview.html?&amp;#x26;project_id=1&amp;#x26;aid={}&amp;#x26;t={}&amp;#x26;view_token={}&amp;#x26;page={}&amp;#x26;_={}&#39;.format(                    aid, senddate, view_token, pn, str(int(time.time())))                jsonpReturn = requests.get(url=down_page_url)​                page = re.search(&#39;jsonpReturn\((.*)\)&#39;, jsonpReturn.text).group(1)                data_temp = json.loads(page)[&#39;data&#39;]                # print(data_temp)                bar()                pngs.update({x: data_temp[x] for x in data_temp})                if pn != list_pn[-1]:                    time.sleep(2)​        print(&#39;\n开始下载 jpg(s)...&#39;)        pagenums = list(range(1, len(pngs) + 1))​        with alive_bar(len(pagenums), title=&#39;ing...&#39;) as bar:            for i in range(len(pagenums)):                down_url = &#34;https:&#34; + pngs[str(i + 1)]                request = requests.get(url=down_url, headers=png_headers)                bar()                try:                    page = request.content                    with open(os.path.join(temp_dir, str(pagenums[i]) + &#39;.jpeg&#39;), &#39;wb&#39;) as f:                        f.write(page)                except:                    continue​        print(&#39;\n开始合并图片成PDF...&#39;, end=&#39;&#39;)​        file_imgs = [os.path.join(temp_dir, str(i) + &#39;.jpeg&#39;) for i in pagenums]        for img_path in file_imgs:            with open(img_path, &#39;rb&#39;) as data:                img = Image.open(data)                # 将PNG中RGBA属性变为RGB，即可删掉alpha透明度通道                img.convert(&#39;RGB&#39;).save(img_path)​        with open(output + &#39;.pdf&#39;, &#39;wb&#39;) as f:            f.write(img2pdf.convert(file_imgs))        # rea(temp_dir, output + &#39;.pdf&#39;)​        shutil.rmtree(temp_dir)​        print(&#39;下载成功.&#39;)        print(&#39;保存到 &#39; + output + &#39;.pdf&#39;)​    else:        print(&#39;不支持的参数.文件类型:&#39;, filetype)​    temp_ = os.path.realpath(sys.argv[0])    os.startfile(os.path.dirname(temp_))    print(&#34;执行完成,继续下载请黏贴url，结束请关闭窗口\n&#34;)​bash&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -556,9 +556,9 @@
         <updated>2022-12-11T20:14:41.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/53541.html</id>
+        <id>https://blog.vull.top/53541.html</id>
         <title>linux快捷键</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/53541.html"/>
+        <link rel="alternate" href="https://blog.vull.top/53541.html"/>
         <content type="html">&lt;h1 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; 常用命令&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;cd /home   进入 &#39;/home&#39; 目录&lt;br /&gt;
@@ -715,9 +715,9 @@ Alt +按住左键 移动窗口（或在最下面的任务栏滚动鼠标滑轮�
         <updated>2022-12-10T15:03:28.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/24884.html</id>
+        <id>https://blog.vull.top/24884.html</id>
         <title>Linux笔记</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/24884.html"/>
+        <link rel="alternate" href="https://blog.vull.top/24884.html"/>
         <content type="html">&lt;h1 id=&#34;centos8&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos8&#34;&gt;#&lt;/a&gt; centos8&lt;/h1&gt;
 &lt;h2 id=&#34;yum配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yum配置&#34;&gt;#&lt;/a&gt; yum配置&lt;/h2&gt;
 &lt;p&gt;我只推荐使用网络yum&lt;/p&gt;

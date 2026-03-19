@@ -1,0 +1,848 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="𝕍𝕍'𝔹𝕝𝕠𝕘" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="𝕍𝕍'𝔹𝕝𝕠𝕘" type="application/atom+xml"><link rel="alternate" type="application/json" title="𝕍𝕍'𝔹𝕝𝕠𝕘" href="https://blog.vull.top/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/nyx-player-UPLRNKXL.js"><link rel="modulepreload" href="/js/copy-tex-I54PD3UV.js"><link rel="modulepreload" href="/js/post-FDUBNYAG.js"><link rel="modulepreload" href="/js/chunk-S7LGERLG.js"><link rel="modulepreload" href="/js/waline-MS3WFH6D.js"><link rel="modulepreload" href="/js/comments-DSTSF7S3.js"><link rel="modulepreload" href="/js/chunk-6TFIVY2R.js"><link rel="modulepreload" href="/js/chunk-QFYNXFSO.js"><link rel="modulepreload" href="/js/pagefind-HECNWUUM.js"><link rel="modulepreload" href="/js/index.esm-TY3QQELC.js"><link rel="modulepreload" href="/js/chunk-3IFQZENY.js"><link rel="modulepreload" href="/js/chunk-HFSHB6D2.js"><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/waline-7LW2J7A6.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/comments-Q7XOIZMJ.css" media="none" onload="this.media='all'"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/18193731367128448.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/takanashi-hoshino-3840x2160-25273.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/jeon-somi-anime-3840x2160-23149.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/8k-动漫-少女.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/rappa-honkai-star-3840x2160-19779.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/云彩-夜晚-夜景.png" as="image" fetchpriority="high"><meta name="keywords" content="笔记大全"><meta name="description" content="ensp学习笔记"><link rel="canonical" href="https://blog.vull.top/63769.html"><!-- 代码块折叠功能脚本--><script src="/code-collapse.js" defer="defer"></script><link rel="stylesheet" href="/css/post.css?v=0.5.4"><link rel="stylesheet" href="/css/mermaid.css?v=0.5.4"><!-- 临时处理--><link rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css"><title>eNSP笔记大全</title><meta name="generator" content="Hexo 8.1.1"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="pagefind_mount"></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">eNSP笔记大全</h1><div class="meta"><span class="item" title="Created: 2026-02-07 08:15:16"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">Posted on</span><time itemprop="dateCreated datePublished" datetime="2026-02-07T08:15:16+08:00">2026-02-07</time></span><span class="item" title="Symbols count in article"><span class="icon"><i class="ic i-pen"></i></span><span class="text">Symbols count in article</span><span>8.4k</span><span class="text">words</span></span><span class="item" title="Reading time"><span class="icon"><i class="ic i-clock"></i></span><span class="text">Reading time</span><span>8 mins.</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="Toggle navigation bar"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">𝑽𝒖𝒍𝒍𝒇𝒊𝒏</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/18193731367128448.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/takanashi-hoshino-3840x2160-25273.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/jeon-somi-anime-3840x2160-23149.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/8k-动漫-少女.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/rappa-honkai-star-3840x2160-19779.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/云彩-夜晚-夜景.png&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">Home</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/Study/" itemprop="item" rel="index" title="InStudy"><span itemprop="name">Study<meta itemprop="position" content="0"></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/Study/ensp/" itemprop="item" rel="index" title="Inensp"><span itemprop="name">ensp<meta itemprop="position" content="1"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" data-pagefind-body="data-pagefind-body" lang="en"><link itemprop="mainEntityOfPage" href="https://blog.vull.top/63769.html"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="Vullfin"><meta itemprop="description" content="It is difficult to free fools from the chains they revere_______Voltaire, 欢迎来到Vullfin的个人博客"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="𝕍𝕍'𝔹𝕝𝕠𝕘"></span><div class="body md" itemprop="articleBody"><h2 id="静态路由配置"><a class="anchor" href="#静态路由配置">#</a> 静态路由配置</h2>
+<p>当不同网段进行跨网段通信时，可以用静态路由配置，但另一端也需同样配置。</p>
+<blockquote>
+<p>ip route-static 192.168.1.0 24 192.168.2.1<br>
+ip route-static [目的网络地址] [子网掩码] [下一跳地址/出接口] [优先级] [preference] [tag] [description]<br>
+display ip routing-table //查看所有路由器<br>
+display ip routing-table protocol static //仅查看静态路由</p>
+</blockquote>
+<ol>
+<li>在点对点p2p中，最优必选方式就是直接指定出接口
+<ul>
+<li>在这种链路中，二层特性为：链路两端只有两个设备，无需二层寻址需求（无需max地址、arp）</li>
+</ul>
+</li>
+<li>而在广播型链路（如以太网）直接指定出接口，可能会有缺陷，需要配合下一跳使用
+<ul>
+<li>二层特性为：链路中有多个设备，多对端，需要二层寻址（ARP解析MAC）</li>
+</ul>
+</li>
+<li>也可以通过配置浮动静态路由的优先级来实现备份</li>
+</ol>
+<blockquote>
+<p>主路由（下一跳10.0.0.2，默认优先级60）<br>
+[Huawei] ip route-static 192.168.4.0 255.255.255.0 10.0.0.2<br>
+备份路由（优先级80，主路由失效时生效）<br>
+[Huawei] ip route-static 192.168.4.0 255.255.255.0 10.0.0.3 preference 80</p>
+</blockquote>
+<h2 id="tcp-udp-cdn"><a class="anchor" href="#tcp-udp-cdn">#</a> TCP UDP CDN</h2>
+<p>TCP 特点：可靠性高、完整性要求高、延迟不敏感<br>
+UDP 特点：速度高、不可靠、延迟敏感<br>
+CDN 特点：就近分发、加速访问、降本稳服、高可用</p>
+<h2 id="vlan"><a class="anchor" href="#vlan">#</a> vlan</h2>
+<h3 id="二层-vlan"><a class="anchor" href="#二层-vlan">#</a> 二层 vlan</h3>
+<p>vlan 虚拟局域网特点：逻辑分区、隔离安全、灵活组网。</p>
+<blockquote>
+<p>vlan 1   //创建vlan<br>
+vlan batch 10 to 20 //创建连续vlan<br>
+vlan batch 10 30 50  //创建不连续vlan<br>
+dis vlan  //查看vlan信息<br>
+port default vlan 10 // 将某接口划分到vlan 10下</p>
+</blockquote>
+<ol>
+<li>连接终端设备采用 Access 模式</li>
+<li>连接交换机路由器等相同类型网络设备采用 Trunk 模式</li>
+<li>需要灵活控制vlan进出采用 Hybrid port 混合端口模式</li>
+<li>运营商骨干、跨局域网透传vlan需要给vlan套一层外层标签避免vlan id冲突采用 dot1q-tunnel模式</li>
+<li>vlan隔离隔的是故障，连通是连的正常通信</li>
+</ol>
+<h3 id="三层-vlan"><a class="anchor" href="#三层-vlan">#</a> 三层 vlan</h3>
+<p>三层交换机拥有网络层，具备路由转发功能，既可以隔离也可以通信</p>
+<blockquote>
+<p>int vlanif 10<br>
+ip add x.x.x.x 掩码</p>
+</blockquote>
+<h3 id="单臂路由"><a class="anchor" href="#单臂路由">#</a> 单臂路由</h3>
+<p>创建子接口来进行路由转发</p>
+<blockquote>
+<p>int g0/0/0.10   //子接口1<br>
+int g0/0/0.20  //子接口2<br>
+dot1q termination vid 10   <a target="_blank" rel="noopener" href="//xn--802-fr0fz98q.xn--1Q-e65cz15s">//封装802.1Q协议</a>，绑定vlan10<br>
+Ip add 192.168.10.1 24    //配置子接口1 的IP，即为vlan10 的网关<br>
+arp broadcast enable   //开启arp广播，没有开启arp广播则无法通信<br>
+int g0/0/0.20<br>
+dot1q termination vid 20<br>
+ip add xxxx xx   // vlan20 的网关<br>
+arp broadcast enable</p>
+</blockquote>
+<p>ARP作用就是解析某一个IP对应的MAC信息</p>
+<h2 id="acl控制"><a class="anchor" href="#acl控制">#</a> ACL控制</h2>
+<p>ACL其实就是创建一个访问控制规则，接着来调用这个规则来使用。</p>
+<blockquote>
+<p>acl  name xxxx<br>
+INTEGER&lt;2000-2999&gt;  Basic access-list(add to current using rules)<br>
+INTEGER&lt;3000-3999&gt;  Advanced access-list(add to current using rules)<br>
+INTEGER&lt;4000-4999&gt;  Specify a L2 acl group<br>
+INTEGER&lt;5000-5999&gt;  User defined access-list<br>
+advance             Advanced ACL<br>
+basic               Basic ACL<br>
+link                Link ACL<br>
+user                User ACL</p>
+</blockquote>
+<h4 id="basic-acl-基础acl-2000-2999"><a class="anchor" href="#basic-acl-基础acl-2000-2999">#</a> Basic ACL 基础ACL 2000-2999</h4>
+<blockquote>
+<p>rule xx编号 deny / permit source 1.1.1.1 0.0.0.0   <a href="//xn--0-xh0bo55obwb.0.0.0">//在这里0.0.0.0</a> 作为反掩码用于精准匹配单个IP<br>
+rule xx permit source any  // 允许其他ip流量通过（必加，否则默认拒绝所有）<br>
+（rule + 编号 + permit/deny + 源IP）</p>
+</blockquote>
+<h4 id="高级acl-3000-3999"><a class="anchor" href="#高级acl-3000-3999">#</a> 高级ACL 3000-3999</h4>
+<blockquote>
+<p>acl 3000<br>
+rule 10 deny tcp source 1.1.1.1 0.0.0.255 destination 2.2.2.2 0.0.0.0 destination-port eq 21  <a href="//xn--101-qz1ej0aryw2elx1cr8ubt2b1rakwo00i.1.1.1/24">//添加规则编号10拒绝内网1.1.1.1/24</a> 访问外网2.2.2.2的FTP21 端口服务<br>
+rule 20 permit ip source 3.3.3.3 0.0.0.255 destination any  //允许该ip段访问所有外网服务</p>
+</blockquote>
+<ul>
+<li>在这条规则中，TCP指定拦截的协议（还可以选择TCP、UDP、ICMP、IP）</li>
+<li><strong>destination-port eq 21</strong> 匹配目标端口21，这里eq为等于、gt为大于、lt为小于</li>
+<li>0.0.0.255 反掩码用于匹配目标网段处于 24段</li>
+</ul>
+<h4 id="二层acl-4000-4999"><a class="anchor" href="#二层acl-4000-4999">#</a> 二层ACL 4000-4999</h4>
+<p>二层ACL用于过滤MAC和Vlan</p>
+<blockquote>
+<p>acl 4000<br>
+rule 10 deny source-mac 00e0-fc12-3456<br>
+rule 20 permit souce-mac any  // 允许其他mac通过（必加，否则默认拒绝所有）</p>
+</blockquote>
+<h4 id="acl绑定接口应用"><a class="anchor" href="#acl绑定接口应用">#</a> ACL绑定接口应用</h4>
+<p>ACL创建后需要绑定到接口的方向当中，其中入方向为in 出方向为out。</p>
+<ul>
+<li>遵循高级ACL靠近目标，基础ACL靠近源</li>
+</ul>
+<blockquote>
+<p>int g0/0/1<br>
+traffic-filter inbound acl 3000<br>
+display acl 3000  //检查acl配置是否正常<br>
+display traffic-filter int g0/0/1  //检查ACL应用状态<br>
+save      //以防重启丢失保存</p>
+</blockquote>
+<ol>
+<li>inbound 过滤接口进入设备的流量，如外网口过滤内网出网流量</li>
+<li>outbound 过滤从设备出接口的流量</li>
+</ol>
+<h4 id="acl注意事项"><a class="anchor" href="#acl注意事项">#</a> ACL注意事项</h4>
+<ol>
+<li>规则顺序：ACL规则自上而下匹配，一旦匹配就会停止执行，所以精准ACL规则需要在前，宽泛ALC规则在后</li>
+<li>默认规则：所有ACL最后都需要有一条隐含拒绝所有规则，必须手动添加permit any 允许除acl deny之外的合法流量</li>
+<li>方向选择：比如在内网禁止访问外网的FTP，ACL应用在路由器内网出方向或外网入方向，优先选择外网入方向，这样减少无用流量转发。</li>
+<li>高级ACL别配错：高级ACL若应用在源设备侧，可能会导致其他流量被错误拦截，建议靠近目标设备应用。</li>
+<li>ACL--》加规则---》绑接口</li>
+<li>基础ACL控源ip，高级ACL控IP +协议 + 端口，二层ACL控MAC/Vlan</li>
+<li>规则顺和方向是生效关键，默认拒绝所有需手动允许的合法流量</li>
+</ol>
+<h4 id="反掩码匹配规则"><a class="anchor" href="#反掩码匹配规则">#</a> 反掩码匹配规则</h4>
+<table>
+<thead>
+<tr>
+<th>二进制位</th>
+<th>反掩码含义</th>
+<th>子网掩码含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>必须精准匹配（固定位）</td>
+<td>网络位（固定位）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>可以任意（忽略位）</td>
+<td>主机位（可变位）</td>
+</tr>
+</tbody>
+</table>
+<p>主要用于告诉设备那些需要精准匹配那些可以忽略。</p>
+<h5 id="精准匹配"><a class="anchor" href="#精准匹配">#</a> 精准匹配</h5>
+<p>例如：需要精准匹配 192.168.1.100</p>
+<blockquote>
+<p>子网验配匹配单个IP：255.255.255.255 所有位都固定<br>
+反掩码则为：255.255.255.255 - 255.255.255.255 = 0.0.0.0<br>
+ACL写法则为：source 192.168.1.100 0.0.0.0<br>
+这里含义为ip这四个段一个都不能有差异，需完全匹配</p>
+</blockquote>
+<h5 id="网段匹配"><a class="anchor" href="#网段匹配">#</a> 网段匹配</h5>
+<p>例如：需要匹配 192.168.1.0/24 网段 192.168.1.100~192.168.1.254</p>
+<blockquote>
+<p>子网掩码：255.255.255.0 前三段都固定<br>
+反掩码则为：255.255.255.255 - 255.255.255.0 = 0.0.0.255<br>
+ACL则：source 192.168.1.0 0.0.0.255</p>
+</blockquote>
+<h5 id="进阶某段固定匹配"><a class="anchor" href="#进阶某段固定匹配">#</a> 进阶某段固定匹配</h5>
+<p>例如：需要匹配192.168.0.0/16 网段：192.168.x.x</p>
+<blockquote>
+<p>子网掩码：255.255.0.0<br>
+反掩码则为：255.255.255.255 - 255.255.0.0 = 0.0.255.255<br>
+ACL则：source 192.168.0.0 0.0.255.255</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>对比项</th>
+<th>子网掩码</th>
+<th>反掩码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目的</td>
+<td>划分网络位 / 主机位</td>
+<td>告诉 ACL 哪些 IP 位要匹配</td>
+</tr>
+<tr>
+<td>1 的含义</td>
+<td>网络位（固定）</td>
+<td>忽略位（随便）</td>
+</tr>
+<tr>
+<td>0 的含义</td>
+<td>主机位（可变）</td>
+<td>匹配位（必须一样）</td>
+</tr>
+<tr>
+<td>计算方式</td>
+<td>网络位设 1，主机位设 0</td>
+<td>匹配位设  0，忽略位设 1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nat"><a class="anchor" href="#nat">#</a> NAT</h2>
+<p>NAT就是网络地址转换，将内网私有IP转换成公网公有IP，让多台内网设备共用一个公网IP上网，还能隐藏内网IP、节省公网IP资源。</p>
+<ul>
+<li>A 类：10.0.0.0 ~ 10.255.255.255（子网掩码 255.0.0.0）</li>
+<li>B 类：172.16.0.0 ~ 172.31.255.255（子网掩码 255.240.0.0）</li>
+<li>C 类：192.168.0.0 ~ 192.168.255.255（子网掩码 255.255.0.0）</li>
+</ul>
+<p>这些 IP 不能直接访问公网，必须通过 NAT 转换为公网 IP 才行</p>
+<h3 id="缺省路由"><a class="anchor" href="#缺省路由">#</a> 缺省路由</h3>
+<p>IP routing-table 0.0.0.0 0.0.0.0 下一跳地址<br>
+特点：没有明确匹配路由时，数据统一转发的 兜底路径</p>
+<h3 id="nat应用"><a class="anchor" href="#nat应用">#</a> NAT应用</h3>
+<h4 id="easy-ip"><a class="anchor" href="#easy-ip">#</a> easy IP</h4>
+<blockquote>
+<p>acl 2000<br>
+rule permit source 192.168.1.0 0.0.0.255<br>
+假设出接口 g0/0/0<br>
+int g0/0/0<br>
+nat outbound 2000   //从这个口出去的流量自动做nat转换，但是还缺少路<br>
+ip route-static 0.0.0.0 0.0.0.0 外网网关IP  //这就是路，nat只是创建了门<br>
+当没有路由的时候（直连路由、动态路由、其他静态路由）则需要配置”路“则缺省路由告诉设备怎么去外网</p>
+</blockquote>
+<p>路由表里没有任何去往外网的路由时，才需要缺省路由兜底</p>
+<h4 id="地址池nat"><a class="anchor" href="#地址池nat">#</a> 地址池NAT</h4>
+<blockquote>
+<p>acl 2000<br>
+rule permit source 192.168.1.0 0.0.0.255<br>
+nat address-group 1 （编号） 200.1.1.10 200.1.1.20  //创建1号地址池 200.1.1.0~200.1.1.20<br>
+int g0/0/0<br>
+nat outbound 2000 address-group 1  // 从出网接口出去的地址经nat地址池连接外网</p>
+</blockquote>
+<ul>
+<li><strong>address-group 1</strong>：准备一堆公网 IP</li>
+<li><strong>acl 2000</strong>：准备一堆内网 IP</li>
+<li><strong>nat outbound 2000 address-group 1</strong>：内网 → 公网，转换完成</li>
+</ul>
+<p>nat address-group 1 起始IP 结束IP<br>
+acl 2000 rule permit source 内网网段 反掩码<br>
+interface 出口<br>
+nat outbound 2000 address-group 1</p>
+<h4 id="nat-server"><a class="anchor" href="#nat-server">#</a> NAT Server</h4>
+<p>作用：让外网能访问内网的服务器，如摄像头、网站、游戏服务器等</p>
+<blockquote>
+<p>int g0/0/0<br>
+nat server protocol tcp global 64.1.1.4 www inside 192.168.1.10 www<br>
+global 全局外网ip、inside内网、www则为网页意思就是端口80<br>
+nat server global 64.1.1.4 inside 192.168.1.10  // 也可以直接转换不指定协议和端口</p>
+</blockquote>
+<h4 id="静态nat"><a class="anchor" href="#静态nat">#</a> 静态NAT</h4>
+<p>作用：一个内网IP永久对应一个公网IP，永不变</p>
+<blockquote>
+<p>nat static global 64.1.1.10 inside 192.168.1.10<br>
+当内网服务器需要固定公网ip时使用，不能变也不能和其他人共用</p>
+</blockquote>
+<h4 id="nat-alg"><a class="anchor" href="#nat-alg">#</a> NAT ALG</h4>
+<p>作用：让一些特殊协议能正常穿越NAT，如FTP、SIP等</p>
+<blockquote>
+<p>nat alg ftp enable<br>
+当有些协议NAT搞不定时，就可用alg来解决</p>
+</blockquote>
+<h4 id="nat服务查看"><a class="anchor" href="#nat服务查看">#</a> nat服务查看</h4>
+<blockquote>
+<p>dis nat session all<br>
+NAT Session Table Information:<br>
+Protocol : UDP(17)<br>
+SrcAddr Port Vpn : 192.168.1.1 5120   //源地址<br>
+DestAddr Port Vpn : 64.1.1.10 5120   //目标地址<br>
+NAT-Info<br>
+New SrcAddr : 64.1.1.4  //地址池将内网ip转成了这个<br>
+New SrcPort : 10259  //转换后的端口<br>
+New DestAddr : ----<br>
+New DestPort : ----<br>
+最终 内网 192.168.1.1 → NAT → 公网 64.1.1.4</p>
+</blockquote>
+<h3 id="telnet"><a class="anchor" href="#telnet">#</a> Telnet</h3>
+<p>真机telnet eNSP中的虚拟机</p>
+<blockquote>
+<p>telnet server enable // 开启telnet服务<br>
+user-interface vty 0 4  //  开启五个连接，0 1 2 3 4 从0开始<br>
+authentication-mode aaa / password // aaa 需要账号密码，而password 则只需密码<br>
+aaa<br>
+[Huawei-aaa]local-user test password cipher 123456 //创建test用户密码，cipher则加密显示<br>
+[Huawei-aaa]local-user test privilege level 15   // 为用户test配置权限等级，其中0-15越大权限越高<br>
+[Huawei-aaa]local-user test service-type telnet    //配置test用户仅用于telnet权限</p>
+</blockquote>
+<ul>
+<li><strong>0 级：只能 ping</strong></li>
+<li><strong>1 级：只能看，不能改</strong></li>
+<li><strong>2～14：能配置，权限逐级升高</strong></li>
+<li><strong>15 级：拥有设备全部权限</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>权限名称</th>
+<th>权限范围说明</th>
+<th>典型可执行操作</th>
+<th>适用角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>访问级</td>
+<td>最低权限，仅基础网络诊断</td>
+<td>ping、tracert</td>
+<td>临时测试人员、访客</td>
+</tr>
+<tr>
+<td>1</td>
+<td>监控级</td>
+<td>可查看设备状态，不能配置</td>
+<td>display 系列命令（查看版本、接口、日志等）</td>
+<td>值班人员、监控人员</td>
+</tr>
+<tr>
+<td>2</td>
+<td>配置级</td>
+<td>可进行部分基础配置</td>
+<td>部分简单配置命令</td>
+<td>初级运维</td>
+</tr>
+<tr>
+<td>3</td>
+<td>配置级</td>
+<td>可进行更多系统配置</td>
+<td>系统基础配置、接口配置</td>
+<td>运维人员</td>
+</tr>
+<tr>
+<td>4</td>
+<td>管理级</td>
+<td>可管理大部分设备功能</td>
+<td>路由、ACL、接口等配置</td>
+<td>中级运维</td>
+</tr>
+<tr>
+<td>5</td>
+<td>管理级</td>
+<td>权限进一步提升</td>
+<td>更多系统管理命令</td>
+<td>中级运维</td>
+</tr>
+<tr>
+<td>6</td>
+<td>管理级</td>
+<td>可执行更多管理类操作</td>
+<td>策略、安全相关部分配置</td>
+<td>中高级运维</td>
+</tr>
+<tr>
+<td>7</td>
+<td>管理级</td>
+<td>权限接近高级管理员</td>
+<td>大部分设备管理命令</td>
+<td>中高级运维</td>
+</tr>
+<tr>
+<td>8</td>
+<td>管理级</td>
+<td>高级管理权限</td>
+<td>可配置大部分安全、系统功能</td>
+<td>高级运维</td>
+</tr>
+<tr>
+<td>9</td>
+<td>管理级</td>
+<td>更高管理权限</td>
+<td>可配置几乎所有非核心安全项</td>
+<td>高级运维</td>
+</tr>
+<tr>
+<td>10</td>
+<td>特权级</td>
+<td>接近最高权限</td>
+<td>可配置绝大多数功能</td>
+<td>项目负责人、高级工程师</td>
+</tr>
+<tr>
+<td>11</td>
+<td>特权级</td>
+<td>高权限管理</td>
+<td>几乎所有配置 + 部分安全管理</td>
+<td>高级工程师</td>
+</tr>
+<tr>
+<td>12</td>
+<td>特权级</td>
+<td>高权限管理</td>
+<td>可执行大部分系统级操作</td>
+<td>高级工程师</td>
+</tr>
+<tr>
+<td>13</td>
+<td>特权级</td>
+<td>接近最高权限</td>
+<td>可执行系统级、安全级操作</td>
+<td>资深工程师</td>
+</tr>
+<tr>
+<td>14</td>
+<td>特权级</td>
+<td>几乎最高权限</td>
+<td>除极少数关键操作外，全部可执行</td>
+<td>资深工程师、管理员助理</td>
+</tr>
+<tr>
+<td>15</td>
+<td>最高权限级</td>
+<td>设备完全控制权</td>
+<td>所有命令：配置、删除、重启、保存、升级、文件管理等</td>
+<td>设备管理员、最高权限账号</td>
+</tr>
+</tbody>
+</table>
+<h2 id="网络拓扑"><a class="anchor" href="#网络拓扑">#</a> 网络拓扑</h2>
+<h3 id="星型拓扑"><a class="anchor" href="#星型拓扑">#</a> 星型拓扑</h3>
+<p>特点：通过中间节点将其他节点连接在一起。<br>
+优点：容易新增设备，数据必须经过中心，节点易中转，方便网络监控<br>
+缺点：中心节点比较重要，出现问题容易影响整个网络。</p>
+<h3 id="总线型拓扑"><a class="anchor" href="#总线型拓扑">#</a> 总线型拓扑</h3>
+<p>特点：所有节点通过一条总线连接在一起<br>
+<strong>已淘汰</strong></p>
+<h3 id="环形网络"><a class="anchor" href="#环形网络">#</a> 环形网络</h3>
+<p>特点：所有节点连成一个换<br>
+优点：节省电缆<br>
+缺点：不易扩展</p>
+<h3 id="树形网络"><a class="anchor" href="#树形网络">#</a> 树形网络</h3>
+<p>特点：像一棵树一样的层次化的星型结构<br>
+缺点：能够快速将多个星型网络连接在一，易拓展<br>
+缺点：层级越高的设备出现问题易导致网络瘫痪</p>
+<h3 id="全网状网络"><a class="anchor" href="#全网状网络">#</a> 全网状网络</h3>
+<p>特点：所有节点都通过线缆两两连接<br>
+优点：具有高可用、高效率通信<br>
+缺点：成本高，不易扩展</p>
+<h3 id="部分网状网络"><a class="anchor" href="#部分网状网络">#</a> 部分网状网络</h3>
+<p>特点：在全网状基础上，只在重要节点之间才两两相连<br>
+优点：成本低于全网状<br>
+缺点：可靠性比全网状有所降低</p>
+<h3 id="组合型的网络"><a class="anchor" href="#组合型的网络">#</a> 组合型的网络</h3>
+<p>特点：在上列所有类型的网络组合在一起<br>
+优点： 结合优缺点查漏补缺，更好的组网<br>
+缺点：较为复杂</p>
+<h2 id="网络模型"><a class="anchor" href="#网络模型">#</a> 网络模型</h2>
+<h3 id="osi模型"><a class="anchor" href="#osi模型">#</a> OSI模型</h3>
+<ol>
+<li>应用层   ——— 为应用提供网络服务</li>
+<li>表示层   ——— 数据格式化、加密解密</li>
+<li>会话层   ——— 建立、维护、管理会话连接</li>
+<li>传输层   ——— 建立、维护、管理端到端连接</li>
+<li>网络层   ——— IP寻址和路由选择</li>
+<li>数据链路层  ———— 控制网络层与物理层之间的同行</li>
+<li>物理层   ———比特流传输</li>
+</ol>
+<h3 id="tcp-ip-模型"><a class="anchor" href="#tcp-ip-模型">#</a> TCP IP 模型</h3>
+<p>在实际应用中一般将上层合并，下两层依旧分开，就成了TCP IP 模型<br>
+TCP/IP标准模型</p>
+<ol>
+<li>应用层</li>
+<li>主机到主机层</li>
+<li>英特网层</li>
+<li>网络接入层</li>
+</ol>
+<p>TCP/IP 对等模型</p>
+<ol>
+<li>应用层</li>
+<li>传输层</li>
+<li>网络接入层</li>
+<li>数据链路层</li>
+<li>物理层</li>
+</ol>
+<p><img loading="lazy" src="hceiling://i0.hdslb.com/bfs/openplatform/9bca5df2410ba11bffd295c1bb576b80ac15f291.png" alt=""></p>
+<h3 id="各层常见协议"><a class="anchor" href="#各层常见协议">#</a> 各层常见协议</h3>
+<h4 id="应用层"><a class="anchor" href="#应用层">#</a> 应用层</h4>
+<p>HTTP、Telnet、FTP、SMTP、TFTP</p>
+<h4 id="传输层"><a class="anchor" href="#传输层">#</a> 传输层</h4>
+<p>TCP、UDP</p>
+<h4 id="网络层"><a class="anchor" href="#网络层">#</a> 网络层</h4>
+<p>IP、<br>
+<strong>IGMP</strong>：负责IP组播成员管理的协议。用于在IP主机和其他直接相邻的组播路由器之间建立、维护组播成员关系。<br>
+<strong>TCMP</strong>：基于IP协议在网络中发送控制消息，提供可能在同行环境中的各种问题反馈，通过这些信息，使得更换里者可以做出诊断采取措施解决。</p>
+<h4 id="数据链路层"><a class="anchor" href="#数据链路层">#</a> 数据链路层</h4>
+<p>Ethernet ：以太网协议，一种多路访问广播型数据链路层协议，是当前应用最广泛的协议。<br>
+PPP：点对点，用于广域网<br>
+PPPoE：Point-to-Point-Protocol over Ethernet 以太网承载PPP协议，常见应用如家宽拨号上网</p>
+<div class="tags"><a href="/tags/ensp%E7%AC%94%E8%AE%B0/" rel="tag"><i class="ic i-tag"></i>ensp笔记</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">Edited on </span><time title="Modified: 2026-02-13 13:39:28" itemprop="dateModified" datetime="2026-02-13T13:39:28+08:00">2026-02-13</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>Donate</button><p>Give me a cup of [coffee]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" src="/assets/wechatpay.png" alt="Vullfin WeChat Pay"><p>WeChat Pay</p></div><div><img loading="lazy" src="/assets/alipay.png" alt="Vullfin Alipay"><p>Alipay</p></div></div></div><div id="copyright"><ul><li class="author"><strong>Post author: </strong>Vullfin<i class="ic i-at"><em>@</em></i>𝕍𝕍'𝔹𝕝𝕠𝕘</li><li class="link"><strong>Post link: </strong><a href="/go.html?u=aHR0cHM6Ly9ibG9nLnZ1bGwudG9wLzYzNzY5Lmh0bWw" title="eNSP笔记大全" rel="external nofollow noopener noreferrer" target="_blank">https://blog.vull.top/63769.html</a></li><li class="license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> unless stating additionally.</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/51704.html" rel="prev" itemprop="url" data-background-image="https://imgcdn.vull.top/images/tech/2026/03/二次元-动漫.png" title="window11 24h2补丁兼容ensp"><span class="type">Previous Post</span><span class="category"><i class="ic i-flag"></i>Study</span><h3>window11 24h2补丁兼容ensp</h3></a></div><div class="item right"><a href="/26364.html" rel="next" itemprop="url" data-background-image="https://imgcdn.vull.top/images/tech/2026/03/二次元-初音未来.png" title="waline升级报告"><span class="type">Next Post</span><span class="category"><i class="ic i-flag"></i>Update Report</span><h3>waline升级报告</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="Contents"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE"><span class="toc-number">1.</span> <span class="toc-text"> 静态路由配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tcp-udp-cdn"><span class="toc-number">2.</span> <span class="toc-text"> TCP UDP CDN</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vlan"><span class="toc-number">3.</span> <span class="toc-text"> vlan</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E5%B1%82-vlan"><span class="toc-number">3.1.</span> <span class="toc-text"> 二层 vlan</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%B1%82-vlan"><span class="toc-number">3.2.</span> <span class="toc-text"> 三层 vlan</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E8%87%82%E8%B7%AF%E7%94%B1"><span class="toc-number">3.3.</span> <span class="toc-text"> 单臂路由</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#acl%E6%8E%A7%E5%88%B6"><span class="toc-number">4.</span> <span class="toc-text"> ACL控制</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#basic-acl-%E5%9F%BA%E7%A1%80acl-2000-2999"><span class="toc-number">4.1.</span> <span class="toc-text"> Basic ACL 基础ACL 2000-2999</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%AB%98%E7%BA%A7acl-3000-3999"><span class="toc-number">4.2.</span> <span class="toc-text"> 高级ACL 3000-3999</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%B1%82acl-4000-4999"><span class="toc-number">4.3.</span> <span class="toc-text"> 二层ACL 4000-4999</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#acl%E7%BB%91%E5%AE%9A%E6%8E%A5%E5%8F%A3%E5%BA%94%E7%94%A8"><span class="toc-number">4.4.</span> <span class="toc-text"> ACL绑定接口应用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#acl%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">4.5.</span> <span class="toc-text"> ACL注意事项</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8D%E6%8E%A9%E7%A0%81%E5%8C%B9%E9%85%8D%E8%A7%84%E5%88%99"><span class="toc-number">4.6.</span> <span class="toc-text"> 反掩码匹配规则</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%B2%BE%E5%87%86%E5%8C%B9%E9%85%8D"><span class="toc-number">4.6.1.</span> <span class="toc-text"> 精准匹配</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BD%91%E6%AE%B5%E5%8C%B9%E9%85%8D"><span class="toc-number">4.6.2.</span> <span class="toc-text"> 网段匹配</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E6%9F%90%E6%AE%B5%E5%9B%BA%E5%AE%9A%E5%8C%B9%E9%85%8D"><span class="toc-number">4.6.3.</span> <span class="toc-text"> 进阶某段固定匹配</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nat"><span class="toc-number">5.</span> <span class="toc-text"> NAT</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%BA%E7%9C%81%E8%B7%AF%E7%94%B1"><span class="toc-number">5.1.</span> <span class="toc-text"> 缺省路由</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#nat%E5%BA%94%E7%94%A8"><span class="toc-number">5.2.</span> <span class="toc-text"> NAT应用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#easy-ip"><span class="toc-number">5.2.1.</span> <span class="toc-text"> easy IP</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9C%B0%E5%9D%80%E6%B1%A0nat"><span class="toc-number">5.2.2.</span> <span class="toc-text"> 地址池NAT</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#nat-server"><span class="toc-number">5.2.3.</span> <span class="toc-text"> NAT Server</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%99%E6%80%81nat"><span class="toc-number">5.2.4.</span> <span class="toc-text"> 静态NAT</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#nat-alg"><span class="toc-number">5.2.5.</span> <span class="toc-text"> NAT ALG</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#nat%E6%9C%8D%E5%8A%A1%E6%9F%A5%E7%9C%8B"><span class="toc-number">5.2.6.</span> <span class="toc-text"> nat服务查看</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#telnet"><span class="toc-number">5.3.</span> <span class="toc-text"> Telnet</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91"><span class="toc-number">6.</span> <span class="toc-text"> 网络拓扑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%9F%E5%9E%8B%E6%8B%93%E6%89%91"><span class="toc-number">6.1.</span> <span class="toc-text"> 星型拓扑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BA%BF%E5%9E%8B%E6%8B%93%E6%89%91"><span class="toc-number">6.2.</span> <span class="toc-text"> 总线型拓扑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%AF%E5%BD%A2%E7%BD%91%E7%BB%9C"><span class="toc-number">6.3.</span> <span class="toc-text"> 环形网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%91%E5%BD%A2%E7%BD%91%E7%BB%9C"><span class="toc-number">6.4.</span> <span class="toc-text"> 树形网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%A8%E7%BD%91%E7%8A%B6%E7%BD%91%E7%BB%9C"><span class="toc-number">6.5.</span> <span class="toc-text"> 全网状网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%A8%E5%88%86%E7%BD%91%E7%8A%B6%E7%BD%91%E7%BB%9C"><span class="toc-number">6.6.</span> <span class="toc-text"> 部分网状网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%84%E5%90%88%E5%9E%8B%E7%9A%84%E7%BD%91%E7%BB%9C"><span class="toc-number">6.7.</span> <span class="toc-text"> 组合型的网络</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.</span> <span class="toc-text"> 网络模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#osi%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.1.</span> <span class="toc-text"> OSI模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tcp-ip-%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.2.</span> <span class="toc-text"> TCP IP 模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%84%E5%B1%82%E5%B8%B8%E8%A7%81%E5%8D%8F%E8%AE%AE"><span class="toc-number">7.3.</span> <span class="toc-text"> 各层常见协议</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E5%B1%82"><span class="toc-number">7.3.1.</span> <span class="toc-text"> 应用层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%A0%E8%BE%93%E5%B1%82"><span class="toc-number">7.3.2.</span> <span class="toc-text"> 传输层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E5%B1%82"><span class="toc-number">7.3.3.</span> <span class="toc-text"> 网络层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82"><span class="toc-number">7.3.4.</span> <span class="toc-text"> 数据链路层</span></a></li></ol></li></ol></li></ol></div><div class="related panel pjax" data-title="Related"><ul><li><a href="/28419.html" rel="bookmark" title="eNSP华为模拟器——链路聚合">eNSP华为模拟器——链路聚合</a></li><li><a href="/2081.html" rel="bookmark" title="eNSP基础笔记">eNSP基础笔记</a></li><li><a href="/28903.html" rel="bookmark" title="eNSP笔记——BGP">eNSP笔记——BGP</a></li><li><a href="/15917.html" rel="bookmark" title="eNSP笔记">eNSP笔记</a></li><li><a href="/13397.html" rel="bookmark" title="eNSP-ACL记录">eNSP-ACL记录</a></li><li><a href="/33676.html" rel="bookmark" title="eNSP笔记之OSPF虚链路实验">eNSP笔记之OSPF虚链路实验</a></li><li><a href="/37288.html" rel="bookmark" title="eNSP-MUX-VLAN">eNSP-MUX-VLAN</a></li><li><a href="/18126.html" rel="bookmark" title="eNSP-SuperVlan">eNSP-SuperVlan</a></li><li><a href="/63063.html" rel="bookmark" title="eNSP-VlanMapping">eNSP-VlanMapping</a></li><li><a href="/40757.html" rel="bookmark" title="eNSP-网络拥塞管理与拥塞避免">eNSP-网络拥塞管理与拥塞避免</a></li><li><a href="/19519.html" rel="bookmark" title="eNSP-IPSecVPN">eNSP-IPSecVPN</a></li><li><a href="/64031.html" rel="bookmark" title="组建直连式二层无线局域网">组建直连式二层无线局域网</a></li><li class="active"><a href="/63769.html" rel="bookmark" title="eNSP笔记大全">eNSP笔记大全</a></li><li><a href="/8358.html" rel="bookmark" title="中小型企业综合实验笔记">中小型企业综合实验笔记</a></li></ul></div><div class="overview panel" data-title="Overview"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Vullfin" src="/assets/avatar.jpg"><p class="name" itemprop="name">Vullfin</p><div class="description" itemprop="description">欢迎来到Vullfin的个人博客</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">51</span><span class="name">posts</span></a></div><div class="item categories"><a href="/categories/"><span class="count">21</span><span class="name">categories</span></a></div><div class="item tags"><a href="/tags/"><span class="count">25</span><span class="name">tags</span></a></div></nav><div class="social"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/rpvvn" class="item github" title="https://github.com/rpvvn"><i class="ic i-github"></i></a><a href="mailto:rpwn_blog@outlook.com" rel="external nofollow noreferrer" class="item email" title="mailto:rpwn_blog@outlook.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>Home</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>About</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-heartbeat"></i>About</a></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>friend-links</a></li><li class="item"><a href="/sitemap.xml" rel="section"><i class="ic i-sitemap"></i>sitemap</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>Posts</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a></li></ul></li><li class="item"><a href="/UpDate/" rel="section"><i class="ic i-arrow-up"></i>UPDate</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/26364.html" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/51704.html" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div><div id="player"></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>Random Posts</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/Blog/" title="InBlog">Blog</a><i class="ic i-angle-right"></i><a href="/categories/Blog/ShokaX/" title="InShokaX">ShokaX</a></div><span><a href="/60822.html">shokaX迁移避坑指南</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/" title="InWebsite">Website</a></div><span><a href="/10330.html">RPWN赞助站点</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Language/" title="InLanguage">Language</a><i class="ic i-angle-right"></i><a href="/categories/Study/Language/JAVA/" title="InJAVA">JAVA</a></div><span><a href="/48651.html">JAVA学习笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Window/" title="InWindow">Window</a></div><span><a href="/35842.html">小技巧</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Linux/" title="InLinux">Linux</a></div><span><a href="/61396.html">Linux——FTP搭建</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Linux/" title="InLinux">Linux</a></div><span><a href="/24884.html">Linux笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/" title="InBlog">Blog</a></div><span><a href="/42719.html">hexo+page博客netlify加速访问</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/" title="InWebsite">Website</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/Image-hosting/" title="InImage hosting">Image hosting</a></div><span><a href="/30306.html">picgo+github图床上传报错read-ECONNRESET</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/" title="InBlog">Blog</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/Shoka/" title="InShoka">Shoka</a></div><span><a href="/21758.html">Shoka折腾美化魔改之加载动画</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/" title="InBlog">Blog</a></div><span><a href="/63101.html">MD转义表</a></span></li></ul></div><div class="rpost pjax"><h2>Recent Comments</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">© 2020 -<span itemprop="copyrightYear">2026</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Vullfin @ 𝑽𝒖𝒍𝒍𝒇𝒊𝒏</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="Symbols count total">150k words</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="Reading time total">2:16</span></div><div class="powered-by">Powered by <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div><div style="width: 100%;text-align:center;"><span id="time"></span></div><script>function createtime() {
+    const n = new Date("2020/01/01 00:00:00");
+    now.setTime(now.getTime() + 250), days = (now - n) / 1e3 / 60 / 60 / 24, dnum = Math.floor(days), hours = (now - n) / 1e3 / 60 / 60 - 24 * dnum, hnum = Math.floor(hours), 1 == String(hnum).length && (hnum = "0" + hnum), minutes = (now - n) / 1e3 / 60 - 1440 * dnum - 60 * hnum, mnum = Math.floor(minutes), 1 == String(mnum).length && (mnum = "0" + mnum), seconds = (now - n) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum, snum = Math.round(seconds), 1 == String(snum).length && (snum = "0" + snum), document.getElementById("time").innerHTML = "本站已安全运行" + dnum + " 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+}
+
+const now = new Date;
+setInterval("createtime()", 250)</script></div><script src="https://unpkg.com/busuanzi@2.3.0/bsz.pure.mini.js"></script><div id="busuanzi-wrap"><span class="ic i-eye"></span><span id="busuanzi_container_site_pv">本站访问量 <span id="busuanzi_value_site_pv"></span> 次</span> | <span class="ic i-user"></span><span id="busuanzi_container_site_uv">本站访客量 <span id="busuanzi_value_site_uv"></span> 次</span></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `/63769.html`,
+    favicon: {
+        show: `(●´3｀●) Here we go again.`,
+        hide: `(´Д｀) It's a disaster!`
+    },
+    search: {
+        placeholder: "Search for Posts",
+        empty: "We didn't find any results for the search: ${query}",
+        stats: "${hits} results found in ${time} ms"
+    },
+    nocopy: "false",
+    copyright: `Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">Article Timeliness Alert</span><br>This is an article published {{publish}} days ago and last updated {{updated}} days ago. Some information may have changed, so please be careful to screen it.</p></div>`,
+    quiz: {
+        choice: `Multiple Choice`,
+        multiple: `Multiple Answer`,
+        true_false: `True/False`,
+        essay: `Questions`,
+        gap_fill: `Gap Filling`,
+        mistake: `Wrong Answer`
+    }
+};
+</script><script src="/js/siteInit.js?v=0.5.4" type="module" fetchpriority="high" defer=""></script><script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const heatmapChartDom = document.getElementById('heatmapChart');
+                if(heatmapChartDom){
+                    const heatmapChart = echarts.init(heatmapChartDom, 'light');
+                    const cellSize = [18, 18];
+                    
+                    const groupByYear = (data) => {
+                        const result = {};
+                        data.forEach(([date, value]) => {
+                            const [year] = date.split('-').map(Number);
+                            if (!result[year]) {
+                                result[year] = [];
+                            }
+                            result[year].push([date, value]);
+                        });
+                        return result;
+                    };
+                    
+                    const groupedData = groupByYear([["2022-03-18",1],["2022-04-12",1],["2022-10-19",1],["2022-11-26",1],["2022-12-10",2],["2022-12-12",1],["2022-12-13",1],["2022-12-23",1],["2022-12-28",1],["2023-01-07",1],["2023-01-08",1],["2023-02-09",1],["2023-03-08",1],["2023-03-13",1],["2023-03-17",1],["2023-04-04",1],["2023-04-07",1],["2023-04-17",1],["2023-04-19",3],["2023-04-21",1],["2023-04-22",2],["2023-04-23",1],["2023-04-24",3],["2023-04-28",1],["2023-05-12",1],["2023-05-14",1],["2023-05-16",1],["2023-05-19",1],["2023-05-23",1],["2023-06-13",4],["2023-06-27",1],["2023-07-01",1],["2023-07-08",1],["2023-11-14",1],["2024-01-06",1],["2024-01-17",1],["2024-09-03",1],["2025-04-10",1],["2026-02-07",2],["2026-02-08",1],["2026-03-19",1]]);
+                    const years = Object.keys(groupedData).reverse();
+                    
+                    var initYear = parseInt(heatmapChartDom.getAttribute('year')) || new Date().getFullYear();
+                    const minYear = years[years.length - 1];
+                    const maxYear = years[0];
+                    if (initYear < minYear || initYear > maxYear) {
+                        initYear = maxYear;
+                    }
+                    console.log('[hexo-graph]generateHeatmapChart|initYear:', initYear, 'minYear:', minYear, 'maxYear:', maxYear);
+                    
+                    heatmapChart.setOption({
+                        grid: {},
+                        tooltip: { 
+                            position: 'top', 
+                            formatter: params => `${params.value[0]}: ${params.value[1]} Articles` 
+                        },
+                        calendar: { 
+                            top: '10%',
+                            left: 'left', 
+                            right: '8%',
+                            range: initYear,
+                            cellSize: cellSize, 
+                            splitLine: { lineStyle: { color: '#E0E0E0', width: 1 } }, 
+                            itemStyle: { borderWidth: 1, borderColor: '#E0E0E0' }, 
+                            dayLabel: { show: false },
+                            monthLabel: { show: true },
+                            yearLabel: { show: false },
+                        },
+                        visualMap: { 
+                            show: true,
+                            right: '8%',
+                            bottom: '5%',
+                            type: 'piecewise',
+                            orient: 'horizontal',
+                            text: ['More', 'Less'],
+                            min: 0,
+                            max: Math.max(...groupedData[initYear].map(item => item[1])),
+                            inRange: { color: ["#ACE7AE","#69C16D","#549F57"] }
+                        },
+                        legend: {
+                            type: 'scroll',
+                            icon: 'none',
+                            data: years,
+                            orient: 'vertical',
+                            top: '5%',
+                            right: 'right',
+                            itemWidth: 20,
+                            itemHeight: 20,
+                            itemGap: 10,
+                            pageIconSize: 10,
+                            pageTextStyle: { fontSize: 14 },
+                            selectedMode: 'single',
+                        },
+                        series: years.map(year => ({
+                            type: 'heatmap',
+                            coordinateSystem: 'calendar',
+                            data: groupedData[year],
+                            name: year,
+                            emphasis: {
+                                disabled: true,
+                            },
+                            silent: year !== initYear,
+                        })),
+                    });
+                    
+                    // init selected year
+                    heatmapChart.dispatchAction({
+                        type: 'legendSelect',
+                        name: initYear,
+                    });
+                    
+                    heatmapChart.on('legendselectchanged', function(params) {
+                        console.log('[hexo-graph]generateHeatmapChart|legendselectchanged:', params);
+                        const selectedYear = Object.keys(params.selected).find(key => params.selected[key]);
+                        if (selectedYear && groupedData[selectedYear]) {
+                            heatmapChart.setOption({
+                                calendar: {
+                                    range: selectedYear,
+                                },
+                                visualMap: {
+                                    max: Math.max(...groupedData[selectedYear].map(item => item[1])),
+                                },
+                                series: years.map(year => ({
+                                    type: 'heatmap',
+                                    coordinateSystem: 'calendar',
+                                    data: groupedData[year],
+                                    name: year,
+                                    emphasis: {
+                                        disabled: true,
+                                    },
+                                    silent: year !== selectedYear,
+                                })),
+                            });
+                        }
+                    });
+                    
+                    heatmapChart.on('click', function (params) {
+                        if (params.componentType === 'series') {
+                            const [year, month] = params.value[0].split('-');
+                            window.location.href = '/archives/' + year + '/' + month;
+                        }
+                    });
+                }
+            });
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const monthlyChartDom = document.getElementById('monthlyChart');
+                if(monthlyChartDom){
+                    const monthlyChart = echarts.init(monthlyChartDom, 'light');
+                    monthlyChart.setOption({
+                        xAxis: { 
+                            type: 'category', 
+                            data: ["2022-03","2022-04","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-11","2024-01","2024-09","2025-04","2026-02","2026-03"], 
+                            axisLabel: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        },
+                        yAxis: { type: 'value', splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } } },
+                        series: [{
+                            name: 'Articles',
+                            type: 'line',
+                            data: [1,1,1,1,6,2,1,3,14,5,5,2,1,2,1,1,3,1],
+                            smooth: true,
+                            lineStyle: { color: '#5470C6', width: 2 },
+                            itemStyle: { color: '#5470C6' },
+                            areaStyle: { color: 'rgba(84, 112, 198, 0.4)' },
+                            symbolSize: 10,
+                            label: {
+                                show: true,
+                                position: 'top',
+                                formatter: params => params.value,
+                                fontSize: 14,
+                                color: '#000',
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            }
+                        }]
+                    });
+
+                    monthlyChart.on('click', function (params) {
+                        const [year, month] = params.name.split('-');
+                        window.location.href = '/archives/' + year + '/' + month;
+                    });
+                }
+            })
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const tagsChartDom = document.getElementById('tagsChart');
+                if(tagsChartDom){
+                    const tagsChart = echarts.init(tagsChartDom, 'light');
+                    tagsChart.setOption({
+                        tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie',
+                            radius: '60%',
+                            data: [{"name":"ensp笔记","value":16},{"name":"Image hosting","value":4},{"name":"Record","value":3},{"name":"Personal Website","value":3},{"name":"Linux","value":3},{"name":"Shoka","value":2},{"name":"Window Tip","value":2},{"name":"update","value":1}],
+                            label: {
+                                position: 'outside',
+                                formatter: '{b} {c} ({d}%)',
+                                fontSize: 14,
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            },
+                            color: ["#5470C6","#91CC75","#FAC858","#EE6666","#73C0DE","#3BA272","#FC8452","#9A60B4"],
+                            labelLine: { show: true }
+                        }],
+                        legend: {
+                            bottom: '0',
+                            left: 'center',
+                            data: [{"name":"ensp笔记","value":16},{"name":"Image hosting","value":4},{"name":"Record","value":3},{"name":"Personal Website","value":3},{"name":"Linux","value":3},{"name":"Shoka","value":2},{"name":"Window Tip","value":2},{"name":"update","value":1}].map(tag => tag.name),
+                            textStyle: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        }
+                    });
+
+                    tagsChart.on('click', function (params) {
+                        window.location.href = '/tags/' + params.name;
+                    });
+                }
+            })
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const categoriesChartDom = document.getElementById('categoriesChart');
+                if(categoriesChartDom){
+                    const categoriesChart = echarts.init(categoriesChartDom, 'light');
+                    categoriesChart.setOption({
+                        xAxis: { type: 'value', splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } } },
+                        yAxis: { 
+                            type: 'category', 
+                            data: [{"name":"Study","value":35},{"name":"ensp","value":14},{"name":"Life","value":13},{"name":"Blog","value":8},{"name":"Website","value":7}].map(category => category.name).reverse(), 
+                            axisLabel: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        },
+                        series: [{
+                            name: 'Category Count',
+                            type: 'bar',
+                            data: [{"name":"Study","value":35},{"name":"ensp","value":14},{"name":"Life","value":13},{"name":"Blog","value":8},{"name":"Website","value":7}].map(category => category.value).reverse(),
+                            label: {
+                                show: true,
+                                position: 'right',
+                                formatter: params => params.value,
+                                fontSize: 14,
+                                color: '#000',
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            },
+                            itemStyle: {
+                                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                                    { offset: 0, color: '#91CC75' },
+                                    { offset: 1, color: '#73C0DE' }
+                                ])
+                            }
+                        }]
+                    });
+
+                    categoriesChart.on('click', function (params) {
+                        window.location.href = '/categories/' + params.name;
+                    });
+                }
+            });
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const categoriesTreeChartDom = document.getElementById('categoriesTreeChart');
+                if(categoriesTreeChartDom){
+                    const treeChart = echarts.init(categoriesTreeChartDom, 'light');
+                    treeChart.setOption({
+                        title: {
+                            text: '操作提示：单击展开分类，双击进入具体分类页面',
+                            textStyle: {
+                                fontSize: 12,
+                                color: '#999',
+                                fontWeight: 'normal'
+                            },
+                            bottom: 0,
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'item',
+                            triggerOn: 'mousemove'
+                        },
+                        series: [{
+                            type: 'tree',
+                            data: [{"name":"Categories","children":[{"name":"Life","children":[{"name":"Website","children":[{"name":"Image hosting","children":[],"count":4,"path":"Life/Website/Image hosting"}],"count":7,"path":"Life/Website"},{"name":"日记","children":[],"count":1,"path":"Life/日记"},{"name":"Window","children":[{"name":"VMware","children":[],"count":1,"path":"Life/Window/VMware"}],"count":2,"path":"Life/Window"}],"count":13,"path":"Life"},{"name":"Update Report","children":[],"count":1,"path":"Update Report"},{"name":"Study","children":[{"name":"Blog","children":[{"name":"Shoka","children":[],"count":2,"path":"Study/Blog/Shoka"}],"count":7,"path":"Study/Blog"},{"name":"Language","children":[{"name":"English","children":[],"count":1,"path":"Study/Language/English"},{"name":"JAVA","children":[],"count":1,"path":"Study/Language/JAVA"}],"count":2,"path":"Study/Language"},{"name":"Window","children":[{"name":"openAI","children":[],"count":1,"path":"Study/Window/openAI"}],"count":5,"path":"Study/Window"},{"name":"Python","children":[],"count":1,"path":"Study/Python"},{"name":"Linux","children":[],"count":4,"path":"Study/Linux"},{"name":"ensp","children":[],"count":14,"path":"Study/ensp"}],"count":35,"path":"Study"},{"name":"Games","children":[],"count":1,"path":"Games"},{"name":"Blog","children":[{"name":"ShokaX","children":[],"count":1,"path":"Blog/ShokaX"}],"count":1,"path":"Blog"}],"count":0,"path":""}],
+                            initialTreeDepth: -1,
+                            top: '5%',
+                            bottom: '10%',
+                            left: '0%',
+                            right: '0%',
+                            symbolSize: 15,
+                            layout: 'orthogonal',
+                            orient: 'TB',
+                            itemStyle: {
+                                color: '#91CC75',
+                                borderColor: '#73C0DE'
+                            },
+                            label: {
+                                position: 'bottom',
+                                verticalAlign: 'middle',
+                                align: 'center',
+                                fontSize: 14,
+                                distance: 28,
+                                formatter: function(params) {
+                                    return params.data.name + (params.data.count ? ' (' + params.data.count + ')' : '');
+                                }
+                            },
+                            leaves: {
+                                label: {
+                                    position: 'top',
+                                    verticalAlign: 'middle',
+                                    align: 'center'
+                                }
+                            },
+                            emphasis: {
+                                focus: 'descendant'
+                            },
+                            expandAndCollapse: true
+                        }]
+                    });
+
+                    treeChart.on('dblclick', function (params) {
+                        if (params.data && params.data.path) {
+                            window.location.href = '/categories/' + params.data.path;
+                        }
+                    });
+                }
+            });
+        </script>
+    
+    </body></html>

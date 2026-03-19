@@ -5,34 +5,34 @@
     <link href="https://blog.vull.top" />
     <updated>2024-09-03T07:00:07.000Z</updated>
     <category term="Record" />
-    <category term="Image hosting" />
     <category term="Personal Website" />
+    <category term="Image hosting" />
     <category term="update" />
     <category term="生活记录" />
+    <category term="MD" />
     <category term="辅助/外挂" />
     <category term="SEO" />
     <category term="Shoka" />
-    <category term="MD" />
-    <category term="博客md文章" />
+    <category term="ShokaX" />
     <category term="netlify加速访问博客" />
+    <category term="English note" />
+    <category term="博客md文章" />
     <category term="hexo搭建" />
     <category term="OpenAI反代" />
-    <category term="ShokaX" />
     <category term="VMware17pro激活码" />
+    <category term="Window Tip" />
     <category term="Window Delete/Uninstall" />
     <category term="百度云盘加速" />
     <category term="Occupied Folder" />
-    <category term="Window Tip" />
-    <category term="English note" />
-    <category term="Linux" />
     <category term="原创力" />
-    <category term="ensp笔记" />
+    <category term="Linux" />
     <category term="RHEL" />
+    <category term="ensp笔记" />
     <category term="JAVA note" />
     <entry>
-        <id>https://blog.vull.top/posts/48651.html</id>
+        <id>https://blog.vull.top/48651.html</id>
         <title>JAVA学习笔记</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/48651.html"/>
+        <link rel="alternate" href="https://blog.vull.top/48651.html"/>
         <content type="html">&lt;h1 id=&#34;一-java环境配置指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-java环境配置指南&#34;&gt;#&lt;/a&gt; 一、java环境配置指南&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;下载&lt;a href=&#34;https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html&#34;&gt;JDK&lt;/a&gt;&lt;/li&gt;

@@ -5,34 +5,34 @@
     <link href="https://blog.vull.top" />
     <updated>2026-03-19T12:29:58.000Z</updated>
     <category term="Record" />
-    <category term="Image hosting" />
     <category term="Personal Website" />
+    <category term="Image hosting" />
     <category term="update" />
     <category term="生活记录" />
+    <category term="MD" />
     <category term="辅助/外挂" />
     <category term="SEO" />
     <category term="Shoka" />
-    <category term="MD" />
-    <category term="博客md文章" />
+    <category term="ShokaX" />
     <category term="netlify加速访问博客" />
+    <category term="English note" />
+    <category term="博客md文章" />
     <category term="hexo搭建" />
     <category term="OpenAI反代" />
-    <category term="ShokaX" />
     <category term="VMware17pro激活码" />
+    <category term="Window Tip" />
     <category term="Window Delete/Uninstall" />
     <category term="百度云盘加速" />
     <category term="Occupied Folder" />
-    <category term="Window Tip" />
-    <category term="English note" />
-    <category term="Linux" />
     <category term="原创力" />
-    <category term="ensp笔记" />
+    <category term="Linux" />
     <category term="RHEL" />
+    <category term="ensp笔记" />
     <category term="JAVA note" />
     <entry>
-        <id>https://blog.vull.top/posts/60822.html</id>
+        <id>https://blog.vull.top/60822.html</id>
         <title>shokaX迁移避坑指南</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/60822.html"/>
+        <link rel="alternate" href="https://blog.vull.top/60822.html"/>
         <content type="html">&lt;h1 id=&#34;不蒜子统计无法居中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不蒜子统计无法居中&#34;&gt;#&lt;/a&gt; 不蒜子统计无法居中&lt;/h1&gt;
 &lt;p&gt;1.通过pnpm安装&lt;/p&gt;
 &lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;pnpm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; hexo-shokax-busuanzi&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --save&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -140,9 +140,9 @@
         <updated>2026-03-19T12:29:58.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/14562.html</id>
+        <id>https://blog.vull.top/14562.html</id>
         <title>Shoka折腾美化魔改之下拉小箭头</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/14562.html"/>
+        <link rel="alternate" href="https://blog.vull.top/14562.html"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录本博客对于Shoka主题的美化魔改之下拉小箭头&lt;/p&gt;
 &lt;/div&gt;
@@ -256,9 +256,9 @@
         <updated>2023-05-15T16:16:46.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/21758.html</id>
+        <id>https://blog.vull.top/21758.html</id>
         <title>Shoka折腾美化魔改之加载动画</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/21758.html"/>
+        <link rel="alternate" href="https://blog.vull.top/21758.html"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录本博客对于Shoka主题的美化魔改之加载动画修改&lt;/p&gt;
 &lt;/div&gt;
@@ -412,9 +412,9 @@
         <updated>2023-05-14T15:31:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/63101.html</id>
+        <id>https://blog.vull.top/63101.html</id>
         <title>MD转义表</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/63101.html"/>
+        <link rel="alternate" href="https://blog.vull.top/63101.html"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录HTML ASCII表，&lt;a href=&#34;https://cn.bing.com/search?q=HTML%20ASCII&#34;&gt;参考搜索&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -872,9 +872,9 @@
         <updated>2023-04-21T19:29:49.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/5522.html</id>
+        <id>https://blog.vull.top/5522.html</id>
         <title>Hexo博客各主题SEO优化</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/5522.html"/>
+        <link rel="alternate" href="https://blog.vull.top/5522.html"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;优化HEXO主题页面描述description和keywords网站页面关键词问题，一些主题页面没有keywords和description&lt;/p&gt;
 &lt;/div&gt;
@@ -936,9 +936,9 @@
         <updated>2023-04-21T18:13:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/42719.html</id>
+        <id>https://blog.vull.top/42719.html</id>
         <title>hexo+page博客netlify加速访问</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/42719.html"/>
+        <link rel="alternate" href="https://blog.vull.top/42719.html"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本章记录解决Github page 访问hexo博客太慢问题，特地使用访问速度更快的Netlify来进行双向托管同步部署&lt;/p&gt;
 &lt;/div&gt;
@@ -1005,9 +1005,9 @@
         <updated>2023-03-13T12:18:10.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/43290.html</id>
+        <id>https://blog.vull.top/43290.html</id>
         <title>hexo博客文章</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/43290.html"/>
+        <link rel="alternate" href="https://blog.vull.top/43290.html"/>
         <content type="html">&lt;p&gt;❤️😶❤️&lt;br /&gt;
 &lt;a href=&#34;https://gist.github.com/rxaviers/7360908&#34;&gt;小表情大全直达&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;本文章是针对 &lt;code&gt;Markdown.com.cn&lt;/code&gt; 进行的搬钻简化&lt;/p&gt;
@@ -1203,9 +1203,9 @@ l0,-1944c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
         <updated>2022-04-12T09:50:51.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.vull.top/posts/36579.html</id>
+        <id>https://blog.vull.top/36579.html</id>
         <title>博客创建心得</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/36579.html"/>
+        <link rel="alternate" href="https://blog.vull.top/36579.html"/>
         <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;欢迎来到TTRR个人博客，本篇分享的是我对于hexo搭建并部署到github的个人心得分享。&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
 &lt;em&gt;&lt;strong&gt;本站图床基于国外，流畅查看图片需要翻墙&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;

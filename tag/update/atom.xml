@@ -5,34 +5,34 @@
     <link href="https://blog.vull.top" />
     <updated>2026-02-07T04:27:16.000Z</updated>
     <category term="Record" />
-    <category term="Image hosting" />
     <category term="Personal Website" />
+    <category term="Image hosting" />
     <category term="update" />
     <category term="生活记录" />
+    <category term="MD" />
     <category term="辅助/外挂" />
     <category term="SEO" />
     <category term="Shoka" />
-    <category term="MD" />
-    <category term="博客md文章" />
+    <category term="ShokaX" />
     <category term="netlify加速访问博客" />
+    <category term="English note" />
+    <category term="博客md文章" />
     <category term="hexo搭建" />
     <category term="OpenAI反代" />
-    <category term="ShokaX" />
     <category term="VMware17pro激活码" />
+    <category term="Window Tip" />
     <category term="Window Delete/Uninstall" />
     <category term="百度云盘加速" />
     <category term="Occupied Folder" />
-    <category term="Window Tip" />
-    <category term="English note" />
-    <category term="Linux" />
     <category term="原创力" />
-    <category term="ensp笔记" />
+    <category term="Linux" />
     <category term="RHEL" />
+    <category term="ensp笔记" />
     <category term="JAVA note" />
     <entry>
-        <id>https://blog.vull.top/posts/26364.html</id>
+        <id>https://blog.vull.top/26364.html</id>
         <title>waline升级报告</title>
-        <link rel="alternate" href="https://blog.vull.top/posts/26364.html"/>
+        <link rel="alternate" href="https://blog.vull.top/26364.html"/>
         <content type="html">&lt;h1 id=&#34;hexo-shoka-主题-waline-评论系统升级报告&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-shoka-主题-waline-评论系统升级报告&#34;&gt;#&lt;/a&gt; Hexo Shoka 主题 Waline 评论系统升级报告&lt;/h1&gt;
 &lt;h2 id=&#34;项目概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目概述&#34;&gt;#&lt;/a&gt; 项目概述&lt;/h2&gt;
 &lt;p&gt;本报告详细记录了如何将 Waline v2 评论系统集成到 Hexo Shoka 主题中。原主题仅支持 MiniValine 评论系统，现已成功扩展支持 Waline 和 Valine，并实现动态切换功能。&lt;/p&gt;
