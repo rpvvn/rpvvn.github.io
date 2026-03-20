@@ -4,27 +4,28 @@
     <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;shokax&#34; category</title>
     <link href="https://blog.vull.top" />
     <updated>2026-03-19T12:29:58.000Z</updated>
-    <category term="blog" />
     <category term="Record" />
+    <category term="shoka" />
     <category term="Image hosting" />
     <category term="Personal Website" />
     <category term="生活记录" />
     <category term="update" />
     <category term="SEO" />
-    <category term="辅助/外挂" />
-    <category term="MD" />
     <category term="Shoka" />
-    <category term="博客md文章" />
+    <category term="MD" />
     <category term="netlify加速访问博客" />
     <category term="ShokaX" />
+    <category term="博客md文章" />
+    <category term="blog" />
     <category term="hexo搭建" />
-    <category term="OpenAI反代" />
-    <category term="Window Delete/Uninstall" />
-    <category term="百度云盘加速" />
-    <category term="Window Tip" />
-    <category term="VMware17pro激活码" />
-    <category term="Occupied Folder" />
     <category term="English note" />
+    <category term="辅助/外挂" />
+    <category term="VMware17pro激活码" />
+    <category term="Window Delete/Uninstall" />
+    <category term="Window Tip" />
+    <category term="OpenAI反代" />
+    <category term="百度云盘加速" />
+    <category term="Occupied Folder" />
     <category term="Linux" />
     <category term="原创力" />
     <category term="ensp笔记" />
@@ -136,6 +137,16 @@
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;  &amp;#x26;&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt;active&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;    transform: scale&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#B07D48;--shiki-dark:#BD976A&#34;&gt;95&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;)&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;catecards-首页精选分页&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#catecards-首页精选分页&#34;&gt;#&lt;/a&gt; cateCards 首页精选分页&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;由于这是升级版的shoka,所以它不能像原版shoka直接在分类目录下创建cover.jpg就可以了&lt;/li&gt;
+&lt;li&gt;主题根目录&lt;strong&gt;config.yml&lt;/strong&gt;配置参考如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  cateCards&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;    -&lt;/span&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt; slug&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; Study&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;      cover&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; Study/cover.jpg&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;    -&lt;/span&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt; slug&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; Life&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;      cover&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; Life/cover.jpg&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
         <category term="ShokaX" />
         <updated>2026-03-19T12:29:58.000Z</updated>
