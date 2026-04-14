@@ -4,33 +4,33 @@
     <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘</title>
     <link href="https://blog.vull.top" />
     <updated>2026-04-14T11:34:31.000Z</updated>
-    <category term="shoka" />
-    <category term="面经" />
     <category term="Record" />
-    <category term="Personal Website" />
     <category term="Image hosting" />
-    <category term="生活记录" />
+    <category term="Personal Website" />
     <category term="update" />
+    <category term="生活记录" />
     <category term="SEO" />
     <category term="Shoka" />
+    <category term="辅助/外挂" />
     <category term="MD" />
+    <category term="博客md文章" />
+    <category term="blog" />
     <category term="netlify加速访问博客" />
+    <category term="English note" />
     <category term="ShokaX" />
     <category term="hexo搭建" />
-    <category term="博客md文章" />
-    <category term="English note" />
+    <category term="shoka" />
     <category term="OpenAI反代" />
-    <category term="blog" />
-    <category term="Window Delete/Uninstall" />
     <category term="百度云盘加速" />
     <category term="VMware17pro激活码" />
     <category term="Window Tip" />
     <category term="Occupied Folder" />
+    <category term="Window Delete/Uninstall" />
     <category term="Linux" />
     <category term="ensp笔记" />
     <category term="RHEL" />
     <category term="原创力" />
-    <category term="辅助/外挂" />
+    <category term="面经" />
     <category term="JAVA note" />
     <entry>
         <id>https://blog.vull.top/70d17422.html</id>
@@ -242,10 +242,10 @@
 &lt;ul&gt;
 &lt;li&gt;就是主路由的一个&lt;code&gt;备胎&lt;/code&gt;路由&lt;/li&gt;
 &lt;li&gt;主路由故障，备用路由启用&lt;/li&gt;
-&lt;li&gt;无法自动产生，人工配置路由优先级
+&lt;li&gt;&lt;code&gt;无法自动产生&lt;/code&gt;，人工&lt;code&gt;配置&lt;/code&gt;路由优先级
 &lt;ul&gt;
 &lt;li&gt;华为默认优先级60 思科默认1&lt;/li&gt;
-&lt;li&gt;越小越优先&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;越小越优先&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -253,29 +253,250 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;无线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无线&#34;&gt;#&lt;/a&gt; 无线&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;无线配置模式默认有哪些？&lt;/strong&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;无线配置模式默认有哪些？&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;胖AP模式
+&lt;li&gt;&lt;code&gt;胖AP模式&lt;/code&gt;
 &lt;ol&gt;
-&lt;li&gt;交换机连胖AP，AP独立完成SSID广播、用户认证和数据转发，所有操作都在单AP完成&lt;/li&gt;
-&lt;li&gt;交换机只负责供电和数据传输&lt;/li&gt;
+&lt;li&gt;交换机&lt;code&gt;连胖AP&lt;/code&gt;，AP&lt;code&gt;独立&lt;/code&gt;完成SSID广播、用户认证和数据转发，所有操作都在AP完成&lt;/li&gt;
+&lt;li&gt;交换机只负责&lt;code&gt;供电&lt;/code&gt;和&lt;code&gt;数据传输&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;适用家庭小型网络&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;瘦AP+AC模式
+&lt;li&gt;&lt;code&gt;瘦AP+AC模式&lt;/code&gt;
 &lt;ol&gt;
-&lt;li&gt;瘦AP通过DHCP找AC，从AC下载配置并广播AC统一下发的SSID&lt;/li&gt;
-&lt;li&gt;用户链接AP时，认证请求会交给AC处理&lt;/li&gt;
-&lt;li&gt;可配置直接走AP还是走AC隧道&lt;/li&gt;
+&lt;li&gt;瘦AP通过&lt;code&gt;DHCP&lt;/code&gt;找AC，从AC&lt;code&gt;下载配置&lt;/code&gt;并广播AC统一下发的SSID&lt;/li&gt;
+&lt;li&gt;用户链接AP时，&lt;code&gt;认证请求&lt;/code&gt;会交给AC处理&lt;/li&gt;
+&lt;li&gt;可配置直接&lt;code&gt;走AP&lt;/code&gt;还是&lt;code&gt;走AC隧道&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;适用于学校、大公司方便统一管理多wifi点&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;敏捷式AP组网
+&lt;li&gt;&lt;code&gt;敏捷式AP组网&lt;/code&gt;
 &lt;ol&gt;
-&lt;li&gt;中心AP连交换机，负责与AC通信，管理一个或多个RU&lt;/li&gt;
-&lt;li&gt;RU通过网线连接中心AP，接收配置并广播下发&lt;/li&gt;
-&lt;li&gt;用户数据由RU传到中心AP，AP再统一转发给交换机&lt;/li&gt;
+&lt;li&gt;中心AP连交换机，负责与AC通信，管理一个或多个&lt;code&gt;RU&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;RU通过&lt;code&gt;网线连接&lt;/code&gt;中心AP，接收配置并广播下发&lt;/li&gt;
+&lt;li&gt;用户数据由RU&lt;code&gt;传到&lt;/code&gt;中心AP，AP再统一&lt;code&gt;转发&lt;/code&gt;给交换机&lt;/li&gt;
 &lt;li&gt;适用于酒店、宿舍、每个房间放置RU，布线方便方便管理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;什么是旁挂和直通模式？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;旁挂
+&lt;ol&gt;
+&lt;li&gt;AC&lt;code&gt;直连&lt;/code&gt;核心交换机&lt;/li&gt;
+&lt;li&gt;AP的数据直接到AC，AP&lt;code&gt;注册&lt;/code&gt;再AC上&lt;/li&gt;
+&lt;li&gt;数据转发：AP收到用户信息后直接通过 &lt;code&gt;CAPWAP隧道&lt;/code&gt;发给AC&lt;/li&gt;
+&lt;li&gt;AC处理完后直接从&lt;code&gt;核心交换机&lt;/code&gt;转发到上层网络&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;直通
+&lt;ol&gt;
+&lt;li&gt;AC&lt;code&gt;不直接&lt;/code&gt;连在核心交换机的数据转发链路&lt;/li&gt;
+&lt;li&gt;旁挂再核心交换机或汇聚交换机的&lt;code&gt;某个端口&lt;/code&gt;上&lt;/li&gt;
+&lt;li&gt;AP数据先到核心交换机，核心交换机再交给旁挂的AC，AC处理完后直接交给核心交换机转发出去&lt;/li&gt;
+&lt;li&gt;AC只负责&lt;code&gt;控制和管理&lt;/code&gt;，&lt;code&gt;不负责转发路径&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;那旁挂模式下，如果AC故障会影响无线上网么？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;无冗余备份，&lt;code&gt;会&lt;/code&gt;直接影响上网&lt;/li&gt;
+&lt;li&gt;有冗余备份
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;双链路热备份&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由于&lt;code&gt;预连接&lt;/code&gt;和&lt;code&gt;数据同步&lt;/code&gt;，AP启动后会同时向主AC和备AC发起连接，建立两条&lt;code&gt;独立&lt;/code&gt;CAPWAP隧道&lt;/li&gt;
+&lt;li&gt;主AC掉线后，备AC会&lt;code&gt;毫秒级切换&lt;/code&gt;，体验无感&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;双链路冷备份&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由于冷备中主AC和备AC数据是&lt;code&gt;不同步&lt;/code&gt;的，所以主AC故障后需要&lt;code&gt;等待&lt;/code&gt;下列流程
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;AP发现AC&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;建立隧道&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;完成注册&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;获取配置和用户信息&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;切换&lt;/code&gt;过程会出现短暂几分钟&lt;code&gt;断网&lt;/code&gt;，已&lt;code&gt;连接也会断开&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AC在旁挂模式和直通模式下，对AC设备的要求有什么不同？以及有什么区别？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;直通模式下&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;因为AC需要直接处理和转发所有用户数据，所以&lt;code&gt;性能要求要高&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;不易扩展，也不易替换&lt;/code&gt;，如果&lt;code&gt;缺乏冗余备份&lt;/code&gt;替换升级就会断网&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;旁挂模式下&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;AC主负责&lt;code&gt;控制&lt;/code&gt;，&lt;code&gt;数据转发&lt;/code&gt;由核心交换机完成，所以&lt;code&gt;性能要求低&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;易扩展，可替换&lt;/code&gt;，替换后普通的PSK认证和本地转发&lt;code&gt;不受影响&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果开启&lt;code&gt;重认证&lt;/code&gt;或&lt;code&gt;密钥重协商&lt;/code&gt;且&lt;code&gt;依赖AC&lt;/code&gt;；或者开启了需要&lt;code&gt;AC持续交互&lt;/code&gt;的&lt;code&gt;动态带宽调度&lt;/code&gt;，老用户也会断网。&lt;/li&gt;
+&lt;li&gt;开启了802.1认证且没配&lt;code&gt;逃生功能&lt;/code&gt;，替换设备期间用户认证入网&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;动态路由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#动态路由&#34;&gt;#&lt;/a&gt; 动态路由&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;动态路由协议有哪些？&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;OSPF&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IS-IS&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BGP&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RIP&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EIGRP&lt;/code&gt; （思科&lt;code&gt;私有协议&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;IGRP （思科私有协议，已淘汰）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;那OSPF网络类型有哪些？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;广播型Broadcast&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;支持组播&lt;/li&gt;
+&lt;li&gt;支持自动发现邻居&lt;/li&gt;
+&lt;li&gt;选举DR/BDR&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;非广播多路访问NBMA&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;不支持组播&lt;/li&gt;
+&lt;li&gt;需要手动配邻居&lt;/li&gt;
+&lt;li&gt;选举DR/BDR&lt;/li&gt;
+&lt;li&gt;支持帧中继&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;点对点p2p&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;仅两个节点，自动发现邻居&lt;/li&gt;
+&lt;li&gt;不选举DR/BDR&lt;/li&gt;
+&lt;li&gt;就像一个PPP链路，有一条专线&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;点对多点p2mp&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;一个节点但连接多个节点&lt;/li&gt;
+&lt;li&gt;需手动配置邻居&lt;/li&gt;
+&lt;li&gt;不选举DR/BDR&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;虚链路VL&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;逻辑点到点链路&lt;/li&gt;
+&lt;li&gt;手动配置邻居&lt;/li&gt;
+&lt;li&gt;不选举DR/BDR&lt;/li&gt;
+&lt;li&gt;用于连接非相邻区域0&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSPF选路依据是什么？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;依据&lt;code&gt;链路状态数据库&lt;/code&gt;计算最短路径树&lt;/li&gt;
+&lt;li&gt;比较&lt;code&gt;开销值&lt;/code&gt;，由&lt;code&gt;带宽决定&lt;/code&gt;，带宽&lt;code&gt;越大开销越小&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;路由器触发&lt;code&gt;SPF&lt;/code&gt;算法，以自己为根计算对每个目标网络从根到该网络所有路径&lt;code&gt;总开销&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;建立邻居同步链路数据库就会触发路由器运行SPF算法，触发运行一次&lt;/li&gt;
+&lt;li&gt;网络拓扑发生变化，路由器同步数据链路库也会再次触发一次SPF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最终选总&lt;code&gt;开销最小&lt;/code&gt;的路径为&lt;code&gt;最优路由&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果有若干条路径&lt;code&gt;开销相同&lt;/code&gt;，OSPF会开启&lt;code&gt;负载均衡&lt;/code&gt;，同时使用这些路径&lt;code&gt;转发数据&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSPF的cost值影响ospf选路时，是根据入接口的cost值去影响OSPF选路还是出接口的cost值去影响ospf选路？&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;入接口&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;为什么是入接口？&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;因为计算时是由&lt;code&gt;本地路由器视角&lt;/code&gt;出发计算的&lt;/li&gt;
+&lt;li&gt;路由器只知道&lt;code&gt;自己接口的开销&lt;/code&gt;，当收到邻居发来LSA时会把&lt;code&gt;进入&lt;/code&gt;本地路由器的&lt;code&gt;接口&lt;/code&gt;开销加到总开销里。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;那OSPF怎么防环路呢？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;区域划分&lt;/code&gt;，规定非骨干区域只能和骨干区域0直接通信，避免区域间路由环路&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SPF算法&lt;/code&gt;，每个路由器以自己为根计算最短路径，生成无环流路由表&lt;/li&gt;
+&lt;li&gt;路由信息&lt;code&gt;传递规则&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;区域内的LSA只在本区域泛洪&lt;/code&gt;，不会跨区域，避免区域间信息混乱形成环路&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ABR向非骨干区域传递路由时&lt;/code&gt;，会&lt;code&gt;过滤&lt;/code&gt;掉&lt;code&gt;其他骨干区域&lt;/code&gt;的&lt;code&gt;路由信息&lt;/code&gt;，确保非骨干区域&lt;code&gt;只能&lt;/code&gt;通过骨干区域0&lt;code&gt;获取&lt;/code&gt;其他骨干区域路由&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSPF中Stub区域和NSSA区域区别是什么？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Stub区域&lt;/code&gt;主要&lt;code&gt;过滤外部LSA&lt;/code&gt;，只&lt;code&gt;允许一条&lt;/code&gt;默认路由进入
+&lt;ol&gt;
+&lt;li&gt;区域内&lt;code&gt;所有&lt;/code&gt;路由器都必须&lt;code&gt;配置为Stub&lt;/code&gt;，&lt;code&gt;不允许由ASBR&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;NSSA是Stub的&lt;code&gt;扩展&lt;/code&gt;，除了&lt;code&gt;过滤&lt;/code&gt;外部LSA，还&lt;code&gt;允许&lt;/code&gt;引入本区域的&lt;code&gt;外部路由&lt;/code&gt;，通过&lt;code&gt;Type7 LSA&lt;/code&gt;传播，再在&lt;code&gt;ABR&lt;/code&gt;上转换为&lt;code&gt;Type5 LSA&lt;/code&gt;并传播到其他其余
+&lt;ol&gt;
+&lt;li&gt;区域内路由器需要&lt;code&gt;配置NSSA&lt;/code&gt;，&lt;code&gt;允许&lt;/code&gt;存在&lt;code&gt;ASBR&lt;/code&gt;，用于&lt;code&gt;引入外部路由&lt;/code&gt;到OSPF域&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSPF有几种LSA，干什么用？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Type 1 &lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由&lt;code&gt;所有路由器生成&lt;/code&gt;，仅在&lt;code&gt;本区域&lt;/code&gt;传播&lt;/li&gt;
+&lt;li&gt;描述&lt;code&gt;路由器直连链路&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Type 2&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由&lt;code&gt;DR生成&lt;/code&gt;，仅在&lt;code&gt;本区域&lt;/code&gt;传播&lt;/li&gt;
+&lt;li&gt;描述&lt;code&gt;MA网络&lt;/code&gt;中的&lt;code&gt;多播能力&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Type 3&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由&lt;code&gt;ABR生成&lt;/code&gt;，在&lt;code&gt;整个OSPF&lt;/code&gt;传播&lt;/li&gt;
+&lt;li&gt;用于&lt;code&gt;区域间路由传递&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Type 4&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由&lt;code&gt;ABR生成&lt;/code&gt;，在&lt;code&gt;除ASBR&lt;/code&gt;所在区域的&lt;code&gt;整个外部OSPF&lt;/code&gt;传播&lt;/li&gt;
+&lt;li&gt;用于发现&lt;code&gt;定位ASBR&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Type 5&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ASBR生成&lt;/code&gt;，在&lt;code&gt;整个OSPF&lt;/code&gt;中传播&lt;/li&gt;
+&lt;li&gt;用于&lt;code&gt;描述外部路由&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Type 6&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;组播OSPF中生成，实际很少使用&lt;/li&gt;
+&lt;li&gt;用于描述组播成员关系&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Type 7&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;由&lt;code&gt;NSSA区域生成&lt;/code&gt;，用于在&lt;code&gt;NSSA区域传播&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;用于&lt;code&gt;NSSA区域内传播外部路由&lt;/code&gt;，再由&lt;code&gt;ABR的Type5 LSA&lt;/code&gt;传播到&lt;code&gt;其他区域&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
