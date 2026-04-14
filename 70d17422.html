@@ -1,0 +1,661 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="𝕍𝕍'𝔹𝕝𝕠𝕘" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="𝕍𝕍'𝔹𝕝𝕠𝕘" type="application/atom+xml"><link rel="alternate" type="application/json" title="𝕍𝕍'𝔹𝕝𝕠𝕘" href="https://blog.vull.top/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/nyx-player-BGXTPLF2.js"><link rel="modulepreload" href="/js/copy-tex-WBWYVZQ5.js"><link rel="modulepreload" href="/js/post-WXDJMCVH.js"><link rel="modulepreload" href="/js/chunk-WGIIULYW.js"><link rel="modulepreload" href="/js/waline-MS3WFH6D.js"><link rel="modulepreload" href="/js/comments-F3HRUU23.js"><link rel="modulepreload" href="/js/chunk-L3YLX2GE.js"><link rel="modulepreload" href="/js/chunk-JMSXQ5S6.js"><link rel="modulepreload" href="/js/pagefind-CK3IH44V.js"><link rel="modulepreload" href="/js/index.esm-NAY5B5PI.js"><link rel="modulepreload" href="/js/chunk-AB3DMEPL.js"><link rel="modulepreload" href="/js/chunk-ARXL3MNN.js"><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/waline-7LW2J7A6.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/comments-Q7XOIZMJ.css" media="none" onload="this.media='all'"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/hatsune-miku-3840x2160-24858.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/夏日校园-户外写真.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/8k-二次元-动漫.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/wallhaven-3z2pgd.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/二次元-初音 (1).png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/二次元-动漫.png" as="image" fetchpriority="high"><meta name="keywords" content="美团,网工，面经"><meta name="description" content="美团网络工程师面试经验"><link rel="canonical" href="https://blog.vull.top/70d17422.html"><!-- 代码块折叠功能脚本--><script src="/code-collapse.js" defer="defer"></script><!-- hexo-safago Waline评论区链接处理 - 内联脚本--><script>(function() {
+  // 从配置中读取白名单
+  var whitelist = ["vull.top","blog.vull.top","waline.vull.top","imgcdn.vull.top","sponsor.vull.top","img.vull.top","nav.vull.top","eat.vull.top"];
+  
+  function isInWhitelist(url) {
+    return whitelist.some(function(domain) {
+      return url.indexOf(domain) !== -1;
+    });
+  }
+  
+  function convertLink(link) {
+    var href = link.getAttribute('href');
+    if (!href || href.startsWith('/') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+      return;
+    }
+    
+    // 检查白名单
+    if (isInWhitelist(href)) {
+      return;
+    }
+    
+    if (link.dataset.safagoProcessed) {
+      return;
+    }
+    
+    try {
+      var encodedUrl = btoa(href);
+      var newHref = '/go.html?u=' + encodedUrl;
+      link.setAttribute('href', newHref);
+      link.setAttribute('target', '_blank');
+      link.dataset.safagoProcessed = 'true';
+    } catch(e) {
+      console.error('[safago-inline] Error:', e);
+    }
+  }
+  
+  function processWalineLinks() {
+    var links = document.querySelectorAll('.wl-nick a[href], .wl-card a[href]');
+    links.forEach(convertLink);
+  }
+  
+  // 初始处理
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', processWalineLinks);
+  } else {
+    processWalineLinks();
+  }
+  
+  // 延迟处理（备用）
+  setTimeout(processWalineLinks, 2000);
+  
+  // 事件委托：在链接被点击时进行转换（最重要）
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href]');
+    if (link && (link.classList.contains('wl-nick') || link.closest('.wl-card'))) {
+      convertLink(link);
+    }
+  }, true);
+  
+  // PJAX支持
+  document.addEventListener('pjax:complete', processWalineLinks);
+})();</script><link rel="stylesheet" href="/css/post.css?v=0.5.4"><link rel="stylesheet" href="/css/mermaid.css?v=0.5.4"><!-- 临时处理--><link rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css"><title>美团网工面试经验</title><meta name="generator" content="Hexo 8.1.1"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="pagefind_mount"></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">美团网工面试经验</h1><div class="meta"><span class="item" title="Created: 2026-04-14 19:34:31"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">Posted on</span><time itemprop="dateCreated datePublished" datetime="2026-04-14T19:34:31+08:00">2026-04-14</time></span><span class="item" title="Symbols count in article"><span class="icon"><i class="ic i-pen"></i></span><span class="text">Symbols count in article</span><span>2.7k</span><span class="text">words</span></span><span class="item" title="Reading time"><span class="icon"><i class="ic i-clock"></i></span><span class="text">Reading time</span><span>2 mins.</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="Toggle navigation bar"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">𝑽𝒖𝒍𝒍𝒇𝒊𝒏</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/hatsune-miku-3840x2160-24858.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/夏日校园-户外写真.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/8k-二次元-动漫.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/wallhaven-3z2pgd.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/二次元-初音 (1).png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/二次元-动漫.png&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">Home</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/%E9%9D%A2%E7%BB%8F/" itemprop="item" rel="index" title="In面经"><span itemprop="name">面经<meta itemprop="position" content="0"></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%B0%B1%E4%B8%9A/" itemprop="item" rel="index" title="In就业"><span itemprop="name">就业<meta itemprop="position" content="1"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" data-pagefind-body="data-pagefind-body" lang="en"><link itemprop="mainEntityOfPage" href="https://blog.vull.top/70d17422.html"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="Vullfin"><meta itemprop="description" content="It is difficult to free fools from the chains they revere_______Voltaire, 欢迎来到Vullfin的个人博客"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="𝕍𝕍'𝔹𝕝𝕠𝕘"></span><div class="body md" itemprop="articleBody"><h2 id="协议类问题"><a class="anchor" href="#协议类问题">#</a> 协议类问题</h2>
+<h3 id="老化时间"><a class="anchor" href="#老化时间">#</a> 老化时间</h3>
+<ol>
+<li><code>MAC</code>表老化时间
+<ul>
+<li>300s 五分钟</li>
+</ul>
+</li>
+<li><code>ARP</code>表老化时间
+<ul>
+<li>120s</li>
+<li>作用：定期清理无用IP与MAC地址映射避免表过大也更新网络拓扑变化</li>
+</ul>
+</li>
+<li><code>RIP</code>表老化时间
+<ul>
+<li>180s</li>
+</ul>
+</li>
+<li><code>TCP</code>老化时间
+<ul>
+<li>3600s 一小时</li>
+</ul>
+</li>
+<li><code>UDP</code>老化时间
+<ul>
+<li>300s</li>
+</ul>
+</li>
+</ol>
+<h3 id="stp协议"><a class="anchor" href="#stp协议">#</a> STP协议</h3>
+<ol>
+<li>
+<p><strong>说一下<code>STP</code></strong></p>
+<ul>
+<li><code>二层网络生成树协议</code></li>
+<li>作用：堵塞冗余链路消除以太网环路，同时实现<code>热备份</code></li>
+</ul>
+</li>
+<li>
+<p><strong>说一下STP工作流程</strong></p>
+<ol>
+<li>第一步 选举唯一<code>根桥</code>
+<ul>
+<li>所有交换机发送<code>BPDU</code>比较<code>BID</code>，<code>数值最小</code>则为根桥
+<ul>
+<li><code>BID</code>构成：前<code>2</code>字节<code>优先级</code>，后<code>6</code>字节为交换机<code>MAC</code>地址</li>
+</ul>
+</li>
+<li>初始默认优先级：<code>32768</code> （<code>越小越优先</code>）</li>
+<li>自动选举优先级因为优先级一样，比较<code>mac大小</code>，最小的自动选举成功</li>
+</ul>
+</li>
+<li>第二步 选举<code>根端口</code>
+<ul>
+<li>计算每个端口到根桥开销，选<code>最小开销</code>
+<ul>
+<li><code>带宽越小</code>开销越小</li>
+<li>100mbps 开销 19； 1Gbps 开销 4；10Gbps 开销2</li>
+</ul>
+</li>
+<li>若有开销<code>相同</code>的端口，比较交换机BPDU，最小优先</li>
+<li>若上述<code>全部相同</code>，选本端交换机<code>端口最小</code>的，比如端口1
+<ul>
+<li>极致<code>罕见</code>情况下的<code>兜底策略</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>第三步 选举 <code>指定端口</code>
+<ul>
+<li><code>根桥的所有端口都是指定端口</code></li>
+<li><code>非根桥only one</code></li>
+<li>除了根端口的全部端口再次进行根端口选举机制，最小的为指定端口</li>
+</ul>
+</li>
+<li>第四步 端口状态变化
+<ul>
+<li><code>非指定端口进入堵塞</code></li>
+<li>根端口和指定端口进入<code>监听和学习</code>，进入<code>转发状态</code>
+<ul>
+<li><code>监听</code>：发送接收BPDU，确认无环路冲突
+<ul>
+<li>有环路冲突，进入堵塞，开始<code>重新选举</code>新端口</li>
+<li>无环路冲突，进入学习</li>
+</ul>
+</li>
+<li><code>学习</code>：构建MAC表，记录路径</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="arp"><a class="anchor" href="#arp">#</a> ARP</h3>
+<ol>
+<li><strong><code>ARP</code>协议是干什么的？</strong>
+<ul>
+<li>作用：将IP转换成MAC地址</li>
+<li>过程：在局域网<code>广播ARP</code>请求查询<code>目标IP</code>对应的MAC，该<code>局域网内的设备</code>都会收到广播报文，只有目标IP收到后才会以<code>单播</code>形式直接发送回<code>最初请求设备</code></li>
+</ul>
+</li>
+</ol>
+<h3 id="vlan"><a class="anchor" href="#vlan">#</a> Vlan</h3>
+<ol>
+<li>
+<p><strong><code>VLan</code>划分基于设备还是基于端口？</strong></p>
+<ul>
+<li><code>基于交换机端口</code></li>
+</ul>
+</li>
+<li>
+<p><strong>vlan之间通过什么<code>通信</code>？</strong></p>
+<ul>
+<li>基于三层交换的<code>vlanif</code>接口进行<code>三层转发</code></li>
+</ul>
+</li>
+<li>
+<p>vlan接口有几种配置模式？</p>
+<ul>
+<li><code>Access</code>
+<ul>
+<li>用于连接<code>不同的终端设备</code></li>
+<li>只接受和发送该vlan的<code>无标签数据帧</code></li>
+</ul>
+</li>
+<li><code>Trunk</code>
+<ul>
+<li>用于连接相同的网络设备</li>
+<li>可以承载<code>多个</code>vlan数据帧，通过<code>帧头</code>添加的vlan标签来区分<code>不同</code>vlan流量</li>
+<li>发送时会<code>剥离</code>本数据帧的vlan标签
+<ul>
+<li>本帧<code>默认</code>标签为：<code>vlan1</code></li>
+</ul>
+</li>
+<li>收到<code>无标签帧</code>会打上自己的标签
+<ul>
+<li>但是仅在交换机<code>内部传输</code>，发送出去还时会剥离</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>Hybrid</code>
+<ul>
+<li>Access和Trunk的<code>结合</code>，可灵活配置</li>
+<li>可以允许vlan是否给数据帧打标签</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="交换机堆叠技术"><a class="anchor" href="#交换机堆叠技术">#</a> 交换机堆叠技术</h3>
+<ol>
+<li><strong>交换机<code>堆叠</code>可以解决什么问题？</strong>
+<ol>
+<li><code>扩展端口数量</code>
+<ul>
+<li>直接添加成员的端口为可用端口</li>
+</ul>
+</li>
+<li><code>简化管理</code>
+<ul>
+<li><code>只有</code>一个管理ip。所有配置修改生效都会自动同步到成员交换机</li>
+</ul>
+</li>
+<li><code>提升可靠性</code>
+<ul>
+<li>拥有主备冗余机制
+<ul>
+<li>默认会选举一台为主交换机负责控制
+<ul>
+<li>先比较<code>优先级</code>，相同再比较<code>MAC</code>大小，还相同在比较<code>堆叠ID</code>
+<ul>
+<li><code>堆叠ID默认为1，后加入的会冲突而改成2，后续类似</code></li>
+<li><strong>MAC相同基本不会发生</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>通知指定<code>一台或多台</code>备交换机</li>
+<li>主交换机发送<code>故障</code>会毫秒级<code>切换</code>备用交换机，基本<code>无感</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>消除内部宽带瓶颈</code>
+<ul>
+<li>成员交换机通过<code>专用</code>堆叠链路连接，可以将链路内部带宽叠加</li>
+<li>堆叠的带宽仅用于成员<code>内部</code>数据交换，不占用对外带宽</li>
+<li><code>堆叠带宽=单条链接带宽 x 链路数量</code>
+<ul>
+<li><code>不同成员之间的堆叠带宽需分别计算</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="路由"><a class="anchor" href="#路由">#</a> 路由</h3>
+<ol>
+<li><strong>什么是<code>浮动路由</code>？</strong>
+<ul>
+<li>就是主路由的一个<code>备胎</code>路由</li>
+<li>主路由故障，备用路由启用</li>
+<li>无法自动产生，人工配置路由优先级
+<ul>
+<li>华为默认优先级60 思科默认1</li>
+<li>越小越优先</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="无线"><a class="anchor" href="#无线">#</a> 无线</h3>
+<ol>
+<li><strong>无线配置模式默认有哪些？</strong>
+<ol>
+<li>胖AP模式
+<ol>
+<li>交换机连胖AP，AP独立完成SSID广播、用户认证和数据转发，所有操作都在单AP完成</li>
+<li>交换机只负责供电和数据传输</li>
+<li>适用家庭小型网络</li>
+</ol>
+</li>
+<li>瘦AP+AC模式
+<ol>
+<li>瘦AP通过DHCP找AC，从AC下载配置并广播AC统一下发的SSID</li>
+<li>用户链接AP时，认证请求会交给AC处理</li>
+<li>可配置直接走AP还是走AC隧道</li>
+<li>适用于学校、大公司方便统一管理多wifi点</li>
+</ol>
+</li>
+<li>敏捷式AP组网
+<ol>
+<li>中心AP连交换机，负责与AC通信，管理一个或多个RU</li>
+<li>RU通过网线连接中心AP，接收配置并广播下发</li>
+<li>用户数据由RU传到中心AP，AP再统一转发给交换机</li>
+<li>适用于酒店、宿舍、每个房间放置RU，布线方便方便管理。</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<div class="tags"><a href="/tags/%E9%9D%A2%E7%BB%8F/" rel="tag"><i class="ic i-tag"></i>面经</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">Edited on </span><time title="Modified: 2026-04-14 19:36:31" itemprop="dateModified" datetime="2026-04-14T19:36:31+08:00">2026-04-14</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>Donate</button><p>Give me a cup of [coffee]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" src="/assets/wechatpay.png" alt="Vullfin WeChat Pay"><p>WeChat Pay</p></div><div><img loading="lazy" src="/assets/alipay.png" alt="Vullfin Alipay"><p>Alipay</p></div></div></div><div id="copyright"><ul><li class="author"><strong>Post author: </strong>Vullfin<i class="ic i-at"><em>@</em></i>𝕍𝕍'𝔹𝕝𝕠𝕘</li><li class="link"><strong>Post link: </strong><a href="https://blog.vull.top/70d17422.html" title="美团网工面试经验">https://blog.vull.top/70d17422.html</a></li><li class="license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> unless stating additionally.</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/d94e1f4a.html" rel="prev" itemprop="url" data-background-image="https://imgcdn.vull.top/images/tech/2026/03/takanashi-hoshino-3840x2160-25273.jpg" title="shoka配置备份"><span class="type">Previous Post</span><span class="category"><i class="ic i-flag"></i>备份</span><h3>shoka配置备份</h3></a></div><div class="item right"></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="Contents"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%8F%E8%AE%AE%E7%B1%BB%E9%97%AE%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 协议类问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%80%81%E5%8C%96%E6%97%B6%E9%97%B4"><span class="toc-number">1.1.</span> <span class="toc-text"> 老化时间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#stp%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.2.</span> <span class="toc-text"> STP协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#arp"><span class="toc-number">1.3.</span> <span class="toc-text"> ARP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#vlan"><span class="toc-number">1.4.</span> <span class="toc-text"> Vlan</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%A0%86%E5%8F%A0%E6%8A%80%E6%9C%AF"><span class="toc-number">1.5.</span> <span class="toc-text"> 交换机堆叠技术</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B7%AF%E7%94%B1"><span class="toc-number">1.6.</span> <span class="toc-text"> 路由</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E7%BA%BF"><span class="toc-number">1.7.</span> <span class="toc-text"> 无线</span></a></li></ol></li></ol></div><div class="related panel pjax" data-title="Related"><ul><li class="active"><a href="/70d17422.html" rel="bookmark" title="美团网工面试经验">美团网工面试经验</a></li></ul></div><div class="overview panel" data-title="Overview"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Vullfin" src="/assets/avatar.jpg"><p class="name" itemprop="name">Vullfin</p><div class="description" itemprop="description">欢迎来到Vullfin的个人博客</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">54</span><span class="name">posts</span></a></div><div class="item categories"><a href="/categories/"><span class="count">28</span><span class="name">categories</span></a></div><div class="item tags"><a href="/tags/"><span class="count">28</span><span class="name">tags</span></a></div></nav><div class="social"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/rpvvn" class="item github" title="https://github.com/rpvvn"><i class="ic i-github"></i></a><a href="mailto:rpwn_blog@outlook.com" rel="external nofollow noreferrer" class="item email" title="mailto:rpwn_blog@outlook.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>Home</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>About</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-heartbeat"></i>About</a></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>friend-links</a></li><li class="item"><a href="/sitemap.xml" rel="section"><i class="ic i-sitemap"></i>sitemap</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>Posts</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a></li></ul></li><li class="item"><a href="/UpDate/" rel="section"><i class="ic i-arrow-up"></i>UPDate</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/d94e1f4a.html" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div><div id="player"></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>Random Posts</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/" title="InWebsite">Website</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/Image-hosting/" title="InImage hosting">Image hosting</a></div><span><a href="/44949.html">Telegraph图床</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/ensp/" title="Inensp">ensp</a></div><span><a href="/64031.html">组建直连式二层无线局域网</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Window/" title="InWindow">Window</a><i class="ic i-angle-right"></i><a href="/categories/Study/Window/openAI/" title="InopenAI">openAI</a></div><span><a href="/13628.html">OpenAI国内代理教程</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a></div><span><a href="/61411.html">2024第一篇文章</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/ensp/" title="Inensp">ensp</a></div><span><a href="/2081.html">eNSP基础笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Window/" title="InWindow">Window</a></div><span><a href="/59456.html">快速解除文件占用</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/" title="InWebsite">Website</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/Image-hosting/" title="InImage hosting">Image hosting</a></div><span><a href="/56727.html">Picgo图床工具</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/" title="InBlog">Blog</a></div><span><a href="/43290.html">hexo博客文章</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/blog/" title="Inblog">blog</a><i class="ic i-angle-right"></i><a href="/categories/blog/%E5%A4%87%E4%BB%BD/" title="In备份">备份</a></div><span><a href="/d94e1f4a.html">shoka配置备份</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/ensp/" title="Inensp">ensp</a></div><span><a href="/18126.html">eNSP-SuperVlan</a></span></li></ul></div><div class="rpost pjax"><h2>Recent Comments</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">© 2020 -<span itemprop="copyrightYear">2026</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Vullfin @ 𝑽𝒖𝒍𝒍𝒇𝒊𝒏</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="Symbols count total">160k words</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="Reading time total">2:26</span></div><div class="powered-by">Powered by <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div><div style="width: 100%;text-align:center;"><span id="time"></span></div><script>function createtime() {
+    const n = new Date("2020/01/01 00:00:00");
+    now.setTime(now.getTime() + 250), days = (now - n) / 1e3 / 60 / 60 / 24, dnum = Math.floor(days), hours = (now - n) / 1e3 / 60 / 60 - 24 * dnum, hnum = Math.floor(hours), 1 == String(hnum).length && (hnum = "0" + hnum), minutes = (now - n) / 1e3 / 60 - 1440 * dnum - 60 * hnum, mnum = Math.floor(minutes), 1 == String(mnum).length && (mnum = "0" + mnum), seconds = (now - n) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum, snum = Math.round(seconds), 1 == String(snum).length && (snum = "0" + snum), document.getElementById("time").innerHTML = "本站已安全运行" + dnum + " 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+}
+
+const now = new Date;
+setInterval("createtime()", 250)</script></div><script src="https://unpkg.com/busuanzi@2.3.0/bsz.pure.mini.js"></script><div id="busuanzi-wrap"><span class="ic i-eye"></span><span id="busuanzi_container_site_pv">本站访问量 <span id="busuanzi_value_site_pv"></span> 次</span> | <span class="ic i-user"></span><span id="busuanzi_container_site_uv">本站访客量 <span id="busuanzi_value_site_uv"></span> 次</span></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `/70d17422.html`,
+    favicon: {
+        show: `(●´3｀●) Here we go again.`,
+        hide: `(´Д｀) It's a disaster!`
+    },
+    search: {
+        placeholder: "Search for Posts",
+        empty: "We didn't find any results for the search: ${query}",
+        stats: "${hits} results found in ${time} ms"
+    },
+    nocopy: "false",
+    copyright: `Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">Article Timeliness Alert</span><br>This is an article published {{publish}} days ago and last updated {{updated}} days ago. Some information may have changed, so please be careful to screen it.</p></div>`,
+    quiz: {
+        choice: `Multiple Choice`,
+        multiple: `Multiple Answer`,
+        true_false: `True/False`,
+        essay: `Questions`,
+        gap_fill: `Gap Filling`,
+        mistake: `Wrong Answer`
+    }
+};
+</script><script src="/js/siteInit.js?v=0.5.4" type="module" fetchpriority="high" defer=""></script><script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const heatmapChartDom = document.getElementById('heatmapChart');
+                if(heatmapChartDom){
+                    const heatmapChart = echarts.init(heatmapChartDom, 'light');
+                    const cellSize = [18, 18];
+                    
+                    const groupByYear = (data) => {
+                        const result = {};
+                        data.forEach(([date, value]) => {
+                            const [year] = date.split('-').map(Number);
+                            if (!result[year]) {
+                                result[year] = [];
+                            }
+                            result[year].push([date, value]);
+                        });
+                        return result;
+                    };
+                    
+                    const groupedData = groupByYear([["2022-03-18",1],["2022-04-12",1],["2022-10-19",1],["2022-11-26",1],["2022-12-10",2],["2022-12-12",1],["2022-12-13",1],["2022-12-23",1],["2022-12-28",1],["2023-01-07",1],["2023-01-08",1],["2023-02-09",1],["2023-03-08",1],["2023-03-13",1],["2023-03-17",1],["2023-04-04",1],["2023-04-07",1],["2023-04-17",1],["2023-04-19",3],["2023-04-21",1],["2023-04-22",2],["2023-04-23",1],["2023-04-24",3],["2023-04-28",1],["2023-05-12",1],["2023-05-14",1],["2023-05-16",1],["2023-05-19",1],["2023-05-23",1],["2023-06-13",4],["2023-06-27",1],["2023-07-01",1],["2023-07-08",1],["2023-11-14",1],["2024-01-06",1],["2024-01-17",1],["2024-09-03",1],["2025-04-10",1],["2026-02-07",2],["2026-02-08",1],["2026-03-19",1],["2026-03-20",2],["2026-04-14",1]]);
+                    const years = Object.keys(groupedData).reverse();
+                    
+                    var initYear = parseInt(heatmapChartDom.getAttribute('year')) || new Date().getFullYear();
+                    const minYear = years[years.length - 1];
+                    const maxYear = years[0];
+                    if (initYear < minYear || initYear > maxYear) {
+                        initYear = maxYear;
+                    }
+                    console.log('[hexo-graph]generateHeatmapChart|initYear:', initYear, 'minYear:', minYear, 'maxYear:', maxYear);
+                    
+                    heatmapChart.setOption({
+                        grid: {},
+                        tooltip: { 
+                            position: 'top', 
+                            formatter: params => `${params.value[0]}: ${params.value[1]} Articles` 
+                        },
+                        calendar: { 
+                            top: '10%',
+                            left: 'left', 
+                            right: '8%',
+                            range: initYear,
+                            cellSize: cellSize, 
+                            splitLine: { lineStyle: { color: '#E0E0E0', width: 1 } }, 
+                            itemStyle: { borderWidth: 1, borderColor: '#E0E0E0' }, 
+                            dayLabel: { show: false },
+                            monthLabel: { show: true },
+                            yearLabel: { show: false },
+                        },
+                        visualMap: { 
+                            show: true,
+                            right: '8%',
+                            bottom: '5%',
+                            type: 'piecewise',
+                            orient: 'horizontal',
+                            text: ['More', 'Less'],
+                            min: 0,
+                            max: Math.max(...groupedData[initYear].map(item => item[1])),
+                            inRange: { color: ["#ACE7AE","#69C16D","#549F57"] }
+                        },
+                        legend: {
+                            type: 'scroll',
+                            icon: 'none',
+                            data: years,
+                            orient: 'vertical',
+                            top: '5%',
+                            right: 'right',
+                            itemWidth: 20,
+                            itemHeight: 20,
+                            itemGap: 10,
+                            pageIconSize: 10,
+                            pageTextStyle: { fontSize: 14 },
+                            selectedMode: 'single',
+                        },
+                        series: years.map(year => ({
+                            type: 'heatmap',
+                            coordinateSystem: 'calendar',
+                            data: groupedData[year],
+                            name: year,
+                            emphasis: {
+                                disabled: true,
+                            },
+                            silent: year !== initYear,
+                        })),
+                    });
+                    
+                    // init selected year
+                    heatmapChart.dispatchAction({
+                        type: 'legendSelect',
+                        name: initYear,
+                    });
+                    
+                    heatmapChart.on('legendselectchanged', function(params) {
+                        console.log('[hexo-graph]generateHeatmapChart|legendselectchanged:', params);
+                        const selectedYear = Object.keys(params.selected).find(key => params.selected[key]);
+                        if (selectedYear && groupedData[selectedYear]) {
+                            heatmapChart.setOption({
+                                calendar: {
+                                    range: selectedYear,
+                                },
+                                visualMap: {
+                                    max: Math.max(...groupedData[selectedYear].map(item => item[1])),
+                                },
+                                series: years.map(year => ({
+                                    type: 'heatmap',
+                                    coordinateSystem: 'calendar',
+                                    data: groupedData[year],
+                                    name: year,
+                                    emphasis: {
+                                        disabled: true,
+                                    },
+                                    silent: year !== selectedYear,
+                                })),
+                            });
+                        }
+                    });
+                    
+                    heatmapChart.on('click', function (params) {
+                        if (params.componentType === 'series') {
+                            const [year, month] = params.value[0].split('-');
+                            window.location.href = '/archives/' + year + '/' + month;
+                        }
+                    });
+                }
+            });
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const monthlyChartDom = document.getElementById('monthlyChart');
+                if(monthlyChartDom){
+                    const monthlyChart = echarts.init(monthlyChartDom, 'light');
+                    monthlyChart.setOption({
+                        xAxis: { 
+                            type: 'category', 
+                            data: ["2022-03","2022-04","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-11","2024-01","2024-09","2025-04","2026-02","2026-03","2026-04"], 
+                            axisLabel: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        },
+                        yAxis: { type: 'value', splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } } },
+                        series: [{
+                            name: 'Articles',
+                            type: 'line',
+                            data: [1,1,1,1,6,2,1,3,14,5,5,2,1,2,1,1,3,3,1],
+                            smooth: true,
+                            lineStyle: { color: '#5470C6', width: 2 },
+                            itemStyle: { color: '#5470C6' },
+                            areaStyle: { color: 'rgba(84, 112, 198, 0.4)' },
+                            symbolSize: 10,
+                            label: {
+                                show: true,
+                                position: 'top',
+                                formatter: params => params.value,
+                                fontSize: 14,
+                                color: '#000',
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            }
+                        }]
+                    });
+
+                    monthlyChart.on('click', function (params) {
+                        const [year, month] = params.name.split('-');
+                        window.location.href = '/archives/' + year + '/' + month;
+                    });
+                }
+            })
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const tagsChartDom = document.getElementById('tagsChart');
+                if(tagsChartDom){
+                    const tagsChart = echarts.init(tagsChartDom, 'light');
+                    tagsChart.setOption({
+                        tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie',
+                            radius: '60%',
+                            data: [{"name":"ensp笔记","value":16},{"name":"Image hosting","value":4},{"name":"Record","value":3},{"name":"Personal Website","value":3},{"name":"Linux","value":3},{"name":"Shoka","value":2},{"name":"Window Tip","value":2},{"name":"shoka","value":1}],
+                            label: {
+                                position: 'outside',
+                                formatter: '{b} {c} ({d}%)',
+                                fontSize: 14,
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            },
+                            color: ["#5470C6","#91CC75","#FAC858","#EE6666","#73C0DE","#3BA272","#FC8452","#9A60B4"],
+                            labelLine: { show: true }
+                        }],
+                        legend: {
+                            bottom: '0',
+                            left: 'center',
+                            data: [{"name":"ensp笔记","value":16},{"name":"Image hosting","value":4},{"name":"Record","value":3},{"name":"Personal Website","value":3},{"name":"Linux","value":3},{"name":"Shoka","value":2},{"name":"Window Tip","value":2},{"name":"shoka","value":1}].map(tag => tag.name),
+                            textStyle: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        }
+                    });
+
+                    tagsChart.on('click', function (params) {
+                        window.location.href = '/tags/' + params.name;
+                    });
+                }
+            })
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const categoriesChartDom = document.getElementById('categoriesChart');
+                if(categoriesChartDom){
+                    const categoriesChart = echarts.init(categoriesChartDom, 'light');
+                    categoriesChart.setOption({
+                        xAxis: { type: 'value', splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } } },
+                        yAxis: { 
+                            type: 'category', 
+                            data: [{"name":"Study","value":35},{"name":"ensp","value":14},{"name":"Life","value":13},{"name":"Blog","value":8},{"name":"Website","value":7}].map(category => category.name).reverse(), 
+                            axisLabel: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        },
+                        series: [{
+                            name: 'Category Count',
+                            type: 'bar',
+                            data: [{"name":"Study","value":35},{"name":"ensp","value":14},{"name":"Life","value":13},{"name":"Blog","value":8},{"name":"Website","value":7}].map(category => category.value).reverse(),
+                            label: {
+                                show: true,
+                                position: 'right',
+                                formatter: params => params.value,
+                                fontSize: 14,
+                                color: '#000',
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            },
+                            itemStyle: {
+                                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                                    { offset: 0, color: '#91CC75' },
+                                    { offset: 1, color: '#73C0DE' }
+                                ])
+                            }
+                        }]
+                    });
+
+                    categoriesChart.on('click', function (params) {
+                        window.location.href = '/categories/' + params.name;
+                    });
+                }
+            });
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const categoriesTreeChartDom = document.getElementById('categoriesTreeChart');
+                if(categoriesTreeChartDom){
+                    const treeChart = echarts.init(categoriesTreeChartDom, 'light');
+                    treeChart.setOption({
+                        title: {
+                            text: '操作提示：单击展开分类，双击进入具体分类页面',
+                            textStyle: {
+                                fontSize: 12,
+                                color: '#999',
+                                fontWeight: 'normal'
+                            },
+                            bottom: 0,
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'item',
+                            triggerOn: 'mousemove'
+                        },
+                        series: [{
+                            type: 'tree',
+                            data: [{"name":"Categories","children":[{"name":"blog","children":[{"name":"备份","children":[],"count":1,"path":"blog/备份"}],"count":1,"path":"blog"},{"name":"面经","children":[{"name":"就业","children":[],"count":1,"path":"面经/就业"}],"count":1,"path":"面经"},{"name":"Life","children":[{"name":"Website","children":[{"name":"Image hosting","children":[],"count":4,"path":"Life/Website/Image hosting"}],"count":7,"path":"Life/Website"},{"name":"日记","children":[],"count":1,"path":"Life/日记"},{"name":"Window","children":[{"name":"VMware","children":[],"count":1,"path":"Life/Window/VMware"}],"count":2,"path":"Life/Window"}],"count":13,"path":"Life"},{"name":"Update Report","children":[],"count":1,"path":"Update Report"},{"name":"Study","children":[{"name":"Blog","children":[{"name":"Shoka","children":[],"count":2,"path":"Study/Blog/Shoka"}],"count":7,"path":"Study/Blog"},{"name":"Language","children":[{"name":"English","children":[],"count":1,"path":"Study/Language/English"},{"name":"JAVA","children":[],"count":1,"path":"Study/Language/JAVA"}],"count":2,"path":"Study/Language"},{"name":"Window","children":[{"name":"openAI","children":[],"count":1,"path":"Study/Window/openAI"}],"count":5,"path":"Study/Window"},{"name":"Linux","children":[],"count":4,"path":"Study/Linux"},{"name":"ensp","children":[],"count":14,"path":"Study/ensp"},{"name":"Python","children":[],"count":1,"path":"Study/Python"}],"count":35,"path":"Study"},{"name":"Blog","children":[{"name":"ShokaX","children":[],"count":1,"path":"Blog/ShokaX"}],"count":1,"path":"Blog"},{"name":"safego","children":[{"name":"hexo","children":[{"name":"blog","children":[],"count":1,"path":"safego/hexo/blog"}],"count":1,"path":"safego/hexo"}],"count":1,"path":"safego"},{"name":"Games","children":[],"count":1,"path":"Games"}],"count":0,"path":""}],
+                            initialTreeDepth: -1,
+                            top: '5%',
+                            bottom: '10%',
+                            left: '0%',
+                            right: '0%',
+                            symbolSize: 15,
+                            layout: 'orthogonal',
+                            orient: 'TB',
+                            itemStyle: {
+                                color: '#91CC75',
+                                borderColor: '#73C0DE'
+                            },
+                            label: {
+                                position: 'bottom',
+                                verticalAlign: 'middle',
+                                align: 'center',
+                                fontSize: 14,
+                                distance: 28,
+                                formatter: function(params) {
+                                    return params.data.name + (params.data.count ? ' (' + params.data.count + ')' : '');
+                                }
+                            },
+                            leaves: {
+                                label: {
+                                    position: 'top',
+                                    verticalAlign: 'middle',
+                                    align: 'center'
+                                }
+                            },
+                            emphasis: {
+                                focus: 'descendant'
+                            },
+                            expandAndCollapse: true
+                        }]
+                    });
+
+                    treeChart.on('dblclick', function (params) {
+                        if (params.data && params.data.path) {
+                            window.location.href = '/categories/' + params.data.path;
+                        }
+                    });
+                }
+            });
+        </script>
+    
+    </body></html>

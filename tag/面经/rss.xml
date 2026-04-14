@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;面经&#34; tag</title>
+        <link>https://blog.vull.top</link>
+        <description>欢迎来到Vullfin的个人博客</description>
+        <language>en</language>
+        <pubDate>Tue, 14 Apr 2026 19:34:31 +0800</pubDate>
+        <lastBuildDate>Tue, 14 Apr 2026 19:34:31 +0800</lastBuildDate>
+        <category>shoka</category>
+        <category>面经</category>
+        <category>Record</category>
+        <category>Personal Website</category>
+        <category>Image hosting</category>
+        <category>生活记录</category>
+        <category>update</category>
+        <category>SEO</category>
+        <category>Shoka</category>
+        <category>MD</category>
+        <category>netlify加速访问博客</category>
+        <category>ShokaX</category>
+        <category>hexo搭建</category>
+        <category>博客md文章</category>
+        <category>English note</category>
+        <category>OpenAI反代</category>
+        <category>blog</category>
+        <category>Window Delete/Uninstall</category>
+        <category>百度云盘加速</category>
+        <category>VMware17pro激活码</category>
+        <category>Window Tip</category>
+        <category>Occupied Folder</category>
+        <category>Linux</category>
+        <category>ensp笔记</category>
+        <category>RHEL</category>
+        <category>原创力</category>
+        <category>辅助/外挂</category>
+        <category>JAVA note</category>
+        <item>
+            <guid isPermalink="true">https://blog.vull.top/70d17422.html</guid>
+            <title>美团网工面试经验</title>
+            <link>https://blog.vull.top/70d17422.html</link>
+            <category>面经</category>
+            <pubDate>Tue, 14 Apr 2026 19:34:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;协议类问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#协议类问题&#34;&gt;#&lt;/a&gt; 协议类问题&lt;/h2&gt;
+&lt;h3 id=&#34;老化时间&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#老化时间&#34;&gt;#&lt;/a&gt; 老化时间&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;MAC&lt;/code&gt;表老化时间
+&lt;ul&gt;
+&lt;li&gt;300s 五分钟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ARP&lt;/code&gt;表老化时间
+&lt;ul&gt;
+&lt;li&gt;120s&lt;/li&gt;
+&lt;li&gt;作用：定期清理无用IP与MAC地址映射避免表过大也更新网络拓扑变化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RIP&lt;/code&gt;表老化时间
+&lt;ul&gt;
+&lt;li&gt;180s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TCP&lt;/code&gt;老化时间
+&lt;ul&gt;
+&lt;li&gt;3600s 一小时&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;UDP&lt;/code&gt;老化时间
+&lt;ul&gt;
+&lt;li&gt;300s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;stp协议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#stp协议&#34;&gt;#&lt;/a&gt; STP协议&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;说一下&lt;code&gt;STP&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;二层网络生成树协议&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;作用：堵塞冗余链路消除以太网环路，同时实现&lt;code&gt;热备份&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;说一下STP工作流程&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第一步 选举唯一&lt;code&gt;根桥&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;所有交换机发送&lt;code&gt;BPDU&lt;/code&gt;比较&lt;code&gt;BID&lt;/code&gt;，&lt;code&gt;数值最小&lt;/code&gt;则为根桥
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;BID&lt;/code&gt;构成：前&lt;code&gt;2&lt;/code&gt;字节&lt;code&gt;优先级&lt;/code&gt;，后&lt;code&gt;6&lt;/code&gt;字节为交换机&lt;code&gt;MAC&lt;/code&gt;地址&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;初始默认优先级：&lt;code&gt;32768&lt;/code&gt; （&lt;code&gt;越小越优先&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;自动选举优先级因为优先级一样，比较&lt;code&gt;mac大小&lt;/code&gt;，最小的自动选举成功&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第二步 选举&lt;code&gt;根端口&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;计算每个端口到根桥开销，选&lt;code&gt;最小开销&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;带宽越小&lt;/code&gt;开销越小&lt;/li&gt;
+&lt;li&gt;100mbps 开销 19； 1Gbps 开销 4；10Gbps 开销2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;若有开销&lt;code&gt;相同&lt;/code&gt;的端口，比较交换机BPDU，最小优先&lt;/li&gt;
+&lt;li&gt;若上述&lt;code&gt;全部相同&lt;/code&gt;，选本端交换机&lt;code&gt;端口最小&lt;/code&gt;的，比如端口1
+&lt;ul&gt;
+&lt;li&gt;极致&lt;code&gt;罕见&lt;/code&gt;情况下的&lt;code&gt;兜底策略&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第三步 选举 &lt;code&gt;指定端口&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;根桥的所有端口都是指定端口&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;非根桥only one&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;除了根端口的全部端口再次进行根端口选举机制，最小的为指定端口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第四步 端口状态变化
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;非指定端口进入堵塞&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;根端口和指定端口进入&lt;code&gt;监听和学习&lt;/code&gt;，进入&lt;code&gt;转发状态&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;监听&lt;/code&gt;：发送接收BPDU，确认无环路冲突
+&lt;ul&gt;
+&lt;li&gt;有环路冲突，进入堵塞，开始&lt;code&gt;重新选举&lt;/code&gt;新端口&lt;/li&gt;
+&lt;li&gt;无环路冲突，进入学习&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;学习&lt;/code&gt;：构建MAC表，记录路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;arp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arp&#34;&gt;#&lt;/a&gt; ARP&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;ARP&lt;/code&gt;协议是干什么的？&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;作用：将IP转换成MAC地址&lt;/li&gt;
+&lt;li&gt;过程：在局域网&lt;code&gt;广播ARP&lt;/code&gt;请求查询&lt;code&gt;目标IP&lt;/code&gt;对应的MAC，该&lt;code&gt;局域网内的设备&lt;/code&gt;都会收到广播报文，只有目标IP收到后才会以&lt;code&gt;单播&lt;/code&gt;形式直接发送回&lt;code&gt;最初请求设备&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;vlan&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vlan&#34;&gt;#&lt;/a&gt; Vlan&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;VLan&lt;/code&gt;划分基于设备还是基于端口？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;基于交换机端口&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;vlan之间通过什么&lt;code&gt;通信&lt;/code&gt;？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于三层交换的&lt;code&gt;vlanif&lt;/code&gt;接口进行&lt;code&gt;三层转发&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;vlan接口有几种配置模式？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Access&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;用于连接&lt;code&gt;不同的终端设备&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;只接受和发送该vlan的&lt;code&gt;无标签数据帧&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Trunk&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;用于连接相同的网络设备&lt;/li&gt;
+&lt;li&gt;可以承载&lt;code&gt;多个&lt;/code&gt;vlan数据帧，通过&lt;code&gt;帧头&lt;/code&gt;添加的vlan标签来区分&lt;code&gt;不同&lt;/code&gt;vlan流量&lt;/li&gt;
+&lt;li&gt;发送时会&lt;code&gt;剥离&lt;/code&gt;本数据帧的vlan标签
+&lt;ul&gt;
+&lt;li&gt;本帧&lt;code&gt;默认&lt;/code&gt;标签为：&lt;code&gt;vlan1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;收到&lt;code&gt;无标签帧&lt;/code&gt;会打上自己的标签
+&lt;ul&gt;
+&lt;li&gt;但是仅在交换机&lt;code&gt;内部传输&lt;/code&gt;，发送出去还时会剥离&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hybrid&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Access和Trunk的&lt;code&gt;结合&lt;/code&gt;，可灵活配置&lt;/li&gt;
+&lt;li&gt;可以允许vlan是否给数据帧打标签&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;交换机堆叠技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#交换机堆叠技术&#34;&gt;#&lt;/a&gt; 交换机堆叠技术&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;交换机&lt;code&gt;堆叠&lt;/code&gt;可以解决什么问题？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;扩展端口数量&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;直接添加成员的端口为可用端口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;简化管理&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;只有&lt;/code&gt;一个管理ip。所有配置修改生效都会自动同步到成员交换机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;提升可靠性&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;拥有主备冗余机制
+&lt;ul&gt;
+&lt;li&gt;默认会选举一台为主交换机负责控制
+&lt;ul&gt;
+&lt;li&gt;先比较&lt;code&gt;优先级&lt;/code&gt;，相同再比较&lt;code&gt;MAC&lt;/code&gt;大小，还相同在比较&lt;code&gt;堆叠ID&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;堆叠ID默认为1，后加入的会冲突而改成2，后续类似&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MAC相同基本不会发生&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;通知指定&lt;code&gt;一台或多台&lt;/code&gt;备交换机&lt;/li&gt;
+&lt;li&gt;主交换机发送&lt;code&gt;故障&lt;/code&gt;会毫秒级&lt;code&gt;切换&lt;/code&gt;备用交换机，基本&lt;code&gt;无感&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;消除内部宽带瓶颈&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;成员交换机通过&lt;code&gt;专用&lt;/code&gt;堆叠链路连接，可以将链路内部带宽叠加&lt;/li&gt;
+&lt;li&gt;堆叠的带宽仅用于成员&lt;code&gt;内部&lt;/code&gt;数据交换，不占用对外带宽&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;堆叠带宽=单条链接带宽 x 链路数量&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;不同成员之间的堆叠带宽需分别计算&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;路由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路由&#34;&gt;#&lt;/a&gt; 路由&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;什么是&lt;code&gt;浮动路由&lt;/code&gt;？&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;就是主路由的一个&lt;code&gt;备胎&lt;/code&gt;路由&lt;/li&gt;
+&lt;li&gt;主路由故障，备用路由启用&lt;/li&gt;
+&lt;li&gt;无法自动产生，人工配置路由优先级
+&lt;ul&gt;
+&lt;li&gt;华为默认优先级60 思科默认1&lt;/li&gt;
+&lt;li&gt;越小越优先&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;无线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无线&#34;&gt;#&lt;/a&gt; 无线&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;无线配置模式默认有哪些？&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;胖AP模式
+&lt;ol&gt;
+&lt;li&gt;交换机连胖AP，AP独立完成SSID广播、用户认证和数据转发，所有操作都在单AP完成&lt;/li&gt;
+&lt;li&gt;交换机只负责供电和数据传输&lt;/li&gt;
+&lt;li&gt;适用家庭小型网络&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;瘦AP+AC模式
+&lt;ol&gt;
+&lt;li&gt;瘦AP通过DHCP找AC，从AC下载配置并广播AC统一下发的SSID&lt;/li&gt;
+&lt;li&gt;用户链接AP时，认证请求会交给AC处理&lt;/li&gt;
+&lt;li&gt;可配置直接走AP还是走AC隧道&lt;/li&gt;
+&lt;li&gt;适用于学校、大公司方便统一管理多wifi点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;敏捷式AP组网
+&lt;ol&gt;
+&lt;li&gt;中心AP连交换机，负责与AC通信，管理一个或多个RU&lt;/li&gt;
+&lt;li&gt;RU通过网线连接中心AP，接收配置并广播下发&lt;/li&gt;
+&lt;li&gt;用户数据由RU传到中心AP，AP再统一转发给交换机&lt;/li&gt;
+&lt;li&gt;适用于酒店、宿舍、每个房间放置RU，布线方便方便管理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
