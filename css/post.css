@@ -1766,6 +1766,23 @@ textarea {
 .ic em {
   font-size: 0;
 }
+.iconfont {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  width: 1.6em;
+  display: inline-flex;
+  font-size: 1.3em;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+}
+.iconfont em {
+  font-size: 0;
+}
 .ic-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
