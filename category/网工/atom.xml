@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.vull.top</id>
+    <title>𝕍𝕍&#39;𝔹𝕝𝕠𝕘 • Posts by &#34;网工&#34; category</title>
+    <link href="https://blog.vull.top" />
+    <updated>2026-05-30T23:02:08.000Z</updated>
+    <category term="Record" />
+    <category term="面经" />
+    <category term="Personal Website" />
+    <category term="Image hosting" />
+    <category term="update" />
+    <category term="生活记录" />
+    <category term="辅助/外挂" />
+    <category term="SEO" />
+    <category term="MD" />
+    <category term="Shoka" />
+    <category term="博客md文章" />
+    <category term="ShokaX" />
+    <category term="blog" />
+    <category term="netlify加速访问博客" />
+    <category term="English note" />
+    <category term="hexo搭建" />
+    <category term="shoka" />
+    <category term="OpenAI反代" />
+    <category term="VMware17pro激活码" />
+    <category term="百度云盘加速" />
+    <category term="Window Delete/Uninstall" />
+    <category term="Window Tip" />
+    <category term="Occupied Folder" />
+    <category term="Linux" />
+    <category term="原创力" />
+    <category term="RHEL" />
+    <category term="ensp笔记" />
+    <category term="笔记" />
+    <category term="数通" />
+    <category term="学习" />
+    <category term="JAVA note" />
+    <entry>
+        <id>https://blog.vull.top/15feedda.html</id>
+        <title>华为数通学习体系笔记</title>
+        <link rel="alternate" href="https://blog.vull.top/15feedda.html"/>
+        <content type="html">&lt;p&gt;太久没学习了，来复习一下，参考&lt;a href=&#34;https://www.bilibili.com/video/BV1LokeBhE69/?p=4&amp;amp;share_source=copy_web&amp;amp;vd_source=81e6f3945583550f7d5bf26e1ef884c8&#34;&gt;学习视频&lt;/a&gt;记录的笔记&lt;/p&gt;
+&lt;h1 id=&#34;华为数通&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#华为数通&#34;&gt;#&lt;/a&gt; 华为数通&lt;/h1&gt;
+&lt;h2 id=&#34;网络模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络模型&#34;&gt;#&lt;/a&gt; 网络模型&lt;/h2&gt;
+&lt;h3 id=&#34;osi模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#osi模型&#34;&gt;#&lt;/a&gt; OSI模型&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;应用层（第七层）
+&lt;ul&gt;
+&lt;li&gt;对应用程序提供接口、服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;表示层
+&lt;ul&gt;
+&lt;li&gt;进行数据格式转换、加密与解密、图片/文字 编码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;会话层
+&lt;ul&gt;
+&lt;li&gt;建立、维持、断开通信会话&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;传输层
+&lt;ul&gt;
+&lt;li&gt;端到端传输，负责端口、可靠/不可靠传输&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;网络层
+&lt;ul&gt;
+&lt;li&gt;路由寻址，决定数据走向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据链路层
+&lt;ul&gt;
+&lt;li&gt;相邻设备传输、差错校验、物理寻址&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;物理层 （第一层）
+&lt;ul&gt;
+&lt;li&gt;物理硬件、信号传输，只传输比特流0/1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;tcpip模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tcpip模型&#34;&gt;#&lt;/a&gt; TCP/IP模型&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;应用层（第四层）
+&lt;ul&gt;
+&lt;li&gt;合并OSI应用、表示、会话层。面向用户与程序&lt;/li&gt;
+&lt;li&gt;协议：HTTP（80）、HTTPS（443）、FTP（21）、SSH（22）、Telnet（23）、SMTP（25）、POM3（110）、IMAP（143）、DNS（53）、APP与浏览器等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;传输层
+&lt;ul&gt;
+&lt;li&gt;端到端传输，靠端口区分程序&lt;/li&gt;
+&lt;li&gt;协议：TCP（0&lt;sub&gt;65535）可靠、UDP（0&lt;/sub&gt;65535）高效&lt;/li&gt;
+&lt;li&gt;0~1023知名固定端口，1024+ 动态自定义端口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;网际层（互联网层）
+&lt;ul&gt;
+&lt;li&gt;路由寻址、靠IP地址寻找目标主机&lt;/li&gt;
+&lt;li&gt;协议：IP、ICMP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;网络接口层（网络层）
+&lt;ul&gt;
+&lt;li&gt;合并OSI数据链路层、物理层，负责硬件传输、MAC寻址、网线\信号转发&lt;/li&gt;
+&lt;li&gt;设备：网卡、交换机、网线&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;tcp-udp报文格式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tcp-udp报文格式&#34;&gt;#&lt;/a&gt; TCP UDP报文格式&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/cjk9EVvv.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;以太网帧格式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#以太网帧格式&#34;&gt;#&lt;/a&gt; 以太网帧格式&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/OuBW1vJa.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;arp-地址解析协议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arp-地址解析协议&#34;&gt;#&lt;/a&gt; ARP 地址解析协议&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/DiJB1VIa.png&#34; alt=&#34;image.png|445&#34; /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;arp原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arp原理&#34;&gt;#&lt;/a&gt; ARP原理&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;HOST1 ARP缓存&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/ciVSHCil.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;ARP请求&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/h8HrfBmY.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;HOST2 ARP缓存&lt;br /&gt;
+收到后发单播包，保存至缓存表&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/wzwOkzWo.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;ARP响应&lt;br /&gt;
+收到后发单播包，保存至缓存表&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/1u0loyex.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;HOST1 ARP响应&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/qCXroHPi.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ip协议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ip协议&#34;&gt;#&lt;/a&gt; IP协议&lt;/h2&gt;
+&lt;h3 id=&#34;ipv4报文格式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ipv4报文格式&#34;&gt;#&lt;/a&gt; IPv4报文格式&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/pNmXUwO3.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;数据包分片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据包分片&#34;&gt;#&lt;/a&gt; 数据包分片&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;将报文分割成多个片段的过程&lt;/li&gt;
+&lt;li&gt;网络中转发的IP报文长度可以不同，但长度超出数据链路层最大长度时需要进行分割成若干个小片段进行传输
+&lt;ul&gt;
+&lt;li&gt;数据链路层有&lt;code&gt;MTU&lt;/code&gt; 最大传输单元，以太网默认&lt;code&gt;MTU=1500字节&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;flag标志位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#flag标志位&#34;&gt;#&lt;/a&gt; Flag标志位&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;标识 (Identification)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;同一原始数据包拆分出所有分片，标识值完全相同，接收方靠它判断哪些分片属于同一大包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标志位 (Flags)&lt;/strong&gt;（3 位，只用后 2 位）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MF位（More Fragment）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;1 = 后面还有分片&lt;/li&gt;
+&lt;li&gt;0 = 这是最后一片&lt;/li&gt;
+&lt;li&gt;另一位：&lt;code&gt;禁止分片位&lt;/code&gt;。置1时不允许分片，包过大直接丢弃，返回ICMP差错报文&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;片偏移 (Fragment Offset)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;8字节&lt;/li&gt;
+&lt;li&gt;表示：当前分片的数据部分，距离原始数据包开头偏移了多少个8字节&lt;/li&gt;
+&lt;li&gt;用于排序重组&lt;/li&gt;
+&lt;li&gt;除最后一个分片，其余分片长度必须是&lt;code&gt;8字节的整数倍&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;计算时需排除IP 头部固定 20 字节（无选项字段），即为：&lt;code&gt;1480字节&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;每个分片都有独立IP头部（头部不变，数据被拆分）&lt;/li&gt;
+&lt;li&gt;路由转发时，分片可在不同路径传输，到达时顺序可能乱，接收方依靠：&lt;code&gt;标识+片偏移&lt;/code&gt; 排序重组&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;片偏移&lt;/mtext&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mtext&gt;当前分片之前所有分片的数据总字节数&lt;/mtext&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\text{片偏移} = \frac{\text{当前分片之前所有分片的数据总字节数}}{8} 
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;片偏移&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.0463em;vertical-align:-0.686em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3603em;&#34;&gt;&lt;span style=&#34;top:-2.314em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.677em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;当前分片之前所有分片的数据总字节数&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.686em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;生存时间ttltime-to-live&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生存时间ttltime-to-live&#34;&gt;#&lt;/a&gt; 生存时间TTL（Time To Live）&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/xKZcRoux.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;IPv4头部一个8位字段。取值：0~255&lt;/li&gt;
+&lt;li&gt;限制数据包最大路由转发跳数，用于防环&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;ip分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ip分类&#34;&gt;#&lt;/a&gt; IP分类&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;类别&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;起始比特&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;首段十进制范围&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;默认子网掩码&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;网络位&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;主机位&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;主要用途&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 ~ 126&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;255.0.0.0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;24&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;大型网络&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;B&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;128 ~ 191&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;255.255.0.0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;16&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;16&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;中型网络&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;C&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;110&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;192 ~ 223&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;255.255.255.0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;24&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;小型局域网&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;D&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1110&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;224 ~ 239&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;组播通信&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;E&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1111&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;240 ~ 255&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;科研 / 保留&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;可在内网自由使用&lt;/strong&gt;的私有 IP，不占用公网地址：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A 类私有段：&lt;code&gt;10.0.0.0 ~ 10.255.255.255&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;B 类私有段：&lt;code&gt;172.16.0.0 ~ 172.31.255.255&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;C 类私有段：&lt;code&gt;192.168.0.0 ~ 192.168.255.255&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;路由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路由&#34;&gt;#&lt;/a&gt; 路由&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/pFnNyFeV.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;路由获取方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路由获取方式&#34;&gt;#&lt;/a&gt; 路由获取方式&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;直连路由
+&lt;ol&gt;
+&lt;li&gt;设备相连自动生成，优先级0，最高&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;静态路由
+&lt;ol&gt;
+&lt;li&gt;手动配置，优先级默认60&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;动态路由
+&lt;ol&gt;
+&lt;li&gt;设备之间互相自动交换路由信息&lt;/li&gt;
+&lt;li&gt;自学习，自更新&lt;/li&gt;
+&lt;li&gt;OSPF路由
+&lt;ol&gt;
+&lt;li&gt;内部路由优先级10&lt;/li&gt;
+&lt;li&gt;外部路由优先级150&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;静态路由配置规则：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p 下一跳IP=&#34;&#34; |=&#34;&#34; 出接口=&#34;&#34; |=&#34;&#34; 下一跳+出接口=&#34;&#34;&gt;ip route-static 目标网段 掩码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;等价路由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#等价路由&#34;&gt;#&lt;/a&gt; 等价路由&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;：去往同一个目标网段，多条路由开销度量值cost相同完全相等，路由器同时把流量从多条链路转发&lt;br /&gt;
+满足以下三点，路由表会同时生成多条路由条目，启用&lt;strong&gt;等价负载分担&lt;/strong&gt;。前提：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;目的IP网段相同&lt;/li&gt;
+&lt;li&gt;路由协议计算出的cost相同&lt;/li&gt;
+&lt;li&gt;下一跳、出接口不同（存在两条或多条不同物理线路）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;浮动路由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#浮动路由&#34;&gt;#&lt;/a&gt; 浮动路由&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;：同目的网段，配置两条静态路由，主路由优先级高量；备用路由优先级低不进路由表，主链路断了，备用自动顶上&lt;br /&gt;
+关键点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;华为 / 华三：&lt;strong&gt;优先级数值越小越优先&lt;/strong&gt;，思科越小越优先&lt;/li&gt;
+&lt;li&gt;默认静态优先级60&lt;/li&gt;
+&lt;li&gt;浮动备用路由设置：61~255（越大优先级越低）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ospf&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ospf&#34;&gt;#&lt;/a&gt; OSPF&lt;/h2&gt;
+&lt;p&gt;定义：开放式最短路径优先，无类域间路由协议，属于&lt;code&gt;IGP内部网关协议&lt;/code&gt;、&lt;code&gt;链路状态路由协议&lt;/code&gt;。基于SPF算法&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;协议号：&lt;code&gt;89&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;组播地址：&lt;code&gt;224.0.0.5&lt;/code&gt;（所有OSPF路由）、&lt;code&gt;224.0.0.6&lt;/code&gt;（DR/BDR）&lt;/li&gt;
+&lt;li&gt;特点：无类、支持 VLSM、支持&lt;code&gt;路由汇总&lt;/code&gt;、&lt;code&gt;收敛快&lt;/code&gt;、&lt;code&gt;防环路&lt;/code&gt;、适合大中型园区 / 运营商内网&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LSDB&lt;/code&gt;（Link-State DataBase 链路状态数据库）：同一个 OSPF 区域内，所有路由器共用的「全网拓扑地图」，存着本区域全部 LSA 条目。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://vvimg.vull.top/file/blog/4RNQYlgj.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ospf区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ospf区域&#34;&gt;#&lt;/a&gt; OSPF区域&lt;/h3&gt;
+&lt;p&gt;分区域概念：整网不分区仅有Area0，会导致全设备一个LSDB，导致网络过大；也会导致LSA数量庞大导致全网反复跑SPF、频繁震荡网络&lt;/p&gt;
+&lt;h4 id=&#34;lsa分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lsa分类&#34;&gt;#&lt;/a&gt; LSA分类&lt;/h4&gt;
+&lt;h4 id=&#34;骨干区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#骨干区域&#34;&gt;#&lt;/a&gt; 骨干区域&lt;/h4&gt;
+&lt;p&gt;Area 0 定义：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;存在且唯一，骨干区域&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;所有普通区域&lt;code&gt;必须直连Area 0&lt;/code&gt;，不能区域挂区域（Area1 连 Area2、不连 0 是错误组网）&lt;/li&gt;
+&lt;li&gt;非骨干&lt;code&gt;隔离&lt;/code&gt;开无法直连 Area 0 需配置 虚链路 &lt;code&gt;Virtual-link&lt;/code&gt; 打通至骨干&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Area 0 作用：各区域路由汇总后统一走骨干转发，充当整个 OSPF 的高速主干道&lt;/p&gt;
+&lt;h4 id=&#34;非骨干区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#非骨干区域&#34;&gt;#&lt;/a&gt; 非骨干区域&lt;/h4&gt;
+&lt;p&gt;Area 1~N 属于非骨干区域&lt;br /&gt;
+特点：本区域拓扑变化，LSA不会出本区域，别的LSDB不会受影响&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;IR内部路由器&lt;/code&gt;定义：&lt;code&gt;所有接口&lt;/code&gt;&lt;strong&gt;全部在同一个 Area&lt;/strong&gt;（全 Area0 或 全 Area1），&lt;code&gt;不跨区域&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;ABR区域边界路由器&lt;/code&gt;定义：一端Area 0、一端普通区域；&lt;code&gt;生成3类汇总LSA&lt;/code&gt;；&lt;code&gt;负责区域间路由&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;ASBR自治域边界路由器&lt;/code&gt;定义：&lt;code&gt;ABR设备引入&lt;/code&gt;静态路由、RIP、BGP等&lt;code&gt;外部路由&lt;/code&gt;就&lt;code&gt;成为ASBR&lt;/code&gt;；&lt;code&gt;生成 5 类 LSA&lt;/code&gt;（NSSA 生成 7 类，出区域变5类）&lt;/p&gt;
+&lt;h4 id=&#34;特殊区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特殊区域&#34;&gt;#&lt;/a&gt; 特殊区域&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;普通标准区域：&lt;code&gt;1、2、3、4、5类LSA&lt;/code&gt;全部存在&lt;br /&gt;
+特殊区域用于&lt;code&gt;屏蔽 4、5类外部LSA&lt;/code&gt;，ABR自动下发一条&lt;code&gt;默认路由&lt;/code&gt;代替海量明细路由&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;参照明细表：&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;info&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;参照明细表&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;特殊区域类型&lt;/th&gt;
+&lt;th&gt;允许保留的 LSA&lt;/th&gt;
+&lt;th&gt;禁止进入的 LSA&lt;/th&gt;
+&lt;th&gt;核心优化效果&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;普通标准区域&lt;/td&gt;
+&lt;td&gt;1/2/3/4/5 类全量&lt;/td&gt;
+&lt;td&gt;无&lt;/td&gt;
+&lt;td&gt;完整路由能力，无优化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stub 末梢区域&lt;/td&gt;
+&lt;td&gt;1/2/3 类（明细）+ ABRA 下发的默认 3 类路由&lt;/td&gt;
+&lt;td&gt;4 类、5 类外部 LSA&lt;/td&gt;
+&lt;td&gt;屏蔽域外海量外部路由，精简 LSDB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Totally Stub 完全末梢区域&lt;/td&gt;
+&lt;td&gt;1/2 类 + ABR 下发的默认 3 类路由&lt;/td&gt;
+&lt;td&gt;3 类（明细）、4 类、5 类&lt;/td&gt;
+&lt;td&gt;极致精简 LSDB，仅保留区域内拓扑 + 默认出网路由&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NSSA 非纯末梢区域&lt;/td&gt;
+&lt;td&gt;1/2/3 类（明细）+ 本地 7 类外部 LSA + ABR 下发的默认 3 类路由&lt;/td&gt;
+&lt;td&gt;外来 4 类、5 类外部 LSA&lt;/td&gt;
+&lt;td&gt;屏蔽域外外部路由，同时允许本区域引入本地外网路由&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Totally NSSA 完全非纯末梢区域&lt;/td&gt;
+&lt;td&gt;1/2 类 + 本地 7 类外部 LSA + ABR 下发的默认 3 类路由&lt;/td&gt;
+&lt;td&gt;3 类（明细）、外来 4 类、5 类&lt;/td&gt;
+&lt;td&gt;极致精简 + 本地外网接入能力，分支网点首选&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;简化表&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;区域类型&lt;/th&gt;
+&lt;th&gt;存在 LSA&lt;/th&gt;
+&lt;th&gt;特征&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;标准普通区域&lt;/td&gt;
+&lt;td&gt;1、2、3、4、5&lt;/td&gt;
+&lt;td&gt;有 4、5 类，无 7 类&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stub 末梢&lt;/td&gt;
+&lt;td&gt;1、2、3（无 4、5）&lt;/td&gt;
+&lt;td&gt;没有 4、5，ABR 下发默认 3 类&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Totally Stub&lt;/td&gt;
+&lt;td&gt;1、2 + 默认 3 类&lt;/td&gt;
+&lt;td&gt;无明细 3、无 4、5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NSSA&lt;/td&gt;
+&lt;td&gt;1、2、3、7（无外来 4、5）&lt;/td&gt;
+&lt;td&gt;有 7 类，无外部 5 进区&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Totally NSSA&lt;/td&gt;
+&lt;td&gt;1、2、7 + 默认 3&lt;/td&gt;
+&lt;td&gt;无明细 3、无外来 4、5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h5 id=&#34;stub末梢区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#stub末梢区域&#34;&gt;#&lt;/a&gt; Stub末梢区域&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;剔除：&lt;code&gt;4、5类LSA&lt;/code&gt;，保留&lt;code&gt;1、2、3类&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;ABR&lt;code&gt;下发&lt;/code&gt;一条&lt;code&gt;默认3类路由&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不允许存在 ASBR，不能引入任何外部路由&lt;/strong&gt;，所以既无 5类、也无 7类&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;totally-stub-完全末梢区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#totally-stub-完全末梢区域&#34;&gt;#&lt;/a&gt; Totally Stub 完全末梢区域&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;剔除：&lt;code&gt;3类&lt;/code&gt;（&lt;code&gt;除了默认&lt;/code&gt;）、&lt;code&gt;4、5类LSA&lt;/code&gt;，只剩&lt;code&gt;1、2类&lt;/code&gt; + 一条&lt;code&gt;默认路由&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;LSDB小，分支网点首选&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;nssa非纯末梢区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nssa非纯末梢区域&#34;&gt;#&lt;/a&gt; NSSA非纯末梢区域&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;可以&lt;code&gt;存在ASBR&lt;/code&gt;，允许本区域&lt;code&gt;引入外部路由&lt;/code&gt;（生成&lt;code&gt;7类LSA&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;过滤外部4、5类LSA，ABR下发默认路由&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;ABR会将7类LSA&lt;code&gt;转换&lt;/code&gt;成5类LSA发往骨干区和其他区域，且7 类只能在本 NSSA &lt;code&gt;区域内泛洪&lt;/code&gt;，&lt;code&gt;不&lt;/code&gt;能直接跑&lt;code&gt;出 NSSA&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;totally-nssa-完全非纯末梢区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#totally-nssa-完全非纯末梢区域&#34;&gt;#&lt;/a&gt; Totally NSSA 完全非纯末梢区域&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;剔除：&lt;code&gt;3类&lt;/code&gt;（&lt;code&gt;除了默认&lt;/code&gt;）、&lt;code&gt;4、5类LSA&lt;/code&gt;，本地&lt;code&gt;外部7类LSA保留&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;最优：小分支要接入外网，邮箱精简路由首选&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;距离矢量-vs-链路状态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#距离矢量-vs-链路状态&#34;&gt;#&lt;/a&gt; 距离矢量 VS 链路状态&lt;/h3&gt;
+&lt;p&gt;距离矢量&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将路由表发给邻居，邻居依据表计算路由，属于传言式听邻居说&lt;/li&gt;
+&lt;li&gt;代表协议：RIP、IGRP、EIGRP(思科)&lt;/li&gt;
+&lt;li&gt;RIP 最大15跳、16跳不可达，优点：配置简单、内存占用小，适合小型网络，缺点：容易环路fa发送路由表造成带宽浪费，跳数做度量，不看链路带宽，高速低速带宽开销一致，选路不合理&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;链路状态&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;只发送自己的直连链路信息，全网各自绘制最短路径，属于实测式，自己实时画地图&lt;/li&gt;
+&lt;li&gt;代表协议：OSPF、IS-IS&lt;/li&gt;
+&lt;li&gt;优点：
+&lt;ol&gt;
+&lt;li&gt;几乎无路由环路，只有链路发生变化才会发送LSA泛洪（链路状态通告），增量更新省带宽&lt;/li&gt;
+&lt;li&gt;度量使用带宽、时延等，选路精确，适合大型网络&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;缺点：
+&lt;ol&gt;
+&lt;li&gt;占用资源大，设备要求高&lt;/li&gt;
+&lt;li&gt;配置复杂，需划分区域：Area、DR/BDR等&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="ensp笔记" />
+        <category term="笔记" />
+        <category term="数通" />
+        <category term="学习" />
+        <updated>2026-05-30T23:02:08.000Z</updated>
+    </entry>
+</feed>

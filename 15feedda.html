@@ -1,0 +1,829 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="𝕍𝕍'𝔹𝕝𝕠𝕘" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="𝕍𝕍'𝔹𝕝𝕠𝕘" type="application/atom+xml"><link rel="alternate" type="application/json" title="𝕍𝕍'𝔹𝕝𝕠𝕘" href="https://blog.vull.top/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/nyx-player-VVH5HKEA.js"><link rel="modulepreload" href="/js/copy-tex-GOX6ACHP.js"><link rel="modulepreload" href="/js/post-KLGJSENY.js"><link rel="modulepreload" href="/js/chunk-GTAYVXSH.js"><link rel="modulepreload" href="/js/waline-MS3WFH6D.js"><link rel="modulepreload" href="/js/comments-YMITYNRH.js"><link rel="modulepreload" href="/js/chunk-GKBBF2O5.js"><link rel="modulepreload" href="/js/chunk-MDAW3KJL.js"><link rel="modulepreload" href="/js/pagefind-VHETW3BR.js"><link rel="modulepreload" href="/js/index.esm-POQ5Z542.js"><link rel="modulepreload" href="/js/chunk-MK6YVP27.js"><link rel="modulepreload" href="/js/chunk-XJZTA2HX.js"><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/waline-7LW2J7A6.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/comments-Q7XOIZMJ.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="https://at.alicdn.com/t/c/font_5185551_a48o5u58cpp.css?spm=a313x.manage_type_myprojects.i1.9.12793a81rATG9Y&amp;file=font_5185551_a48o5u58cpp.css"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/rappa-honkai-star-3840x2160-19779.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/8k-动漫-少女.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/二次元-初音未来.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/上海夜景-东方明珠.png" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/1.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://imgcdn.vull.top/images/tech/2026/03/二次元-初音3.png" as="image" fetchpriority="high"><meta name="keywords" content="数通学习笔记"><meta name="description" content="网工数通学习笔记记录"><link rel="canonical" href="https://blog.vull.top/15feedda.html"><!-- 代码块折叠功能脚本--><script src="/code-collapse.js" defer="defer"></script><!-- hexo-safago Waline评论区链接处理 - 内联脚本--><script>(function() {
+  // 从配置中读取白名单
+  var whitelist = ["vull.top","blog.vull.top","waline.vull.top","imgcdn.vull.top","sponsor.vull.top","img.vull.top","nav.vull.top","eat.vull.top"];
+  
+  function isInWhitelist(url) {
+    return whitelist.some(function(domain) {
+      return url.indexOf(domain) !== -1;
+    });
+  }
+  
+  function convertLink(link) {
+    var href = link.getAttribute('href');
+    if (!href || href.startsWith('/') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+      return;
+    }
+    
+    // 检查白名单
+    if (isInWhitelist(href)) {
+      return;
+    }
+    
+    if (link.dataset.safagoProcessed) {
+      return;
+    }
+    
+    try {
+      var encodedUrl = btoa(href);
+      var newHref = '/go.html?u=' + encodedUrl;
+      link.setAttribute('href', newHref);
+      link.setAttribute('target', '_blank');
+      link.dataset.safagoProcessed = 'true';
+    } catch(e) {
+      console.error('[safago-inline] Error:', e);
+    }
+  }
+  
+  function processWalineLinks() {
+    var links = document.querySelectorAll('.wl-nick a[href], .wl-card a[href]');
+    links.forEach(convertLink);
+  }
+  
+  // 初始处理
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', processWalineLinks);
+  } else {
+    processWalineLinks();
+  }
+  
+  // 延迟处理（备用）
+  setTimeout(processWalineLinks, 2000);
+  
+  // 事件委托：在链接被点击时进行转换（最重要）
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href]');
+    if (link && (link.classList.contains('wl-nick') || link.closest('.wl-card'))) {
+      convertLink(link);
+    }
+  }, true);
+  
+  // PJAX支持
+  document.addEventListener('pjax:complete', processWalineLinks);
+})();</script><link rel="stylesheet" href="/css/post.css?v=0.5.4"><link rel="stylesheet" href="/css/mermaid.css?v=0.5.4"><!-- 临时处理--><link rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css"><title>华为数通学习体系笔记</title><meta name="generator" content="Hexo 8.1.1"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="pagefind_mount"></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">华为数通学习体系笔记</h1><div class="meta"><span class="item" title="Created: 2026-05-31 07:02:08"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">Posted on</span><time itemprop="dateCreated datePublished" datetime="2026-05-31T07:02:08+08:00">2026-05-31</time></span><span class="item" title="Symbols count in article"><span class="icon"><i class="ic i-pen"></i></span><span class="text">Symbols count in article</span><span>6.3k</span><span class="text">words</span></span><span class="item" title="Reading time"><span class="icon"><i class="ic i-clock"></i></span><span class="text">Reading time</span><span>6 mins.</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="Toggle navigation bar"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">𝑽𝒖𝒍𝒍𝒇𝒊𝒏</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/rappa-honkai-star-3840x2160-19779.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/8k-动漫-少女.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/二次元-初音未来.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/上海夜景-东方明珠.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/1.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://imgcdn.vull.top/images/tech/2026/03/二次元-初音3.png&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">Home</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/%E7%BD%91%E5%B7%A5/" itemprop="item" rel="index" title="In网工"><span itemprop="name">网工<meta itemprop="position" content="0"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" data-pagefind-body="data-pagefind-body" lang="en"><link itemprop="mainEntityOfPage" href="https://blog.vull.top/15feedda.html"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="Vullfin"><meta itemprop="description" content="It is difficult to free fools from the chains they revere_______Voltaire, 欢迎来到Vullfin的个人博客"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="𝕍𝕍'𝔹𝕝𝕠𝕘"></span><div class="body md" itemprop="articleBody"><p>太久没学习了，来复习一下，参考<a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUxva2VCaEU2OS8_cD00JnNoYXJlX3NvdXJjZT1jb3B5X3dlYiZ2ZF9zb3VyY2U9ODFlNmYzOTQ1NTgzNTUwZjdkNWJmMjZlMWVmODg0Yzg">学习视频</a>记录的笔记</p>
+<h1 id="华为数通"><a class="anchor" href="#华为数通">#</a> 华为数通</h1>
+<h2 id="网络模型"><a class="anchor" href="#网络模型">#</a> 网络模型</h2>
+<h3 id="osi模型"><a class="anchor" href="#osi模型">#</a> OSI模型</h3>
+<ol>
+<li>应用层（第七层）
+<ul>
+<li>对应用程序提供接口、服务</li>
+</ul>
+</li>
+<li>表示层
+<ul>
+<li>进行数据格式转换、加密与解密、图片/文字 编码</li>
+</ul>
+</li>
+<li>会话层
+<ul>
+<li>建立、维持、断开通信会话</li>
+</ul>
+</li>
+<li>传输层
+<ul>
+<li>端到端传输，负责端口、可靠/不可靠传输</li>
+</ul>
+</li>
+<li>网络层
+<ul>
+<li>路由寻址，决定数据走向</li>
+</ul>
+</li>
+<li>数据链路层
+<ul>
+<li>相邻设备传输、差错校验、物理寻址</li>
+</ul>
+</li>
+<li>物理层 （第一层）
+<ul>
+<li>物理硬件、信号传输，只传输比特流0/1</li>
+</ul>
+</li>
+</ol>
+<h3 id="tcpip模型"><a class="anchor" href="#tcpip模型">#</a> TCP/IP模型</h3>
+<ol>
+<li>应用层（第四层）
+<ul>
+<li>合并OSI应用、表示、会话层。面向用户与程序</li>
+<li>协议：HTTP（80）、HTTPS（443）、FTP（21）、SSH（22）、Telnet（23）、SMTP（25）、POM3（110）、IMAP（143）、DNS（53）、APP与浏览器等</li>
+</ul>
+</li>
+<li>传输层
+<ul>
+<li>端到端传输，靠端口区分程序</li>
+<li>协议：TCP（0<sub>65535）可靠、UDP（0</sub>65535）高效</li>
+<li>0~1023知名固定端口，1024+ 动态自定义端口</li>
+</ul>
+</li>
+<li>网际层（互联网层）
+<ul>
+<li>路由寻址、靠IP地址寻找目标主机</li>
+<li>协议：IP、ICMP</li>
+</ul>
+</li>
+<li>网络接口层（网络层）
+<ul>
+<li>合并OSI数据链路层、物理层，负责硬件传输、MAC寻址、网线\信号转发</li>
+<li>设备：网卡、交换机、网线</li>
+</ul>
+</li>
+</ol>
+<h4 id="tcp-udp报文格式"><a class="anchor" href="#tcp-udp报文格式">#</a> TCP UDP报文格式</h4>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/cjk9EVvv.png" alt="image.png"></p>
+<h4 id="以太网帧格式"><a class="anchor" href="#以太网帧格式">#</a> 以太网帧格式</h4>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/OuBW1vJa.png" alt="image.png"></p>
+<h4 id="arp-地址解析协议"><a class="anchor" href="#arp-地址解析协议">#</a> ARP 地址解析协议</h4>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/DiJB1VIa.png" alt="image.png|445"></p>
+<h5 id="arp原理"><a class="anchor" href="#arp原理">#</a> ARP原理</h5>
+<ol>
+<li>HOST1 ARP缓存<br>
+<img loading="lazy" src="https://vvimg.vull.top/file/blog/ciVSHCil.png" alt="image.png"></li>
+<li>ARP请求<br>
+<img loading="lazy" src="https://vvimg.vull.top/file/blog/h8HrfBmY.png" alt="image.png"></li>
+<li>HOST2 ARP缓存<br>
+收到后发单播包，保存至缓存表<br>
+<img loading="lazy" src="https://vvimg.vull.top/file/blog/wzwOkzWo.png" alt="image.png"></li>
+<li>ARP响应<br>
+收到后发单播包，保存至缓存表<br>
+<img loading="lazy" src="https://vvimg.vull.top/file/blog/1u0loyex.png" alt="image.png"></li>
+<li>HOST1 ARP响应<br>
+<img loading="lazy" src="https://vvimg.vull.top/file/blog/qCXroHPi.png" alt="image.png"></li>
+</ol>
+<h2 id="ip协议"><a class="anchor" href="#ip协议">#</a> IP协议</h2>
+<h3 id="ipv4报文格式"><a class="anchor" href="#ipv4报文格式">#</a> IPv4报文格式</h3>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/pNmXUwO3.png" alt="image.png"></p>
+<h4 id="数据包分片"><a class="anchor" href="#数据包分片">#</a> 数据包分片</h4>
+<ol>
+<li>将报文分割成多个片段的过程</li>
+<li>网络中转发的IP报文长度可以不同，但长度超出数据链路层最大长度时需要进行分割成若干个小片段进行传输
+<ul>
+<li>数据链路层有<code>MTU</code> 最大传输单元，以太网默认<code>MTU=1500字节</code></li>
+</ul>
+</li>
+</ol>
+<h5 id="flag标志位"><a class="anchor" href="#flag标志位">#</a> Flag标志位</h5>
+<ol>
+<li><strong>标识 (Identification)</strong>
+<ul>
+<li>同一原始数据包拆分出所有分片，标识值完全相同，接收方靠它判断哪些分片属于同一大包</li>
+</ul>
+</li>
+<li><strong>标志位 (Flags)</strong>（3 位，只用后 2 位）</li>
+<li><strong>MF位（More Fragment）</strong>
+<ul>
+<li>1 = 后面还有分片</li>
+<li>0 = 这是最后一片</li>
+<li>另一位：<code>禁止分片位</code>。置1时不允许分片，包过大直接丢弃，返回ICMP差错报文</li>
+</ul>
+</li>
+<li><strong>片偏移 (Fragment Offset)</strong>
+<ul>
+<li>8字节</li>
+<li>表示：当前分片的数据部分，距离原始数据包开头偏移了多少个8字节</li>
+<li>用于排序重组</li>
+<li>除最后一个分片，其余分片长度必须是<code>8字节的整数倍</code></li>
+<li>计算时需排除IP 头部固定 20 字节（无选项字段），即为：<code>1480字节</code></li>
+</ul>
+</li>
+<li>每个分片都有独立IP头部（头部不变，数据被拆分）</li>
+<li>路由转发时，分片可在不同路径传输，到达时顺序可能乱，接收方依靠：<code>标识+片偏移</code> 排序重组</li>
+</ol>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>片偏移</mtext><mo>=</mo><mfrac><mtext>当前分片之前所有分片的数据总字节数</mtext><mn>8</mn></mfrac></mrow><annotation encoding="application/x-tex">\text{片偏移} = \frac{\text{当前分片之前所有分片的数据总字节数}}{8} 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord cjk_fallback">片偏移</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">8</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">当前分片之前所有分片的数据总字节数</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<h4 id="生存时间ttltime-to-live"><a class="anchor" href="#生存时间ttltime-to-live">#</a> 生存时间TTL（Time To Live）</h4>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/xKZcRoux.png" alt="image.png"></p>
+<ol>
+<li>IPv4头部一个8位字段。取值：0~255</li>
+<li>限制数据包最大路由转发跳数，用于防环</li>
+</ol>
+<h3 id="ip分类"><a class="anchor" href="#ip分类">#</a> IP分类</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">类别</th>
+<th style="text-align:left">起始比特</th>
+<th style="text-align:left">首段十进制范围</th>
+<th style="text-align:left">默认子网掩码</th>
+<th style="text-align:left">网络位</th>
+<th style="text-align:left">主机位</th>
+<th style="text-align:left">主要用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">A</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">1 ~ 126</td>
+<td style="text-align:left">255.0.0.0</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left">24</td>
+<td style="text-align:left">大型网络</td>
+</tr>
+<tr>
+<td style="text-align:left">B</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">128 ~ 191</td>
+<td style="text-align:left">255.255.0.0</td>
+<td style="text-align:left">16</td>
+<td style="text-align:left">16</td>
+<td style="text-align:left">中型网络</td>
+</tr>
+<tr>
+<td style="text-align:left">C</td>
+<td style="text-align:left">110</td>
+<td style="text-align:left">192 ~ 223</td>
+<td style="text-align:left">255.255.255.0</td>
+<td style="text-align:left">24</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left">小型局域网</td>
+</tr>
+<tr>
+<td style="text-align:left">D</td>
+<td style="text-align:left">1110</td>
+<td style="text-align:left">224 ~ 239</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">组播通信</td>
+</tr>
+<tr>
+<td style="text-align:left">E</td>
+<td style="text-align:left">1111</td>
+<td style="text-align:left">240 ~ 255</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">科研 / 保留</td>
+</tr>
+</tbody>
+</table>
+<p><strong>可在内网自由使用</strong>的私有 IP，不占用公网地址：</p>
+<ul>
+<li>A 类私有段：<code>10.0.0.0 ~ 10.255.255.255</code></li>
+<li>B 类私有段：<code>172.16.0.0 ~ 172.31.255.255</code></li>
+<li>C 类私有段：<code>192.168.0.0 ~ 192.168.255.255</code></li>
+</ul>
+<h2 id="路由"><a class="anchor" href="#路由">#</a> 路由</h2>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/pFnNyFeV.png" alt="image.png"></p>
+<h3 id="路由获取方式"><a class="anchor" href="#路由获取方式">#</a> 路由获取方式</h3>
+<ol>
+<li>直连路由
+<ol>
+<li>设备相连自动生成，优先级0，最高</li>
+</ol>
+</li>
+<li>静态路由
+<ol>
+<li>手动配置，优先级默认60</li>
+</ol>
+</li>
+<li>动态路由
+<ol>
+<li>设备之间互相自动交换路由信息</li>
+<li>自学习，自更新</li>
+<li>OSPF路由
+<ol>
+<li>内部路由优先级10</li>
+<li>外部路由优先级150</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>静态路由配置规则：</p>
+<blockquote>
+<p 下一跳ip="" |="" 出接口="" 下一跳+出接口="">ip route-static 目标网段 掩码</p>
+</blockquote>
+<h3 id="等价路由"><a class="anchor" href="#等价路由">#</a> 等价路由</h3>
+<p><strong>定义</strong>：去往同一个目标网段，多条路由开销度量值cost相同完全相等，路由器同时把流量从多条链路转发<br>
+满足以下三点，路由表会同时生成多条路由条目，启用<strong>等价负载分担</strong>。前提：</p>
+<ol>
+<li>目的IP网段相同</li>
+<li>路由协议计算出的cost相同</li>
+<li>下一跳、出接口不同（存在两条或多条不同物理线路）</li>
+</ol>
+<h3 id="浮动路由"><a class="anchor" href="#浮动路由">#</a> 浮动路由</h3>
+<p><strong>定义</strong>：同目的网段，配置两条静态路由，主路由优先级高量；备用路由优先级低不进路由表，主链路断了，备用自动顶上<br>
+关键点：</p>
+<ol>
+<li>华为 / 华三：<strong>优先级数值越小越优先</strong>，思科越小越优先</li>
+<li>默认静态优先级60</li>
+<li>浮动备用路由设置：61~255（越大优先级越低）</li>
+</ol>
+<h2 id="ospf"><a class="anchor" href="#ospf">#</a> OSPF</h2>
+<p>定义：开放式最短路径优先，无类域间路由协议，属于<code>IGP内部网关协议</code>、<code>链路状态路由协议</code>。基于SPF算法</p>
+<ol>
+<li>协议号：<code>89</code></li>
+<li>组播地址：<code>224.0.0.5</code>（所有OSPF路由）、<code>224.0.0.6</code>（DR/BDR）</li>
+<li>特点：无类、支持 VLSM、支持<code>路由汇总</code>、<code>收敛快</code>、<code>防环路</code>、适合大中型园区 / 运营商内网</li>
+<li><code>LSDB</code>（Link-State DataBase 链路状态数据库）：同一个 OSPF 区域内，所有路由器共用的「全网拓扑地图」，存着本区域全部 LSA 条目。</li>
+</ol>
+<p><img loading="lazy" src="https://vvimg.vull.top/file/blog/4RNQYlgj.png" alt="image.png"></p>
+<h3 id="ospf区域"><a class="anchor" href="#ospf区域">#</a> OSPF区域</h3>
+<p>分区域概念：整网不分区仅有Area0，会导致全设备一个LSDB，导致网络过大；也会导致LSA数量庞大导致全网反复跑SPF、频繁震荡网络</p>
+<h4 id="lsa分类"><a class="anchor" href="#lsa分类">#</a> LSA分类</h4>
+<h4 id="骨干区域"><a class="anchor" href="#骨干区域">#</a> 骨干区域</h4>
+<p>Area 0 定义：</p>
+<ol>
+<li><code>存在且唯一，骨干区域</code></li>
+<li>所有普通区域<code>必须直连Area 0</code>，不能区域挂区域（Area1 连 Area2、不连 0 是错误组网）</li>
+<li>非骨干<code>隔离</code>开无法直连 Area 0 需配置 虚链路 <code>Virtual-link</code> 打通至骨干</li>
+</ol>
+<p>Area 0 作用：各区域路由汇总后统一走骨干转发，充当整个 OSPF 的高速主干道</p>
+<h4 id="非骨干区域"><a class="anchor" href="#非骨干区域">#</a> 非骨干区域</h4>
+<p>Area 1~N 属于非骨干区域<br>
+特点：本区域拓扑变化，LSA不会出本区域，别的LSDB不会受影响</p>
+<p><code>IR内部路由器</code>定义：<code>所有接口</code><strong>全部在同一个 Area</strong>（全 Area0 或 全 Area1），<code>不跨区域</code><br>
+<code>ABR区域边界路由器</code>定义：一端Area 0、一端普通区域；<code>生成3类汇总LSA</code>；<code>负责区域间路由</code><br>
+<code>ASBR自治域边界路由器</code>定义：<code>ABR设备引入</code>静态路由、RIP、BGP等<code>外部路由</code>就<code>成为ASBR</code>；<code>生成 5 类 LSA</code>（NSSA 生成 7 类，出区域变5类）</p>
+<h4 id="特殊区域"><a class="anchor" href="#特殊区域">#</a> 特殊区域</h4>
+<blockquote>
+<p>普通标准区域：<code>1、2、3、4、5类LSA</code>全部存在<br>
+特殊区域用于<code>屏蔽 4、5类外部LSA</code>，ABR自动下发一条<code>默认路由</code>代替海量明细路由</p>
+</blockquote>
+<p>参照明细表：</p>
+<details><summary>info</summary><div>
+<div class="tab" data-id="id1" data-title="参照明细表">
+<table>
+<thead>
+<tr>
+<th>特殊区域类型</th>
+<th>允许保留的 LSA</th>
+<th>禁止进入的 LSA</th>
+<th>核心优化效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通标准区域</td>
+<td>1/2/3/4/5 类全量</td>
+<td>无</td>
+<td>完整路由能力，无优化</td>
+</tr>
+<tr>
+<td>Stub 末梢区域</td>
+<td>1/2/3 类（明细）+ ABRA 下发的默认 3 类路由</td>
+<td>4 类、5 类外部 LSA</td>
+<td>屏蔽域外海量外部路由，精简 LSDB</td>
+</tr>
+<tr>
+<td>Totally Stub 完全末梢区域</td>
+<td>1/2 类 + ABR 下发的默认 3 类路由</td>
+<td>3 类（明细）、4 类、5 类</td>
+<td>极致精简 LSDB，仅保留区域内拓扑 + 默认出网路由</td>
+</tr>
+<tr>
+<td>NSSA 非纯末梢区域</td>
+<td>1/2/3 类（明细）+ 本地 7 类外部 LSA + ABR 下发的默认 3 类路由</td>
+<td>外来 4 类、5 类外部 LSA</td>
+<td>屏蔽域外外部路由，同时允许本区域引入本地外网路由</td>
+</tr>
+<tr>
+<td>Totally NSSA 完全非纯末梢区域</td>
+<td>1/2 类 + 本地 7 类外部 LSA + ABR 下发的默认 3 类路由</td>
+<td>3 类（明细）、外来 4 类、5 类</td>
+<td>极致精简 + 本地外网接入能力，分支网点首选</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tab" data-id="id2" data-title="简化表">
+<table>
+<thead>
+<tr>
+<th>区域类型</th>
+<th>存在 LSA</th>
+<th>特征</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>标准普通区域</td>
+<td>1、2、3、4、5</td>
+<td>有 4、5 类，无 7 类</td>
+</tr>
+<tr>
+<td>Stub 末梢</td>
+<td>1、2、3（无 4、5）</td>
+<td>没有 4、5，ABR 下发默认 3 类</td>
+</tr>
+<tr>
+<td>Totally Stub</td>
+<td>1、2 + 默认 3 类</td>
+<td>无明细 3、无 4、5</td>
+</tr>
+<tr>
+<td>NSSA</td>
+<td>1、2、3、7（无外来 4、5）</td>
+<td>有 7 类，无外部 5 进区</td>
+</tr>
+<tr>
+<td>Totally NSSA</td>
+<td>1、2、7 + 默认 3</td>
+<td>无明细 3、无外来 4、5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></details>
+<h5 id="stub末梢区域"><a class="anchor" href="#stub末梢区域">#</a> Stub末梢区域</h5>
+<ol>
+<li>剔除：<code>4、5类LSA</code>，保留<code>1、2、3类</code></li>
+<li>ABR<code>下发</code>一条<code>默认3类路由</code></li>
+<li><strong>不允许存在 ASBR，不能引入任何外部路由</strong>，所以既无 5类、也无 7类</li>
+</ol>
+<h5 id="totally-stub-完全末梢区域"><a class="anchor" href="#totally-stub-完全末梢区域">#</a> Totally Stub 完全末梢区域</h5>
+<ol>
+<li>剔除：<code>3类</code>（<code>除了默认</code>）、<code>4、5类LSA</code>，只剩<code>1、2类</code> + 一条<code>默认路由</code></li>
+<li>LSDB小，分支网点首选</li>
+</ol>
+<h5 id="nssa非纯末梢区域"><a class="anchor" href="#nssa非纯末梢区域">#</a> NSSA非纯末梢区域</h5>
+<ol>
+<li>可以<code>存在ASBR</code>，允许本区域<code>引入外部路由</code>（生成<code>7类LSA</code>）</li>
+<li><code>过滤外部4、5类LSA，ABR下发默认路由</code></li>
+<li>ABR会将7类LSA<code>转换</code>成5类LSA发往骨干区和其他区域，且7 类只能在本 NSSA <code>区域内泛洪</code>，<code>不</code>能直接跑<code>出 NSSA</code></li>
+</ol>
+<h5 id="totally-nssa-完全非纯末梢区域"><a class="anchor" href="#totally-nssa-完全非纯末梢区域">#</a> Totally NSSA 完全非纯末梢区域</h5>
+<ol>
+<li>剔除：<code>3类</code>（<code>除了默认</code>）、<code>4、5类LSA</code>，本地<code>外部7类LSA保留</code></li>
+<li>最优：小分支要接入外网，邮箱精简路由首选</li>
+</ol>
+<h3 id="距离矢量-vs-链路状态"><a class="anchor" href="#距离矢量-vs-链路状态">#</a> 距离矢量 VS 链路状态</h3>
+<p>距离矢量</p>
+<ol>
+<li>将路由表发给邻居，邻居依据表计算路由，属于传言式听邻居说</li>
+<li>代表协议：RIP、IGRP、EIGRP(思科)</li>
+<li>RIP 最大15跳、16跳不可达，优点：配置简单、内存占用小，适合小型网络，缺点：容易环路fa发送路由表造成带宽浪费，跳数做度量，不看链路带宽，高速低速带宽开销一致，选路不合理</li>
+</ol>
+<p>链路状态</p>
+<ol>
+<li>只发送自己的直连链路信息，全网各自绘制最短路径，属于实测式，自己实时画地图</li>
+<li>代表协议：OSPF、IS-IS</li>
+<li>优点：
+<ol>
+<li>几乎无路由环路，只有链路发生变化才会发送LSA泛洪（链路状态通告），增量更新省带宽</li>
+<li>度量使用带宽、时延等，选路精确，适合大型网络</li>
+</ol>
+</li>
+<li>缺点：
+<ol>
+<li>占用资源大，设备要求高</li>
+<li>配置复杂，需划分区域：Area、DR/BDR等</li>
+</ol>
+</li>
+</ol>
+<div class="tags"><a href="/tags/ensp%E7%AC%94%E8%AE%B0/" rel="tag"><i class="ic i-tag"></i>ensp笔记</a><a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="ic i-tag"></i>笔记</a><a href="/tags/%E6%95%B0%E9%80%9A/" rel="tag"><i class="ic i-tag"></i>数通</a><a href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag"><i class="ic i-tag"></i>学习</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">Edited on </span><time title="Modified: 2026-06-03 23:52:30" itemprop="dateModified" datetime="2026-06-03T23:52:30+08:00">2026-06-03</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>Donate</button><p>Give me a cup of [coffee]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" src="/assets/wechatpay.png" alt="Vullfin WeChat Pay"><p>WeChat Pay</p></div><div><img loading="lazy" src="/assets/alipay.png" alt="Vullfin Alipay"><p>Alipay</p></div></div></div><div id="copyright"><ul><li class="author"><strong>Post author: </strong>Vullfin<i class="ic i-at"><em>@</em></i>𝕍𝕍'𝔹𝕝𝕠𝕘</li><li class="link"><strong>Post link: </strong><a href="https://blog.vull.top/15feedda.html" title="华为数通学习体系笔记">https://blog.vull.top/15feedda.html</a></li><li class="license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> unless stating additionally.</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/70d17422.html" rel="prev" itemprop="url" data-background-image="https://imgcdn.vull.top/images/tech/2026/03/二次元-动漫.png" title="美团网工面试经验"><span class="type">Previous Post</span><span class="category"><i class="ic i-flag"></i>就业</span><h3>美团网工面试经验</h3></a></div><div class="item right"><a href="/40713bad.html" rel="next" itemprop="url" data-background-image="https://imgcdn.vull.top/images/tech/2026/03/wallhaven-3z2pgd.jpg" title="博客排版特殊功能"><span class="type">Next Post</span><h3>博客排版特殊功能</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="Contents"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%8E%E4%B8%BA%E6%95%B0%E9%80%9A"><span class="toc-number">1.</span> <span class="toc-text"> 华为数通</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.1.</span> <span class="toc-text"> 网络模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#osi%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.1.1.</span> <span class="toc-text"> OSI模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tcpip%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.1.2.</span> <span class="toc-text"> TCP/IP模型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#tcp-udp%E6%8A%A5%E6%96%87%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.1.2.1.</span> <span class="toc-text"> TCP UDP报文格式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%B8%A7%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.1.2.2.</span> <span class="toc-text"> 以太网帧格式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#arp-%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.1.2.3.</span> <span class="toc-text"> ARP 地址解析协议</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#arp%E5%8E%9F%E7%90%86"><span class="toc-number">1.1.2.3.1.</span> <span class="toc-text"> ARP原理</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ip%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.2.</span> <span class="toc-text"> IP协议</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ipv4%E6%8A%A5%E6%96%87%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text"> IPv4报文格式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%8C%85%E5%88%86%E7%89%87"><span class="toc-number">1.2.1.1.</span> <span class="toc-text"> 数据包分片</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#flag%E6%A0%87%E5%BF%97%E4%BD%8D"><span class="toc-number">1.2.1.1.1.</span> <span class="toc-text"> Flag标志位</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%9F%E5%AD%98%E6%97%B6%E9%97%B4ttltime-to-live"><span class="toc-number">1.2.1.2.</span> <span class="toc-text"> 生存时间TTL（Time To Live）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ip%E5%88%86%E7%B1%BB"><span class="toc-number">1.2.2.</span> <span class="toc-text"> IP分类</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%AF%E7%94%B1"><span class="toc-number">1.3.</span> <span class="toc-text"> 路由</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B7%AF%E7%94%B1%E8%8E%B7%E5%8F%96%E6%96%B9%E5%BC%8F"><span class="toc-number">1.3.1.</span> <span class="toc-text"> 路由获取方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AD%89%E4%BB%B7%E8%B7%AF%E7%94%B1"><span class="toc-number">1.3.2.</span> <span class="toc-text"> 等价路由</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%AE%E5%8A%A8%E8%B7%AF%E7%94%B1"><span class="toc-number">1.3.3.</span> <span class="toc-text"> 浮动路由</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ospf"><span class="toc-number">1.4.</span> <span class="toc-text"> OSPF</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ospf%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.</span> <span class="toc-text"> OSPF区域</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#lsa%E5%88%86%E7%B1%BB"><span class="toc-number">1.4.1.1.</span> <span class="toc-text"> LSA分类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%AA%A8%E5%B9%B2%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.2.</span> <span class="toc-text"> 骨干区域</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%9E%E9%AA%A8%E5%B9%B2%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.3.</span> <span class="toc-text"> 非骨干区域</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.4.</span> <span class="toc-text"> 特殊区域</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#stub%E6%9C%AB%E6%A2%A2%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.4.1.</span> <span class="toc-text"> Stub末梢区域</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#totally-stub-%E5%AE%8C%E5%85%A8%E6%9C%AB%E6%A2%A2%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.4.2.</span> <span class="toc-text"> Totally Stub 完全末梢区域</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#nssa%E9%9D%9E%E7%BA%AF%E6%9C%AB%E6%A2%A2%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.4.3.</span> <span class="toc-text"> NSSA非纯末梢区域</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#totally-nssa-%E5%AE%8C%E5%85%A8%E9%9D%9E%E7%BA%AF%E6%9C%AB%E6%A2%A2%E5%8C%BA%E5%9F%9F"><span class="toc-number">1.4.1.4.4.</span> <span class="toc-text"> Totally NSSA 完全非纯末梢区域</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B7%9D%E7%A6%BB%E7%9F%A2%E9%87%8F-vs-%E9%93%BE%E8%B7%AF%E7%8A%B6%E6%80%81"><span class="toc-number">1.4.2.</span> <span class="toc-text"> 距离矢量 VS 链路状态</span></a></li></ol></li></ol></li></ol></div><div class="related panel pjax" data-title="Related"><ul><li class="active"><a href="/15feedda.html" rel="bookmark" title="华为数通学习体系笔记">华为数通学习体系笔记</a></li></ul></div><div class="overview panel" data-title="Overview"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Vullfin" src="/assets/avatar.jpg"><p class="name" itemprop="name">Vullfin</p><div class="description" itemprop="description">欢迎来到Vullfin的个人博客</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">56</span><span class="name">posts</span></a></div><div class="item categories"><a href="/categories/"><span class="count">29</span><span class="name">categories</span></a></div><div class="item tags"><a href="/tags/"><span class="count">31</span><span class="name">tags</span></a></div></nav><div class="social"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/rpvvn" class="item github" title="https://github.com/rpvvn"><i class="ic i-github"></i></a><a href="mailto:vv@vull.top" class="item email" title="mailto:vv@vull.top"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>Home</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>About</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-heartbeat"></i>About</a></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>friend-links</a></li><li class="item"><a href="/sitemap.xml" rel="section"><i class="ic i-sitemap"></i>sitemap</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>Posts</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-link"></i>Tools</a><ul class="submenu"><li class="item"><a target="_blank" href="https://nav.vull.top/#/home" rel="section noopener"><i class="iconfont icon-gerenxinxi"></i>个人主页</a></li><li class="item"><a target="_blank" href="https://emil.vull.top/" rel="section noopener external nofollow noreferrer"><i class="iconfont icon-youxiang3"></i>个人邮箱系统</a></li><li class="item"><a target="_blank" href="https://vvimg.vull.top/" rel="section noopener external nofollow noreferrer"><i class="iconfont icon-youxiang1"></i>个人图床系统</a></li><li class="item"><a target="_blank" href="https://img.vull.top/" rel="section noopener"><i class="iconfont icon-tupian"></i>免费TG图床系统</a></li><li class="item"><a target="_blank" href="https://monitor.vull.top/" rel="section noopener external nofollow noreferrer"><i class="iconfont icon-jiankong"></i>个人监控平台</a></li><li class="item"><a target="_blank" href="https://sky.vull.top/" rel="section noopener external nofollow noreferrer"><i class="iconfont icon-bixin"></i>光遇工具箱</a></li><li class="item"><a target="_blank" href="https://eat.vull.top/" rel="section noopener"><i class="iconfont icon-meishi"></i>今天吃什么</a></li></ul></li><li class="item"><a href="/UpDate/" rel="section"><i class="iconfont icon-miao"></i>UPDate</a></li><li class="item"><a target="_blank" href="https://www.foreverblog.cn/go.html" rel="section noopener external nofollow noreferrer"><i class="iconfont icon-yuzhouxingqiu"></i>WORMHOLE</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/40713bad.html" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/70d17422.html" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div><div id="player"></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>Random Posts</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/Update-Report/" title="InUpdate Report">Update Report</a></div><span><a href="/26364.html">waline升级报告</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Window/" title="InWindow">Window</a></div><span><a href="/59456.html">快速解除文件占用</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/" title="InWebsite">Website</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/Image-hosting/" title="InImage hosting">Image hosting</a></div><span><a href="/56727.html">Picgo图床工具</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Language/" title="InLanguage">Language</a><i class="ic i-angle-right"></i><a href="/categories/Study/Language/JAVA/" title="InJAVA">JAVA</a></div><span><a href="/48651.html">JAVA学习笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/" title="InBlog">Blog</a></div><span><a href="/43290.html">hexo博客文章</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/" title="InBlog">Blog</a><i class="ic i-angle-right"></i><a href="/categories/Study/Blog/Shoka/" title="InShoka">Shoka</a></div><span><a href="/14562.html">Shoka折腾美化魔改之下拉小箭头</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/ensp/" title="Inensp">ensp</a></div><span><a href="/13397.html">eNSP-ACL记录</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Life/" title="InLife">Life</a><i class="ic i-angle-right"></i><a href="/categories/Life/Website/" title="InWebsite">Website</a></div><span><a href="/10330.html">RPWN赞助站点</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Study/" title="InStudy">Study</a><i class="ic i-angle-right"></i><a href="/categories/Study/Linux/" title="InLinux">Linux</a></div><span><a href="/53458.html">RHEL配置笔记</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/Blog/" title="InBlog">Blog</a><i class="ic i-angle-right"></i><a href="/categories/Blog/ShokaX/" title="InShokaX">ShokaX</a></div><span><a href="/60822.html">shokaX迁移避坑指南</a></span></li></ul></div><div class="rpost pjax"><h2>Recent Comments</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">© 2020 -<span itemprop="copyrightYear">2026</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Vullfin @ 𝑽𝒖𝒍𝒍𝒇𝒊𝒏</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="Symbols count total">171k words</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="Reading time total">2:36</span></div><div class="powered-by">Powered by <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div><div style="width: 100%;text-align:center;"><span id="time"></span></div><script>function createtime() {
+    const n = new Date("");
+    now.setTime(now.getTime() + 250), days = (now - n) / 1e3 / 60 / 60 / 24, dnum = Math.floor(days), hours = (now - n) / 1e3 / 60 / 60 - 24 * dnum, hnum = Math.floor(hours), 1 == String(hnum).length && (hnum = "0" + hnum), minutes = (now - n) / 1e3 / 60 - 1440 * dnum - 60 * hnum, mnum = Math.floor(minutes), 1 == String(mnum).length && (mnum = "0" + mnum), seconds = (now - n) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum, snum = Math.round(seconds), 1 == String(snum).length && (snum = "0" + snum), document.getElementById("time").innerHTML = "本站已安全运行" + dnum + " 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+}
+
+const now = new Date;
+setInterval("createtime()", 250)</script></div><script src="https://unpkg.com/busuanzi@2.3.0/bsz.pure.mini.js"></script><div id="busuanzi-wrap"><span class="ic i-eye"></span><span id="busuanzi_container_site_pv">本站访问量 <span id="busuanzi_value_site_pv"></span> 次</span> | <span class="ic i-user"></span><span id="busuanzi_container_site_uv">本站访客量 <span id="busuanzi_value_site_uv"></span> 次</span></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `/15feedda.html`,
+    favicon: {
+        show: `(●´3｀●) Here we go again.`,
+        hide: `(´Д｀) It's a disaster!`
+    },
+    search: {
+        placeholder: "Search for Posts",
+        empty: "We didn't find any results for the search: ${query}",
+        stats: "${hits} results found in ${time} ms"
+    },
+    nocopy: "false",
+    copyright: `Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">Article Timeliness Alert</span><br>This is an article published {{publish}} days ago and last updated {{updated}} days ago. Some information may have changed, so please be careful to screen it.</p></div>`,
+    quiz: {
+        choice: `Multiple Choice`,
+        multiple: `Multiple Answer`,
+        true_false: `True/False`,
+        essay: `Questions`,
+        gap_fill: `Gap Filling`,
+        mistake: `Wrong Answer`
+    }
+};
+</script><script src="/js/siteInit.js?v=0.5.4" type="module" fetchpriority="high" defer=""></script><script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const heatmapChartDom = document.getElementById('heatmapChart');
+                if(heatmapChartDom){
+                    const heatmapChart = echarts.init(heatmapChartDom, 'light');
+                    const cellSize = [18, 18];
+                    
+                    const groupByYear = (data) => {
+                        const result = {};
+                        data.forEach(([date, value]) => {
+                            const [year] = date.split('-').map(Number);
+                            if (!result[year]) {
+                                result[year] = [];
+                            }
+                            result[year].push([date, value]);
+                        });
+                        return result;
+                    };
+                    
+                    const groupedData = groupByYear([["2022-03-18",1],["2022-04-12",1],["2022-10-19",1],["2022-11-26",1],["2022-12-10",2],["2022-12-12",1],["2022-12-13",1],["2022-12-23",1],["2022-12-28",1],["2023-01-07",1],["2023-01-08",1],["2023-02-09",1],["2023-03-08",1],["2023-03-13",1],["2023-03-17",1],["2023-04-04",1],["2023-04-07",1],["2023-04-17",1],["2023-04-19",3],["2023-04-21",1],["2023-04-22",2],["2023-04-23",1],["2023-04-24",3],["2023-04-28",1],["2023-05-12",1],["2023-05-14",1],["2023-05-16",1],["2023-05-19",1],["2023-05-23",1],["2023-06-13",4],["2023-06-27",1],["2023-07-01",1],["2023-07-08",1],["2023-11-14",1],["2024-01-06",1],["2024-01-17",1],["2024-09-03",1],["2025-04-10",1],["2026-02-07",2],["2026-02-08",1],["2026-03-19",1],["2026-03-20",2],["2026-04-14",1],["2026-05-31",1],["2026-06-04",1]]);
+                    const years = Object.keys(groupedData).reverse();
+                    
+                    var initYear = parseInt(heatmapChartDom.getAttribute('year')) || new Date().getFullYear();
+                    const minYear = years[years.length - 1];
+                    const maxYear = years[0];
+                    if (initYear < minYear || initYear > maxYear) {
+                        initYear = maxYear;
+                    }
+                    console.log('[hexo-graph]generateHeatmapChart|initYear:', initYear, 'minYear:', minYear, 'maxYear:', maxYear);
+                    
+                    heatmapChart.setOption({
+                        grid: {},
+                        tooltip: { 
+                            position: 'top', 
+                            formatter: params => `${params.value[0]}: ${params.value[1]} Articles` 
+                        },
+                        calendar: { 
+                            top: '10%',
+                            left: 'left', 
+                            right: '8%',
+                            range: initYear,
+                            cellSize: cellSize, 
+                            splitLine: { lineStyle: { color: '#E0E0E0', width: 1 } }, 
+                            itemStyle: { borderWidth: 1, borderColor: '#E0E0E0' }, 
+                            dayLabel: { show: false },
+                            monthLabel: { show: true },
+                            yearLabel: { show: false },
+                        },
+                        visualMap: { 
+                            show: true,
+                            right: '8%',
+                            bottom: '5%',
+                            type: 'piecewise',
+                            orient: 'horizontal',
+                            text: ['More', 'Less'],
+                            min: 0,
+                            max: Math.max(...groupedData[initYear].map(item => item[1])),
+                            inRange: { color: ["#ACE7AE","#69C16D","#549F57"] }
+                        },
+                        legend: {
+                            type: 'scroll',
+                            icon: 'none',
+                            data: years,
+                            orient: 'vertical',
+                            top: '5%',
+                            right: 'right',
+                            itemWidth: 20,
+                            itemHeight: 20,
+                            itemGap: 10,
+                            pageIconSize: 10,
+                            pageTextStyle: { fontSize: 14 },
+                            selectedMode: 'single',
+                        },
+                        series: years.map(year => ({
+                            type: 'heatmap',
+                            coordinateSystem: 'calendar',
+                            data: groupedData[year],
+                            name: year,
+                            emphasis: {
+                                disabled: true,
+                            },
+                            silent: year !== initYear,
+                        })),
+                    });
+                    
+                    // init selected year
+                    heatmapChart.dispatchAction({
+                        type: 'legendSelect',
+                        name: initYear,
+                    });
+                    
+                    heatmapChart.on('legendselectchanged', function(params) {
+                        console.log('[hexo-graph]generateHeatmapChart|legendselectchanged:', params);
+                        const selectedYear = Object.keys(params.selected).find(key => params.selected[key]);
+                        if (selectedYear && groupedData[selectedYear]) {
+                            heatmapChart.setOption({
+                                calendar: {
+                                    range: selectedYear,
+                                },
+                                visualMap: {
+                                    max: Math.max(...groupedData[selectedYear].map(item => item[1])),
+                                },
+                                series: years.map(year => ({
+                                    type: 'heatmap',
+                                    coordinateSystem: 'calendar',
+                                    data: groupedData[year],
+                                    name: year,
+                                    emphasis: {
+                                        disabled: true,
+                                    },
+                                    silent: year !== selectedYear,
+                                })),
+                            });
+                        }
+                    });
+                    
+                    heatmapChart.on('click', function (params) {
+                        if (params.componentType === 'series') {
+                            const [year, month] = params.value[0].split('-');
+                            window.location.href = '/archives/' + year + '/' + month;
+                        }
+                    });
+                }
+            });
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const monthlyChartDom = document.getElementById('monthlyChart');
+                if(monthlyChartDom){
+                    const monthlyChart = echarts.init(monthlyChartDom, 'light');
+                    monthlyChart.setOption({
+                        xAxis: { 
+                            type: 'category', 
+                            data: ["2022-03","2022-04","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-11","2024-01","2024-09","2025-04","2026-02","2026-03","2026-04","2026-05","2026-06"], 
+                            axisLabel: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        },
+                        yAxis: { type: 'value', splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } } },
+                        series: [{
+                            name: 'Articles',
+                            type: 'line',
+                            data: [1,1,1,1,6,2,1,3,14,5,5,2,1,2,1,1,3,3,1,1,1],
+                            smooth: true,
+                            lineStyle: { color: '#5470C6', width: 2 },
+                            itemStyle: { color: '#5470C6' },
+                            areaStyle: { color: 'rgba(84, 112, 198, 0.4)' },
+                            symbolSize: 10,
+                            label: {
+                                show: true,
+                                position: 'top',
+                                formatter: params => params.value,
+                                fontSize: 14,
+                                color: '#000',
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            }
+                        }]
+                    });
+
+                    monthlyChart.on('click', function (params) {
+                        const [year, month] = params.name.split('-');
+                        window.location.href = '/archives/' + year + '/' + month;
+                    });
+                }
+            })
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const tagsChartDom = document.getElementById('tagsChart');
+                if(tagsChartDom){
+                    const tagsChart = echarts.init(tagsChartDom, 'light');
+                    tagsChart.setOption({
+                        tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie',
+                            radius: '60%',
+                            data: [{"name":"ensp笔记","value":17},{"name":"Image hosting","value":4},{"name":"Record","value":3},{"name":"Personal Website","value":3},{"name":"Linux","value":3},{"name":"Shoka","value":2},{"name":"Window Tip","value":2},{"name":"面经","value":1}],
+                            label: {
+                                position: 'outside',
+                                formatter: '{b} {c} ({d}%)',
+                                fontSize: 14,
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            },
+                            color: ["#5470C6","#91CC75","#FAC858","#EE6666","#73C0DE","#3BA272","#FC8452","#9A60B4"],
+                            labelLine: { show: true }
+                        }],
+                        legend: {
+                            bottom: '0',
+                            left: 'center',
+                            data: [{"name":"ensp笔记","value":17},{"name":"Image hosting","value":4},{"name":"Record","value":3},{"name":"Personal Website","value":3},{"name":"Linux","value":3},{"name":"Shoka","value":2},{"name":"Window Tip","value":2},{"name":"面经","value":1}].map(tag => tag.name),
+                            textStyle: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        }
+                    });
+
+                    tagsChart.on('click', function (params) {
+                        window.location.href = '/tags/' + params.name;
+                    });
+                }
+            })
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const categoriesChartDom = document.getElementById('categoriesChart');
+                if(categoriesChartDom){
+                    const categoriesChart = echarts.init(categoriesChartDom, 'light');
+                    categoriesChart.setOption({
+                        xAxis: { type: 'value', splitLine: { lineStyle: { type: 'dashed', color: '#ccc' } } },
+                        yAxis: { 
+                            type: 'category', 
+                            data: [{"name":"Study","value":35},{"name":"ensp","value":14},{"name":"Life","value":13},{"name":"Blog","value":8},{"name":"Website","value":7}].map(category => category.name).reverse(), 
+                            axisLabel: { fontSize: 14, fontWeight: 'bold', fontFamily: 'Microsoft YaHei, SimSun, serif' }
+                        },
+                        series: [{
+                            name: 'Category Count',
+                            type: 'bar',
+                            data: [{"name":"Study","value":35},{"name":"ensp","value":14},{"name":"Life","value":13},{"name":"Blog","value":8},{"name":"Website","value":7}].map(category => category.value).reverse(),
+                            label: {
+                                show: true,
+                                position: 'right',
+                                formatter: params => params.value,
+                                fontSize: 14,
+                                color: '#000',
+                                fontWeight: 'bold',
+                                fontFamily: 'Microsoft YaHei, SimSun, serif'
+                            },
+                            itemStyle: {
+                                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                                    { offset: 0, color: '#91CC75' },
+                                    { offset: 1, color: '#73C0DE' }
+                                ])
+                            }
+                        }]
+                    });
+
+                    categoriesChart.on('click', function (params) {
+                        window.location.href = '/categories/' + params.name;
+                    });
+                }
+            });
+        </script>
+    
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const categoriesTreeChartDom = document.getElementById('categoriesTreeChart');
+                if(categoriesTreeChartDom){
+                    const treeChart = echarts.init(categoriesTreeChartDom, 'light');
+                    treeChart.setOption({
+                        title: {
+                            text: '操作提示：单击展开分类，双击进入具体分类页面',
+                            textStyle: {
+                                fontSize: 12,
+                                color: '#999',
+                                fontWeight: 'normal'
+                            },
+                            bottom: 0,
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'item',
+                            triggerOn: 'mousemove'
+                        },
+                        series: [{
+                            type: 'tree',
+                            data: [{"name":"Categories","children":[{"name":"Life","children":[{"name":"Website","children":[{"name":"Image hosting","children":[],"count":4,"path":"Life/Website/Image hosting"}],"count":7,"path":"Life/Website"},{"name":"日记","children":[],"count":1,"path":"Life/日记"},{"name":"Window","children":[{"name":"VMware","children":[],"count":1,"path":"Life/Window/VMware"}],"count":2,"path":"Life/Window"}],"count":13,"path":"Life"},{"name":"面经","children":[{"name":"就业","children":[],"count":1,"path":"面经/就业"}],"count":1,"path":"面经"},{"name":"Update Report","children":[],"count":1,"path":"Update Report"},{"name":"Games","children":[],"count":1,"path":"Games"},{"name":"Study","children":[{"name":"Blog","children":[{"name":"Shoka","children":[],"count":2,"path":"Study/Blog/Shoka"}],"count":7,"path":"Study/Blog"},{"name":"Language","children":[{"name":"English","children":[],"count":1,"path":"Study/Language/English"},{"name":"JAVA","children":[],"count":1,"path":"Study/Language/JAVA"}],"count":2,"path":"Study/Language"},{"name":"Window","children":[{"name":"openAI","children":[],"count":1,"path":"Study/Window/openAI"}],"count":5,"path":"Study/Window"},{"name":"Linux","children":[],"count":4,"path":"Study/Linux"},{"name":"Python","children":[],"count":1,"path":"Study/Python"},{"name":"ensp","children":[],"count":14,"path":"Study/ensp"}],"count":35,"path":"Study"},{"name":"Blog","children":[{"name":"ShokaX","children":[],"count":1,"path":"Blog/ShokaX"}],"count":1,"path":"Blog"},{"name":"safego","children":[{"name":"hexo","children":[{"name":"blog","children":[],"count":1,"path":"safego/hexo/blog"}],"count":1,"path":"safego/hexo"}],"count":1,"path":"safego"},{"name":"blog","children":[{"name":"备份","children":[],"count":1,"path":"blog/备份"}],"count":1,"path":"blog"},{"name":"网工","children":[],"count":1,"path":"网工"}],"count":0,"path":""}],
+                            initialTreeDepth: -1,
+                            top: '5%',
+                            bottom: '10%',
+                            left: '0%',
+                            right: '0%',
+                            symbolSize: 15,
+                            layout: 'orthogonal',
+                            orient: 'TB',
+                            itemStyle: {
+                                color: '#91CC75',
+                                borderColor: '#73C0DE'
+                            },
+                            label: {
+                                position: 'bottom',
+                                verticalAlign: 'middle',
+                                align: 'center',
+                                fontSize: 14,
+                                distance: 28,
+                                formatter: function(params) {
+                                    return params.data.name + (params.data.count ? ' (' + params.data.count + ')' : '');
+                                }
+                            },
+                            leaves: {
+                                label: {
+                                    position: 'top',
+                                    verticalAlign: 'middle',
+                                    align: 'center'
+                                }
+                            },
+                            emphasis: {
+                                focus: 'descendant'
+                            },
+                            expandAndCollapse: true
+                        }]
+                    });
+
+                    treeChart.on('dblclick', function (params) {
+                        if (params.data && params.data.path) {
+                            window.location.href = '/categories/' + params.data.path;
+                        }
+                    });
+                }
+            });
+        </script>
+    
+    </body></html>
